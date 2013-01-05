@@ -14,7 +14,7 @@
 int init()
   {
 //----
-   
+   start();
 //----
    return(0);
   }
@@ -153,6 +153,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
 
    bool condition_buy = false;
    bool condition_sell = false;
+         double val2, val3, val4, val5, val6, val7, val8, val9;
    string message;
    int semaphore;
    switch(strategy) {
@@ -202,7 +203,6 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          if (m3 == 1 || m4 == 1) {
             //CloseOrder(symbol, x, magicnumber);
          }
-         double val2, val3, val4, val5, val6, val7, val8, val9;
          int condition_heiken2, condition_heiken3, condition_heiken4, condition_heiken5, condition_heiken6;
          val2 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",2,0);
          val3 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",3,0);
@@ -232,8 +232,8 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          }
          val2 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,0);
          val3 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,0);
-         val6 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,1);
-         val7 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,1);
+         val6 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,1);
+         val7 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,1);
          condition_heiken5 = 0;
          if (val2 < val3) {
             condition_heiken5 = 1;
@@ -301,6 +301,25 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
             CheckForCloseWithoutProfit(symbol, x, magic, -1);
          }
          break;
+      case 4://semaphore with heiken
+      
+         val2 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,0);
+         val3 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,0);
+         val6 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,1);
+         val7 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,1);
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && val2 < val3 && val6 > val7);
+         condition_sell = (semaphore == -1 && val2 > val3 && val6 < val7);
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
    }
 
 
@@ -328,6 +347,10 @@ int get_strategy(int x)
       case NZDUSD:
       case AUDUSD:
          strategy = 2;
+         break;
+      case AUDCAD:
+      case NZDCAD:
+         strategy = 4;
          break;
       default:
          strategy = 1;
