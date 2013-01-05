@@ -1000,6 +1000,31 @@ void CheckForClose(string symbol, int mode, int magicnumber, int typeHere)
   }
   
 
+void CheckForCloseALL(string symbol, int mode, int typeHere)
+  {
+   if (totalprofit[mode] <= 0) {
+      return (0);
+   }
+   for(int i=0;i<OrdersTotal();i++)
+     {
+      if(OrderSelect(i,SELECT_BY_POS,MODE_TRADES)==false)        break;
+      if(OrderSymbol()==symbol) {
+         if(OrderType()==OP_BUY && typeHere == -1)
+           {
+            Alert(symbol, ", closing all buy order");
+            OrderClose(OrderTicket(),OrderLots(),MarketInfo(symbol, MODE_BID),3,White);
+           }
+         if(OrderType()==OP_SELL && typeHere == 1)
+           {
+            Alert(symbol, ", closing all sell order");
+            OrderClose(OrderTicket(),OrderLots(),MarketInfo(symbol, MODE_ASK),3,White);
+         
+           }
+     }
+   }
+//----
+  }
+  
 void CloseOrder(string symbol, int mode, int magicnumber)
   {
    for(int i=0;i<OrdersTotal();i++)
@@ -1222,7 +1247,7 @@ double history2(string symbol)
          //);
       }
    }
-   infobox = StringConcatenate(infobox, "Profit for Close Positions For Symbol: " + symbol +
+   infobox = StringConcatenate(infobox, "\nProfit for Close Positions For Symbol: " + symbol +
    " is: " + DoubleToStr(gtotal, 2) + "\n");
    return (gtotal);
 }

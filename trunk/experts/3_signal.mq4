@@ -63,7 +63,6 @@ int start()
       //history(symbol, x, magic);
       history2(symbol);
       openPositionTotal(symbol);
-      render_avg_costing(symbol, x, lots, true, true);
       getallinfoorders(symbol, x, PERIOD_H4, lots, magic);
    }
    Comment(orderbox, infobox, createbox, historybox);
@@ -78,88 +77,14 @@ int start()
 //+------------------------------------------------------------------+
 
 
-
-int gotrend_heiken(string symbol, int x, int period, double lotsize, int magicnumber)
-{
-   double val2, val3, val4, val5;
-   int condition_heiken, condition_heiken2, condition_heiken3;
-   int h1;
-   int h2, h3;
-      //render_avg_costing(symbol, x, lotsize_gotrend);
-      
-   
-   
-      val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,0);
-      condition_heiken = 0;
-      if (val2 < val3) {
-         condition_heiken = 1;
-      } else if (val2 > val3) {
-         condition_heiken = -1;
-      }
-      val2 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",3,0);
-      condition_heiken2 = 0;
-      if (val2 < val3) {
-         condition_heiken2 = 1;
-      } else if (val2 > val3) {
-         condition_heiken2 = -1;
-      }
-      val2 = iCustom(symbol, PERIOD_M5, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_M5, "Heiken_Ashi_Smoothed",3,0);
-      condition_heiken3 = 0;
-      if (val2 < val3) {
-         condition_heiken3 = 1;
-      } else if (val2 > val3) {
-         condition_heiken3 = -1;
-      }
-    
-      infobox = infobox + "\nSymbol: " + symbol + ", val2: " + val2
-               + ", val3: " + val3 + ", condition: " + condition_heiken
-                + ", condition2: " + condition_heiken2 + ", condition3: " + condition_heiken3
-               + ", Bid: " + MarketInfo(symbol, MODE_BID) + ", Period: " + TimeframeToString(period);
-               
-      if (
-         condition_heiken == 1
-         ) {
-         CheckForClose(aPair[x], x, magicnumber, 1);
-      } else if (
-         condition_heiken == -1
-         ) {
-         CheckForClose(aPair[x], x, magicnumber, -1);
-      }
-      
-      if (condition_heiken == 1 && condition_heiken2 == 1 
-       && condition_heiken3 == 1) {
-         if (createneworders) {
-            createorder(aPair[x], 1, lotsize, magicnumber, "Heiken " + magicnumber + " " + build + TimeframeToString(period), 
-               0, 0);
-         }
-      } else if (condition_heiken == -1 && condition_heiken2 == -1 
-       && condition_heiken3 == -1) {
-         if (createneworders) {
-            createorder(aPair[x], -1, lotsize, magicnumber, "Heiken " + magicnumber + " " + build + TimeframeToString(period), 
-               0, 0);
-         }
-      }
-}
-
-
-
 int getallinfoorders(string symbol, int x, int period, double lotsize, int magicnumber)
 {
    int buy, sell, buy2, sell2;
    bool buyorder = false;
    bool sellorder = false;
-   if (current_currency) {
-      buyorder = true;
-      sellorder = true;
-      if (symbol == Symbol()) {
-      
-      } else {
-         return (0);
-      }
-   } else {
+   int strategy;
+   strategy = get_strategy(x);
+   infobox = infobox + "\nStrategy: " + strategy + "\n";
       if (x == USDJPY || x == CHFJPY || x == AUDJPY || x == NZDJPY || x == CADJPY || x == GBPJPY) {
          buy += CalculateOrdersTypeSymbol("USDJPY", magicnumber, OP_BUY);
          buy += CalculateOrdersTypeSymbol("CHFJPY", magicnumber, OP_BUY);
@@ -225,139 +150,189 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          buyorder = true;
          sellorder = true;
       }
-   }
 
-   double top = 6;
-   double bottom = 3;
-   double middlebottom = 4;
-   double middletop = 4.5;
-   int meter_direction;
-   string current_currency1 = StringSubstr(symbol, 0, 3);
-   string current_currency2 = StringSubstr(symbol, 3, 3);
-   //meter_direction
-   /*string strength = "\nCurrent Meter: USD: " + aMeter[USD] + ", EUR: " + aMeter[EUR] + "\nGBP: " + aMeter[GBP]
-         + ", CHF: " + aMeter[CHF] + "\nCAD: " + aMeter[CAD] + ", AUD: " + aMeter[AUD]
-          + "\nJPY: " + aMeter[JPY] + ", NZD: " + aMeter[NZD];
-   infobox = infobox + strength;*/
-   infobox = infobox + "\nCurrency 1: " + current_currency1 + ", Currency 2: " + current_currency2;
-   int m1 = 0;
-   int m2 = 0;
-   int m3 = 0;
-   int m4 = 0;
-   double tp, bt;
-   for (int z=0; z < PAIRSIZE; z++) {
-      if (current_currency1 == aMajor[z] && aMeter[z] > top) {
-         m1 = 1;
-         tp = aMeter[z];
-      } else if (current_currency1 == aMajor[z] && aMeter[z] < bottom) {
-         m1 = -1;
-         bt = aMeter[z];
-      } else if (current_currency2 == aMajor[z] && aMeter[z] > top) {
-         m2 = 1;
-         tp = aMeter[z];
-      } else if (current_currency2 == aMajor[z] && aMeter[z] < bottom) {
-         m2 = -1;
-         bt = aMeter[z];
-      } else if (current_currency1 == aMajor[z] && aMeter[z] <= middletop && aMeter[z] >= middlebottom) {
-         m3 = 1;
-      } else if (current_currency2 == aMajor[z] && aMeter[z] <= middletop && aMeter[z] >= middlebottom) {
-         m4 = 1;
-      }
-   }
-   infobox = infobox + "\nm1: " + m1 + ", m2: " + m2 + ", m3: " + m3 + ", m4: " + m4;
-   meter_direction = 0;
-   if (m3 == 1 || m4 == 1) {
-      //CloseOrder(symbol, x, magicnumber);
-   }
+   bool condition_buy = false;
+   bool condition_sell = false;
+   string message;
    int semaphore;
-   double val2, val3, val4, val5, val6, val7, val8, val9;
-   int condition_heiken2, condition_heiken3, condition_heiken4, condition_heiken5, condition_heiken6;
-      val2 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",3,0);
-      condition_heiken2 = 0;
-      if (val2 < val3) {
-         condition_heiken2 = 1;
-      } else if (val2 > val3) {
-         condition_heiken2 = -1;
-      }
-      val2 = iCustom(symbol, PERIOD_M5, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_M5, "Heiken_Ashi_Smoothed",3,0);
-      condition_heiken3 = 0;
-      if (val2 < val3) {
-         condition_heiken3 = 1;
-      } else if (val2 > val3) {
-         condition_heiken3 = -1;
-      }
-      val2 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",3,0);
-      val4 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",2,1);
-      val5 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",3,1);
-      condition_heiken4 = 0;
-      if (val2 < val3) {
-         condition_heiken4 = 1;
-      } else if (val2 > val3) {
-         condition_heiken4 = -1;
-      }
-      val2 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,0);
-      val6 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,1);
-      val7 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,1);
-      condition_heiken5 = 0;
-      if (val2 < val3) {
-         condition_heiken5 = 1;
-      } else if (val2 > val3) {
-         condition_heiken5 = -1;
-      }
-      val2 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,0);
-      val3 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,0);
-      val8 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,1);
-      val9 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,1);
-      condition_heiken6 = 0;
-      if (val2 < val3) {
-         condition_heiken6 = 1;
-      } else if (val2 > val3) {
-         condition_heiken6 = -1;
-      }
-
-   int orders;
-   /*if (m1 == 1 || m2 == -1) {
-      //close sell Order Order
-      CheckForClose(symbol, x, magicnumber, 1);
-   } else if (m1 == -1 || m2 == 1) {
-      //close buy orders
-      CheckForClose(symbol, x, magicnumber, -1);
-   }*/
-   if (m1 == 1 && m2 == -1 
-   && condition_heiken2 == 1 && condition_heiken3 == 1 && condition_heiken4 == 1
-   && condition_heiken5 == 1 && condition_heiken6 == 1
-   //&& (val4 > val5 || val6 > val7 || val8 > val9)
-   ) { // buy
-      //CheckForClose(symbol, x, magicnumber, 1);
-      meter_direction = 1;
-         if (createneworders && buyorder) {
-            //orders = CalculateMaxOrders(magicnumber);
-            //if (orders < max_orders && buyorder) { && buyorder
-               createorder(aPair[x], 1, lotsize, magicnumber, "Info " + magicnumber + " " + build + TimeframeToString(period) + " " 
-               + DoubleToStr(tp, 1) + "/" + DoubleToStr(bt, 1), 
-               0, 0);
-            //}
+   switch(strategy) {
+      case 1:
+         render_avg_costing(symbol, x, lots, true, true);
+         double top = 6;
+         double bottom = 3;
+         double middlebottom = 4;
+         double middletop = 4.5;
+         int meter_direction;
+         string current_currency1 = StringSubstr(symbol, 0, 3);
+         string current_currency2 = StringSubstr(symbol, 3, 3);
+         infobox = infobox + "\nCurrency 1: " + current_currency1 + ", Currency 2: " + current_currency2;
+         int m1 = 0;
+         int m2 = 0;
+         int m3 = 0;
+         int m4 = 0;
+         double tp, bt;
+         for (int z=0; z < PAIRSIZE; z++) {
+            if (current_currency1 == aMajor[z] && aMeter[z] > top) {
+               m1 = 1;
+               tp = aMeter[z];
+            } else if (current_currency1 == aMajor[z] && aMeter[z] < bottom) {
+               m1 = -1;
+               bt = aMeter[z];
+            } else if (current_currency2 == aMajor[z] && aMeter[z] > top) {
+               m2 = 1;
+               tp = aMeter[z];
+            } else if (current_currency2 == aMajor[z] && aMeter[z] < bottom) {
+               m2 = -1;
+               bt = aMeter[z];
+            } else if (current_currency1 == aMajor[z] && aMeter[z] <= middletop && aMeter[z] >= middlebottom) {
+               m3 = 1;
+            } else if (current_currency2 == aMajor[z] && aMeter[z] <= middletop && aMeter[z] >= middlebottom) {
+               m4 = 1;
+            }
          }
-   } else if (m1 == -1 && m2 == 1 
-   && condition_heiken2 == -1 && condition_heiken3 == -1 && condition_heiken4 == -1
-   && condition_heiken5 == -1 && condition_heiken6 == -1
-   //&& (val4 < val5 || val6 < val7 || val8 < val9)
-   ) { //sell
-      //CheckForClose(symbol, x, magicnumber, -1);
-      meter_direction = -1;
+         infobox = infobox + "\nm1: " + m1 + ", m2: " + m2 + ", m3: " + m3 + ", m4: " + m4;
+   
+         meter_direction = 0;
+         if (m1 == 1 && m2 == -1) {
+            meter_direction = 1;
+         } else if (m1 == -1 && m2 == 1) {
+            meter_direction = -1;
+         }
+         infobox = infobox + "\nmeter_direction: " + meter_direction;
+         if (m3 == 1 || m4 == 1) {
+            //CloseOrder(symbol, x, magicnumber);
+         }
+         double val2, val3, val4, val5, val6, val7, val8, val9;
+         int condition_heiken2, condition_heiken3, condition_heiken4, condition_heiken5, condition_heiken6;
+         val2 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",2,0);
+         val3 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",3,0);
+         condition_heiken2 = 0;
+         if (val2 < val3) {
+            condition_heiken2 = 1;
+         } else if (val2 > val3) {
+            condition_heiken2 = -1;
+         }
+         val2 = iCustom(symbol, PERIOD_M5, "Heiken_Ashi_Smoothed",2,0);
+         val3 = iCustom(symbol, PERIOD_M5, "Heiken_Ashi_Smoothed",3,0);
+         condition_heiken3 = 0;
+         if (val2 < val3) {
+            condition_heiken3 = 1;
+         } else if (val2 > val3) {
+            condition_heiken3 = -1;
+         }
+         val2 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",2,0);
+         val3 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",3,0);
+         val4 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",2,1);
+         val5 = iCustom(symbol, PERIOD_M15, "Heiken_Ashi_Smoothed",3,1);
+         condition_heiken4 = 0;
+         if (val2 < val3) {
+            condition_heiken4 = 1;
+         } else if (val2 > val3) {
+            condition_heiken4 = -1;
+         }
+         val2 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,0);
+         val3 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,0);
+         val6 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,1);
+         val7 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,1);
+         condition_heiken5 = 0;
+         if (val2 < val3) {
+            condition_heiken5 = 1;
+         } else if (val2 > val3) {
+            condition_heiken5 = -1;
+         }
+         val2 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,0);
+         val3 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,0);
+         val8 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",2,1);
+         val9 = iCustom(symbol, PERIOD_H1, "Heiken_Ashi_Smoothed",3,1);
+         condition_heiken6 = 0;
+         if (val2 < val3) {
+            condition_heiken6 = 1;
+         } else if (val2 > val3) {
+            condition_heiken6 = -1;
+         }
+         
+         /*if (m1 == 1 || m2 == -1) {
+            //close sell Order Order
+            CheckForClose(symbol, x, magicnumber, 1);
+         } else if (m1 == -1 || m2 == 1) {
+            //close buy orders
+            CheckForClose(symbol, x, magicnumber, -1);
+         }*/
+         condition_buy = (m1 == 1 && m2 == -1 
+            && condition_heiken2 == 1 && condition_heiken3 == 1 && condition_heiken4 == 1
+            && condition_heiken5 == 1 && condition_heiken6 == 1
+            && (val8 > val9 || val6 > val7)
+            );
+         condition_sell = (m1 == -1 && m2 == 1 
+            && condition_heiken2 == -1 && condition_heiken3 == -1 && condition_heiken4 == -1
+            && condition_heiken5 == -1 && condition_heiken6 == -1
+            && (val8 < val9 || val6 < val7)
+            );
+         if (condition_buy) message = "Strategy " + strategy + ", " + build + ", " 
+               + DoubleToStr(tp, 1) + "/" + DoubleToStr(bt, 1);
+         else if (condition_sell) message = "Strategy " + strategy + ", " + build + ", " 
+               + DoubleToStr(bt, 1) + "/" + DoubleToStr(tp, 1);
+         break;
+      case 2://semaphore close with profit
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && semaphoreNumber == 3);
+         condition_sell = (semaphore == -1 && semaphoreNumber == 3);
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
+      case 3://semaphore close without profit
+         render_avg_costing(symbol, x, lots, false, false);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1);
+         condition_sell = (semaphore == -1);
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseWithoutProfit(symbol, x, magic, 1);
+         } else if (condition_sell) {
+            CheckForCloseWithoutProfit(symbol, x, magic, -1);
+         }
+         break;
+   }
+
+
+   if (condition_buy) { // buy
+         if (createneworders && buyorder) {
+               createorder(aPair[x], 1, lotsize, magicnumber, message, 0, 0);
+         }
+   } else if (condition_sell) { //sell
          if (createneworders && sellorder) {
-            //orders = CalculateMaxOrders(magicnumber);
-            //if (orders < max_orders && sellorder) {
-               createorder(aPair[x], -1, lotsize, magicnumber, "Info " + magicnumber + " " + build + TimeframeToString(period) + " " 
-               + DoubleToStr(bt, 1) + "/" + DoubleToStr(tp, 1), 
-               0, 0);
-            //}
+               createorder(aPair[x], -1, lotsize, magicnumber, message, 0, 0);
          }
    }
-   infobox = infobox + "\nmeter_direction: " + meter_direction;
       
+}
+
+
+int get_strategy(int x)
+{
+   int strategy;
+   switch(x) {
+      case EURUSD:
+      case USDCHF:
+         strategy = 2;
+         break;
+      case NZDUSD:
+      case AUDUSD:
+         strategy = 2;
+         break;
+      default:
+         strategy = 1;
+         break;
+   }
+
+   return (strategy);
 }
