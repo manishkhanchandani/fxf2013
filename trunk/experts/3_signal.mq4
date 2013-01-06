@@ -154,6 +154,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
    bool condition_buy = false;
    bool condition_sell = false;
          double val2, val3, val4, val5, val6, val7, val8, val9;
+         int condition_heiken2, condition_heiken3, condition_heiken4, condition_heiken5, condition_heiken6;
    string message;
    int semaphore;
    switch(strategy) {
@@ -203,7 +204,6 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          if (m3 == 1 || m4 == 1) {
             //CloseOrder(symbol, x, magicnumber);
          }
-         int condition_heiken2, condition_heiken3, condition_heiken4, condition_heiken5, condition_heiken6;
          val2 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",2,0);
          val3 = iCustom(symbol, PERIOD_M1, "Heiken_Ashi_Smoothed",3,0);
          condition_heiken2 = 0;
@@ -302,16 +302,75 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          }
          break;
       case 4://semaphore with heiken
-      
-         val2 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,0);
-         val3 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,0);
-         val6 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",2,1);
-         val7 = iCustom(symbol, PERIOD_M30, "Heiken_Ashi_Smoothed",3,1);
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && val2 < val3 && val6 > val7);
-         condition_sell = (semaphore == -1 && val2 > val3 && val6 < val7);
+         condition_buy = (semaphore == 1 && 
+            (
+               heiken(symbol, PERIOD_M15) == 1 ||
+               heiken(symbol, PERIOD_M30) == 1 ||
+               heiken(symbol, PERIOD_H1) == 1
+            )
+         );
+         condition_sell = (semaphore == -1  && 
+            (
+               heiken(symbol, PERIOD_M15) == -1 ||
+               heiken(symbol, PERIOD_M30) == -1 ||
+               heiken(symbol, PERIOD_H1) == -1
+            )
+            );
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
+      case 5://semaphore with macd
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && 
+            (
+               macd(symbol, PERIOD_M15) == 1 ||
+               macd(symbol, PERIOD_M30) == 1 ||
+               macd(symbol, PERIOD_H1) == 1
+            )
+         );
+         condition_sell = (semaphore == -1  && 
+            (
+               macd(symbol, PERIOD_M15) == -1 ||
+               macd(symbol, PERIOD_M30) == -1 ||
+               macd(symbol, PERIOD_H1) == -1
+            )
+            );
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
+      case 6://semaphore with tenkan
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && 
+            (
+               tenkan(symbol, PERIOD_M15) == 1 ||
+               tenkan(symbol, PERIOD_M30) == 1 ||
+               tenkan(symbol, PERIOD_H1) == 1
+            )
+         );
+         condition_sell = (semaphore == -1  && 
+            (
+               tenkan(symbol, PERIOD_M15) == -1 ||
+               tenkan(symbol, PERIOD_M30) == -1 ||
+               tenkan(symbol, PERIOD_H1) == -1
+            )
+            );
          message = "Strategy " + strategy + ", " + build + ", " 
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
@@ -342,7 +401,7 @@ int get_strategy(int x)
    switch(x) {
       case EURUSD:
       case USDCHF:
-         strategy = 2;
+         strategy = 5;
          break;
       case NZDUSD:
       case AUDUSD:
@@ -352,6 +411,10 @@ int get_strategy(int x)
       case NZDCAD:
          strategy = 4;
          break;
+      case EURAUD:
+      case GBPAUD:
+         strategy = 6;
+         break;
       default:
          strategy = 1;
          break;
@@ -359,3 +422,5 @@ int get_strategy(int x)
 
    return (strategy);
 }
+
+
