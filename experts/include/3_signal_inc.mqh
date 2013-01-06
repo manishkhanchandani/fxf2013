@@ -1422,3 +1422,51 @@ int tenkanCurrent(string symbol, int period)
 
    return (0);
 }
+
+
+
+int stoch(string symbol, int period)
+{
+   double val2 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_MAIN,0);
+   double val3 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_SIGNAL,0);
+   double val6 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_MAIN,1);
+   double val7 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_SIGNAL,1);
+         
+   if (val2 > val3 && val6 < val7 && val3 < 30) {
+      return (1);
+   } else if (val2 < val3 && val6 > val7 && val3 > 70) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+int stochCurrent(string symbol, int period)
+{
+   double val2 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_MAIN,0);
+   double val3 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_SIGNAL,0);
+         
+   if (val2 > val3) {
+      return (1);
+   } else if (val2 < val3) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+
+int sar(string symbol, int period)
+{
+   double val2 = iSAR(symbol,period,0.02,0.2,0);
+   double val3 = iSAR(symbol,period,0.02,0.2,1);
+         
+   if (val2 < iOpen(symbol, period, 0) && val3 > iOpen(symbol, period, 1)) {
+      return (1);
+   } else if (val2 > iOpen(symbol, period, 0) && val3 < iOpen(symbol, period, 1)) {
+      return (-1);
+   }
+
+   return (0);
+}
+

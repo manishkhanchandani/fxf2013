@@ -379,6 +379,58 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
             CheckForCloseALL(symbol, x, -1);
          }
          break;
+      case 7://semaphore with stoch
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && 
+            (
+               stoch(symbol, PERIOD_M15) == 1 ||
+               stoch(symbol, PERIOD_M30) == 1 ||
+               stoch(symbol, PERIOD_H1) == 1
+            )
+         );
+         condition_sell = (semaphore == -1  && 
+            (
+               stoch(symbol, PERIOD_M15) == -1 ||
+               stoch(symbol, PERIOD_M30) == -1 ||
+               stoch(symbol, PERIOD_H1) == -1
+            )
+            );
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
+      case 8://semaphore with parabolic sar
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && 
+            (
+               sar(symbol, PERIOD_M15) == 1 ||
+               sar(symbol, PERIOD_M30) == 1 ||
+               sar(symbol, PERIOD_H1) == 1
+            )
+         );
+         condition_sell = (semaphore == -1  && 
+            (
+               sar(symbol, PERIOD_M15) == -1 ||
+               sar(symbol, PERIOD_M30) == -1 ||
+               sar(symbol, PERIOD_H1) == -1
+            )
+            );
+         message = "Strategy " + strategy + ", " + build + ", " 
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (condition_buy) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
    }
 
 
@@ -399,24 +451,54 @@ int get_strategy(int x)
 {
    int strategy;
    switch(x) {
-      case EURUSD:
+      
       case USDCHF:
-         strategy = 5;
+      case GBPUSD:
+      case EURUSD:
+         strategy = 1;
          break;
-      case NZDUSD:
+      case USDJPY:
+      case USDCAD:
       case AUDUSD:
+      case EURGBP:
          strategy = 2;
          break;
-      case AUDCAD:
-      case NZDCAD:
-         strategy = 4;
-         break;
       case EURAUD:
-      case GBPAUD:
+      case EURCHF:
+         strategy = 5;
+         break;
+      case EURJPY:
+         strategy = 3;
+      case GBPCHF:
+      case CADJPY:
+         strategy = 5;
+         break;
+      case GBPJPY:
+      case AUDNZD:
+      case AUDCAD:
+      case AUDCHF:
          strategy = 6;
          break;
+      case AUDJPY:
+      case CHFJPY:
+      case EURNZD:
+      case EURCAD:
+      case CADCHF:
+      case NZDJPY:
+      case NZDUSD:
+         strategy = 4;
+         break;
+      case GBPCAD:
+      case GBPNZD:
+      case GBPAUD:
+         strategy = 7;
+         break;
+      case NZDCHF:
+      case NZDCAD:
+         strategy = 8;
+         break;
       default:
-         strategy = 1;
+         strategy = 4;
          break;
    }
 
