@@ -43,8 +43,10 @@ double grade[ARRSIZE][30];
 double condition[ARRSIZE];
 int condition_level[ARRSIZE];
 int totalpoints = 8;
-string build = "Build 1.6: ";
+string build = "Build 1.7: ";
 int hour;
+string TimeFrame;
+
 #define USDCHF 0
 #define GBPUSD 1
 #define EURUSD 2
@@ -1339,8 +1341,10 @@ int heiken(string symbol, int period)
    double val7 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,1);
          
    if (val2 < val3 && val6 > val7) {
+      TimeFrame = TimeframeToString(period);
       return (1);
    } else if (val2 > val3 && val6 < val7) {
+      TimeFrame = TimeframeToString(period);
       return (-1);
    }
 
@@ -1370,8 +1374,10 @@ int macd(string symbol, int period)
    double val7 = iCustom(symbol, period, "MACD_Complete",2,1);
          
    if (val2 > val3 && val6 < val7) {
+      TimeFrame = TimeframeToString(period);
       return (1);
    } else if (val2 < val3 && val6 > val7) {
+      TimeFrame = TimeframeToString(period);
       return (-1);
    }
 
@@ -1401,8 +1407,10 @@ int tenkan(string symbol, int period)
    double kijun_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
          
    if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_2 <= kijun_sen_2) {
+      TimeFrame = TimeframeToString(period);
       return (1);
    } else if (tenkan_sen_1 < kijun_sen_1 && tenkan_sen_2 >= kijun_sen_2) {
+      TimeFrame = TimeframeToString(period);
       return (-1);
    }
 
@@ -1433,8 +1441,10 @@ int stoch(string symbol, int period)
    double val7 = iStochastic(symbol,period,14,3,3,MODE_SMA,0,MODE_SIGNAL,1);
          
    if (val2 > val3 && val6 < val7 && val3 < 30) {
+      TimeFrame = TimeframeToString(period);
       return (1);
    } else if (val2 < val3 && val6 > val7 && val3 > 70) {
+      TimeFrame = TimeframeToString(period);
       return (-1);
    }
 
@@ -1462,8 +1472,10 @@ int sar(string symbol, int period)
    double val3 = iSAR(symbol,period,0.02,0.2,1);
          
    if (val2 < iOpen(symbol, period, 0) && val3 > iOpen(symbol, period, 1)) {
+      TimeFrame = TimeframeToString(period);
       return (1);
    } else if (val2 > iOpen(symbol, period, 0) && val3 < iOpen(symbol, period, 1)) {
+      TimeFrame = TimeframeToString(period);
       return (-1);
    }
 
