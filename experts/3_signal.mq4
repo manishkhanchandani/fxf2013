@@ -14,7 +14,7 @@
 int init()
   {
 //----
-   start();
+
 //----
    return(0);
   }
@@ -258,6 +258,12 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
             //close buy orders
             CheckForClose(symbol, x, magicnumber, -1);
          }*/
+         if (val8 > val9 || val8 < val9) {
+            TimeFrame = TimeframeToString(PERIOD_H1);
+         } else if (val6 > val7 || val6 < val7) {
+            TimeFrame = TimeframeToString(PERIOD_M30);
+         }
+ 
          condition_buy = (m1 == 1 && m2 == -1 
             && condition_heiken2 == 1 && condition_heiken3 == 1 && condition_heiken4 == 1
             && condition_heiken5 == 1 && condition_heiken6 == 1
@@ -269,9 +275,9 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
             && (val8 < val9 || val6 < val7)
             );
          if (condition_buy) message = "Strategy " + strategy + ", " + build + ", " 
-               + DoubleToStr(tp, 1) + "/" + DoubleToStr(bt, 1);
+               + DoubleToStr(tp, 1) + "/" + DoubleToStr(bt, 1) + ","+TimeFrame;
          else if (condition_sell) message = "Strategy " + strategy + ", " + build + ", " 
-               + DoubleToStr(bt, 1) + "/" + DoubleToStr(tp, 1);
+               + DoubleToStr(bt, 1) + "/" + DoubleToStr(tp, 1) + ","+TimeFrame;
          break;
       case 2://semaphore close with profit
          render_avg_costing(symbol, x, lots, false, true);
@@ -279,7 +285,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
          condition_buy = (semaphore == 1 && semaphoreNumber == 3);
          condition_sell = (semaphore == -1 && semaphoreNumber == 3);
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
@@ -293,7 +299,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
          condition_buy = (semaphore == 1);
          condition_sell = (semaphore == -1);
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build 
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseWithoutProfit(symbol, x, magic, 1);
@@ -319,7 +325,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
                heiken(symbol, PERIOD_H1) == -1
             )
             );
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build + ", " + TimeFrame
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
@@ -345,7 +351,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
                macd(symbol, PERIOD_H1) == -1
             )
             );
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build + ", " + TimeFrame 
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
@@ -371,7 +377,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
                tenkan(symbol, PERIOD_H1) == -1
             )
             );
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build + ", "  + TimeFrame
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
@@ -397,7 +403,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
                stoch(symbol, PERIOD_H1) == -1
             )
             );
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build + ", "  + TimeFrame
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
@@ -423,7 +429,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
                sar(symbol, PERIOD_H1) == -1
             )
             );
-         message = "Strategy " + strategy + ", " + build + ", " 
+         message = "Strategy " + strategy + ", " + build + ", "  + TimeFrame
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
