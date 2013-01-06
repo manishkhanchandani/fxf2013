@@ -28,7 +28,7 @@ extern int overall_max_orders = -1;
 extern double lots = 0.05;
 extern bool UseAlerts = true;
 extern bool UseEmailAlerts = true;
-extern bool filesave = true;
+extern bool filesave = false;
 
 #define ARRSIZE  28
 #define TABSIZE  10
@@ -1329,3 +1329,96 @@ void CheckForCloseWithoutProfit(string symbol, int mode, int magicnumber, int ty
    }
 //----
   }
+  
+  
+int heiken(string symbol, int period)
+{
+   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,0);
+   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,0);
+   double val6 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,1);
+   double val7 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,1);
+         
+   if (val2 < val3 && val6 > val7) {
+      return (1);
+   } else if (val2 > val3 && val6 < val7) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+int heikenCurrent(string symbol, int period)
+{
+   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,0);
+   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,0);
+         
+   if (val2 < val3) {
+      return (1);
+   } else if (val2 > val3) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+
+int macd(string symbol, int period)
+{
+   double val2 = iCustom(symbol, period, "MACD_Complete",1,0);
+   double val3 = iCustom(symbol, period, "MACD_Complete",2,0);
+   double val6 = iCustom(symbol, period, "MACD_Complete",1,1);
+   double val7 = iCustom(symbol, period, "MACD_Complete",2,1);
+         
+   if (val2 > val3 && val6 < val7) {
+      return (1);
+   } else if (val2 < val3 && val6 > val7) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+int macdCurrent(string symbol, int period)
+{
+   double val2 = iCustom(symbol, period, "MACD_Complete",1,0);
+   double val3 = iCustom(symbol, period, "MACD_Complete",2,0);
+         
+   if (val2 > val3) {
+      return (1);
+   } else if (val2 < val3) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+
+int tenkan(string symbol, int period)
+{
+   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 0);
+   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 0);
+   double tenkan_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
+   double kijun_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
+         
+   if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_2 <= kijun_sen_2) {
+      return (1);
+   } else if (tenkan_sen_1 < kijun_sen_1 && tenkan_sen_2 >= kijun_sen_2) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+int tenkanCurrent(string symbol, int period)
+{
+   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 0);
+   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 0);
+         
+   if (tenkan_sen_1 > kijun_sen_1) {
+      return (1);
+   } else if (tenkan_sen_1 < kijun_sen_1) {
+      return (-1);
+   }
+
+   return (0);
+}
