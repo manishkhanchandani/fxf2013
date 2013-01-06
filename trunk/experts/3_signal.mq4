@@ -469,6 +469,7 @@ int get_strategy(int x)
          break;
       case EURJPY:
          strategy = 3;
+         break;
       case GBPCHF:
       case CADJPY:
          strategy = 5;
