@@ -85,7 +85,7 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
    int strategy;
    strategy = get_strategy(x);
    infobox = infobox + "\nS: " + strategy + "\n";
-      if (x == USDJPY || x == CHFJPY || x == AUDJPY || x == NZDJPY || x == CADJPY || x == GBPJPY) {
+      /*if (x == USDJPY || x == CHFJPY || x == AUDJPY || x == NZDJPY || x == CADJPY || x == GBPJPY) {
          buy += CalculateOrdersTypeSymbol("USDJPY", magicnumber, OP_BUY);
          buy += CalculateOrdersTypeSymbol("CHFJPY", magicnumber, OP_BUY);
          buy += CalculateOrdersTypeSymbol("AUDJPY", magicnumber, OP_BUY);
@@ -149,8 +149,10 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
       } else {
          buyorder = true;
          sellorder = true;
-      }
+      }*/
 
+         buyorder = true;
+         sellorder = true;
    bool condition_buy = false;
    bool condition_sell = false;
          double val2, val3, val4, val5, val6, val7, val8, val9;
@@ -283,8 +285,8 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && semaphoreNumber == 3);
-         condition_sell = (semaphore == -1 && semaphoreNumber == 3);
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15);
+         condition_sell = (semaphore == -1 && semaphoreNumber < 15);
          message = "S " + strategy + ", " + build
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
@@ -297,8 +299,8 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, false);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1);
-         condition_sell = (semaphore == -1);
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15);
+         condition_sell = (semaphore == -1 && semaphoreNumber < 15);
          message = "S " + strategy + ", " + build 
                + ", " + semaphore + ", " + semaphoreNumber;
          if (condition_buy) {
@@ -311,14 +313,14 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && 
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15 && 
             (
                heiken(symbol, PERIOD_M15) == 1 ||
                heiken(symbol, PERIOD_M30) == 1 ||
                heiken(symbol, PERIOD_H1) == 1
             )
          );
-         condition_sell = (semaphore == -1  && 
+         condition_sell = (semaphore == -1 && semaphoreNumber < 15  && 
             (
                heiken(symbol, PERIOD_M15) == -1 ||
                heiken(symbol, PERIOD_M30) == -1 ||
@@ -337,14 +339,14 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && 
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15 && 
             (
                macd(symbol, PERIOD_M15) == 1 ||
                macd(symbol, PERIOD_M30) == 1 ||
                macd(symbol, PERIOD_H1) == 1
             )
          );
-         condition_sell = (semaphore == -1  && 
+         condition_sell = (semaphore == -1 && semaphoreNumber < 15  && 
             (
                macd(symbol, PERIOD_M15) == -1 ||
                macd(symbol, PERIOD_M30) == -1 ||
@@ -363,14 +365,14 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && 
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15 && 
             (
                tenkan(symbol, PERIOD_M15) == 1 ||
                tenkan(symbol, PERIOD_M30) == 1 ||
                tenkan(symbol, PERIOD_H1) == 1
             )
          );
-         condition_sell = (semaphore == -1  && 
+         condition_sell = (semaphore == -1 && semaphoreNumber < 15  && 
             (
                tenkan(symbol, PERIOD_M15) == -1 ||
                tenkan(symbol, PERIOD_M30) == -1 ||
@@ -389,14 +391,14 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && 
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15 && 
             (
                stoch(symbol, PERIOD_M15) == 1 ||
                stoch(symbol, PERIOD_M30) == 1 ||
                stoch(symbol, PERIOD_H1) == 1
             )
          );
-         condition_sell = (semaphore == -1  && 
+         condition_sell = (semaphore == -1  && semaphoreNumber < 15 && 
             (
                stoch(symbol, PERIOD_M15) == -1 ||
                stoch(symbol, PERIOD_M30) == -1 ||
@@ -415,14 +417,14 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          render_avg_costing(symbol, x, lots, false, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && 
+         condition_buy = (semaphore == 1 && semaphoreNumber < 15 && 
             (
                sar(symbol, PERIOD_M15) == 1 ||
                sar(symbol, PERIOD_M30) == 1 ||
                sar(symbol, PERIOD_H1) == 1
             )
          );
-         condition_sell = (semaphore == -1  && 
+         condition_sell = (semaphore == -1 && semaphoreNumber < 15  && 
             (
                sar(symbol, PERIOD_M15) == -1 ||
                sar(symbol, PERIOD_M30) == -1 ||
@@ -434,6 +436,20 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          if (condition_buy) {
             CheckForCloseALL(symbol, x, 1);
          } else if (condition_sell) {
+            CheckForCloseALL(symbol, x, -1);
+         }
+         break;
+      case 9://semaphore 4 hour close with profit
+         render_avg_costing(symbol, x, lots, false, true);
+         semaphore = get_lasttrendsemaphore(x, PERIOD_H4, false);
+         infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+         condition_buy = (semaphore == 1 && semaphoreNumber == 4);
+         condition_sell = (semaphore == -1 && semaphoreNumber == 4);
+         message = "S " + strategy + ", " + build
+               + ", " + semaphore + ", " + semaphoreNumber;
+         if (semaphore == 1 && semaphoreNumber < 15) {
+            CheckForCloseALL(symbol, x, 1);
+         } else if (semaphore == -1 && semaphoreNumber < 15) {
             CheckForCloseALL(symbol, x, -1);
          }
          break;
@@ -459,8 +475,6 @@ int get_strategy(int x)
    switch(x) {
       
       case USDCHF:
-      case GBPUSD:
-      case EURUSD:
          strategy = 1;
          break;
       case USDJPY:
@@ -469,30 +483,34 @@ int get_strategy(int x)
       case EURGBP:
          strategy = 2;
          break;
-      case EURAUD:
       case EURCHF:
          strategy = 5;
          break;
       case EURJPY:
-         strategy = 3;
+         strategy = 2;
          break;
       case GBPCHF:
-      case CADJPY:
          strategy = 5;
          break;
-      case GBPJPY:
       case AUDNZD:
       case AUDCAD:
-      case AUDCHF:
          strategy = 6;
          break;
-      case AUDJPY:
-      case CHFJPY:
       case EURNZD:
+      case EURAUD:
+      case AUDCHF:
+      case NZDUSD:
+      case GBPJPY:
+      case CADJPY:
+      case AUDJPY:
+         strategy = 9;
+         break;
+      case CHFJPY:
       case EURCAD:
       case CADCHF:
       case NZDJPY:
-      case NZDUSD:
+      case GBPUSD:
+      case EURUSD:
          strategy = 4;
          break;
       case GBPCAD:
