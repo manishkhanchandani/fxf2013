@@ -7,14 +7,14 @@
 #property link      "http://mkgalaxy.com"
 
 #include <3_signal_inc.mqh>
-
+extern bool new_strategy = true;
 //+------------------------------------------------------------------+
 //| expert initialization function                                   |
 //+------------------------------------------------------------------+
 int init()
   {
 //----
-
+   start();
 //----
    return(0);
   }
@@ -36,7 +36,7 @@ int start()
 //----
    hour = Hour() - gmtoffset;
    infobox = "\nTime: " + TimeToStr(TimeCurrent()) + " and Hour is: " + hour + ", Server Hour: " + Hour() + 
-   ", createneworders: " + createneworders + ", build: " + build + ", lots: " + lots + ", Max orders: " + max_orders + "\n";
+   ", minutes: " + Minute() + ", createneworders: " + createneworders + ", build: " + build + ", lots: " + lots + ", Max orders: " + max_orders + "\n";
    orderbox = "\n";
    createbox = "\n";
    historybox = "\n";
@@ -53,17 +53,20 @@ int start()
    }*/
    
    getallinfo();
-   for (x = 0; x < ARRSIZE; x++) {
-      symbol = aPair[x];
-      if (current_currency) {
-         if (symbol != Symbol()) {
-            continue;
+   if (new_strategy) {
+      new_strategy();
+   } else {
+      for (x = 0; x < ARRSIZE; x++) {
+         symbol = aPair[x];
+         if (current_currency) {
+            if (symbol != Symbol()) {
+               continue;
+            }
          }
+         history2(symbol);
+         openPositionTotal(symbol);
+         getallinfoorders(symbol, x, PERIOD_H4, lots, magic);
       }
-      //history(symbol, x, magic);
-      history2(symbol);
-      openPositionTotal(symbol);
-      getallinfoorders(symbol, x, PERIOD_H4, lots, magic);
    }
    Comment(orderbox, infobox, createbox, historybox);
    if (filesave && opentime != Time[0]) {
@@ -440,18 +443,46 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
          }
          break;
       case 9://semaphore 4 hour close with profit
-         render_avg_costing(symbol, x, lots, false, true);
+         render_avg_costing(symbol, x, lots, true, true);
          semaphore = get_lasttrendsemaphore(x, PERIOD_H4, false);
          infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
-         condition_buy = (semaphore == 1 && semaphoreNumber == 4);
-         condition_sell = (semaphore == -1 && semaphoreNumber == 4);
+         int check1 = heikenCurrent(symbol, PERIOD_M1);
+         int check5 = heikenCurrent(symbol, PERIOD_M5);
+         int check15 = heikenCurrent(symbol, PERIOD_M15);
+         int check30 = heiken(symbol, PERIOD_M30);
+         int checkh1 = heiken(symbol, PERIOD_H1);
+         int checkh4 = heiken(symbol, PERIOD_H4);
+         condition_buy = (semaphore == 1 && 
+            (
+               check1 == 1 &&
+               check5 == 1 &&
+               check15 == 1 &&
+               (check30 == 1 ||
+               checkh1 == 1 ||
+               checkh4 == 1)
+            )
+         );
+         condition_sell = (semaphore == -1 &&
+            (
+               
+               check1 == -1 &&
+               check5 == -1 &&
+               check15 == -1 &&
+               (check30 == -1 ||
+               checkh1 == -1 ||
+               checkh4 == -1)
+            )
+            );
          message = "S " + strategy + ", " + build
                + ", " + semaphore + ", " + semaphoreNumber;
-         if (semaphore == 1 && semaphoreNumber < 15) {
+         if (checkh1 == 1) {
             CheckForCloseALL(symbol, x, 1);
-         } else if (semaphore == -1 && semaphoreNumber < 15) {
+         } else if (checkh1 == -1) {
             CheckForCloseALL(symbol, x, -1);
          }
+         break;
+      case 10://avg costing and trailing
+         render_avg_costing(symbol, x, lots, true, true);
          break;
    }
 
@@ -472,6 +503,25 @@ int getallinfoorders(string symbol, int x, int period, double lotsize, int magic
 int get_strategy(int x)
 {
    int strategy;
+   switch(x) {
+      case USDJPY:
+      case EURJPY:
+      case GBPJPY:
+      case CADJPY:
+      case AUDJPY:
+      case NZDJPY:
+      case CHFJPY:
+      case EURUSD:
+      case NZDUSD:
+      case AUDUSD:
+         strategy = 9;
+         break;
+ 
+      default:
+         strategy = 10;
+         break;
+   }
+   return (strategy);
    switch(x) {
       
       case USDCHF:
@@ -531,3 +581,202 @@ int get_strategy(int x)
 }
 
 
+extern bool pair_eurgbpusd = false;
+extern bool pair_euraudnzd = true;
+extern bool pair_gbpaudnzd = false;
+extern bool pair_nzdaudusd = false;
+extern bool pair_audnzdcad = false;
+extern bool pair_audnzdchf = true;
+extern bool pair_eurgbpjpy = false;
+extern bool pair_chfcadjpy = false;
+extern bool pair_audnzdjpy = false;
+extern bool pair_usdcadchf = false;
+extern bool closeonloss = false;
+int checkforopen(string symbol, int mode)
+{
+   int check1 = heikenCurrent(symbol, PERIOD_M1);
+   int check5 = heikenCurrent(symbol, PERIOD_M5);
+   int check15 = heikenCurrent(symbol, PERIOD_M15);
+   int check30 = heikenCurrent(symbol, PERIOD_M30);
+   int checkh1 = heikenCurrent(symbol, PERIOD_H1);
+   bool condition_buy, condition_sell;
+   condition_buy = ( 
+               check1 == 1 &&
+               check5 == 1 &&
+               check15 == 1 &&
+               check30 == 1 &&
+               checkh1 == 1
+         );
+         condition_sell = (
+               check1 == -1 &&
+               check5 == -1 &&
+               check15 == -1 &&
+               check30 == -1 &&
+               checkh1 == -1
+            );
+   if (condition_buy) return (1);
+   else if (condition_sell) return (-1);
+}
+int checkforopen2(string symbol, int mode)
+{
+   string current_currency1 = StringSubstr(symbol, 0, 3);
+   string current_currency2 = StringSubstr(symbol, 3, 3);
+   infobox = infobox + "\nCurrency 1: " + current_currency1 + ", Currency 2: " + current_currency2;
+   int code1, code2;
+   double strength1, strength2;
+         for (int z=0; z < PAIRSIZE; z++) {
+            if (current_currency1 == aMajor[z]) {
+               code1 = z;
+               strength1 = aMeter[z];
+            } else if (current_currency2 == aMajor[z]) {
+               code2 = z;
+               strength2 = aMeter[z];
+            }
+         }
+   infobox = infobox + "\ncode1: " + code1 + ", strength1: " + strength1;
+   infobox = infobox + "\ncode2: " + code2 + ", strength2: " + strength2;
+   int check15 = heiken(symbol, PERIOD_M15);
+   int check30 = heiken(symbol, PERIOD_M30);
+   int checkh1 = heiken(symbol, PERIOD_H1);
+   int checkh4 = heiken(symbol, PERIOD_H4);
+   bool condition_buy, condition_sell;
+   condition_buy = ( 
+            (strength1 > strength2)
+            &&
+               (check15 == 1 ||
+               check30 == 1 ||
+               checkh1 == 1 ||
+               checkh4 == 1)
+         );
+         condition_sell = (
+               (strength1 < strength2)
+            &&
+               (check15 == -1 ||
+               check30 == -1 ||
+               checkh1 == -1 ||
+               checkh4 == -1)
+            );
+   if (condition_buy) return (1);
+   else if (condition_sell) return (-1);
+}
+
+int new_strategy()
+{
+   
+   if (pair_eurgbpusd) {
+      processNewStrategy("EURUSD", "GBPUSD", EURUSD, GBPUSD);
+   }
+   if (pair_euraudnzd) {
+      processNewStrategy("EURAUD", "EURNZD", EURAUD, EURNZD);
+   }
+   if (pair_gbpaudnzd) {
+      processNewStrategy("GBPAUD", "GBPNZD", GBPAUD, GBPNZD);
+   } 
+   if (pair_nzdaudusd) {
+      processNewStrategy("AUDUSD", "NZDUSD", AUDUSD, NZDUSD);
+   }
+   if (pair_audnzdcad) {
+      processNewStrategy("AUDCAD", "NZDCAD", AUDCAD, NZDCAD);
+   }
+   if (pair_audnzdchf) {
+      processNewStrategy("AUDCHF", "NZDCHF", AUDCHF, NZDCHF);
+   }
+   if (pair_eurgbpjpy) {
+      processNewStrategy("EURJPY", "GBPJPY", EURJPY, GBPJPY);
+   }
+   if (pair_chfcadjpy) {
+      processNewStrategy("CHFJPY", "CADJPY", CHFJPY, CADJPY);
+   }
+   if (pair_audnzdjpy) {
+      processNewStrategy("AUDJPY", "NZDJPY", AUDJPY, NZDJPY);
+   }
+   if (pair_usdcadchf) {
+      processNewStrategy("USDCAD", "USDCHF", USDCAD, USDCHF);
+   }
+   int x;
+   string symbol;
+   for (x = 0; x < ARRSIZE; x++) {
+      symbol = aPair[x];
+      render_avg_costing(symbol, x, lots, true, true);
+   }
+   
+}
+
+
+int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
+{
+
+   int buy1, sell1, buy2, sell2;
+   bool condition_buy1, condition_sell1;
+   bool condition_buy2, condition_sell2;
+   bool condition_buy3, condition_sell3;
+   bool condition_buy4, condition_sell4;
+   int open1, open2, open3, open4;
+   
+   buy1 = CalculateOrdersTypeSymbol(cur1, magic, OP_BUY);
+   buy2 = CalculateOrdersTypeSymbol(cur2, magic, OP_BUY);
+   sell1 = CalculateOrdersTypeSymbol(cur1, magic, OP_SELL);
+   sell2 = CalculateOrdersTypeSymbol(cur2, magic, OP_SELL);
+   //currency 1
+   open1 = checkforopen(cur1, cur1Mode);
+   if (open1 == 1) condition_buy1 = true;
+   else if (open1 == -1) condition_sell1 = true;
+   if (closeonloss) {
+      if (condition_buy1) {
+         CheckForCloseWithoutProfit(cur1, cur1Mode, magic, 1);
+      } else if (condition_sell1) {
+         CheckForCloseWithoutProfit(cur1, cur1Mode, magic, -1);
+      }
+   }
+   if (condition_buy1) {
+      CheckForCloseALL(cur1, cur1Mode, 1);
+   } else if (condition_sell1) {
+      CheckForCloseALL(cur1, cur1Mode, -1);
+   }
+   open2 = checkforopen2(cur1, cur1Mode);
+   if (open2 == 1) condition_buy2 = true;
+   else if (open2 == -1) condition_sell2 = true;
+   //currency 2
+   open3 = checkforopen(cur2, cur2Mode);
+   if (open3 == 1) condition_buy3 = true;
+   else if (open3 == -1) condition_sell3 = true;
+   if (closeonloss) {
+      if (condition_buy3) {
+         CheckForCloseWithoutProfit(cur2, cur2Mode, magic, 1);
+      } else if (condition_sell3) {
+         CheckForCloseWithoutProfit(cur2, cur2Mode, magic, -1);
+      }
+   }
+   if (condition_buy3) {
+      CheckForCloseALL(cur2, cur2Mode, 1);
+   } else if (condition_sell3) {
+      CheckForCloseALL(cur2, cur2Mode, -1);
+   }
+   open4 = checkforopen2(cur2, cur2Mode);
+   if (open4 == 1) condition_buy4 = true;
+   else if (open4 == -1) condition_sell4 = true;
+
+   string message = "";
+   message = "S New" + ", " + build;
+   //create currency 1 Order
+   if (condition_buy1 && condition_buy2 && buy1 == 0 && buy2 == 0) {
+      if (createneworders) {
+         createorder(cur1, 1, lots, magic, message, 0, 0);
+      }
+   } else if (condition_sell1 && condition_sell2 && sell1 == 0 && sell2 == 0) {
+      if (createneworders) {
+         createorder(cur1, -1, lots, magic, message, 0, 0);
+      }
+   }
+   if (condition_buy3 && condition_buy4 && buy1 == 0 && buy2 == 0) {
+      if (createneworders) {
+         createorder(cur2, 1, lots, magic, message, 0, 0);
+      }
+   } else if (condition_sell3 && condition_sell4 && sell1 == 0 && sell2 == 0) {
+      if (createneworders) {
+         createorder(cur2, -1, lots, magic, message, 0, 0);
+      }
+   }
+
+   return (0);
+}

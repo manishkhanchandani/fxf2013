@@ -11,13 +11,13 @@
 #include <stdlib.mqh>
 #include <WinUser32.mqh>
 
-extern int InitialTrailingStop = 500;
+extern int InitialTrailingStop = 150;
 extern int TrailingStop = 150;
 
 extern int trailingstop = 150;
 extern int mintrailingstop = 500;
 extern int mintrailingstopavgcosting = 500;
-extern int gmtoffset = 7;
+extern int gmtoffset = 11;
 //extern bool gotrendonlyimpcur = true;
 extern bool createneworders = true;
 extern bool current_currency = true;
@@ -106,7 +106,7 @@ int difference[ARRSIZE];
 extern int magic1 = 1231;
 extern int magic2 = 1232;
 extern int magic3 = 1233;
-extern int magic4 = 1234;
+extern int magic4 = 1235;
 
 double stoploss[ARRSIZE];
 
@@ -813,7 +813,8 @@ int get_average_costing(string symbol, int mode)
    for(cnt=0;cnt<OrdersTotal();cnt++) {
       OrderSelect(cnt, SELECT_BY_POS, MODE_TRADES);
       if(OrderType()<=OP_SELL && OrderSymbol()==symbol
-         && (OrderMagicNumber() == magic || OrderMagicNumber() == magic1 || OrderMagicNumber() == magic2 || OrderMagicNumber() == magic3 || OrderMagicNumber() == magic4)
+         && (OrderMagicNumber() == magic || OrderMagicNumber() == magic1 
+         || OrderMagicNumber() == magic2 || OrderMagicNumber() == magic3 || OrderMagicNumber() == magic4)
       ) {
          //Print(symbol, ", ", OrderMagicNumber());
          if (OrderMagicNumber() == magic) {
@@ -1010,7 +1011,8 @@ void CheckForCloseALL(string symbol, int mode, int typeHere)
    for(int i=0;i<OrdersTotal();i++)
      {
       if(OrderSelect(i,SELECT_BY_POS,MODE_TRADES)==false)        break;
-      if(OrderSymbol()==symbol) {
+      if(OrderSymbol()==symbol && (OrderMagicNumber() == magic || OrderMagicNumber() == magic1 
+         || OrderMagicNumber() == magic2 || OrderMagicNumber() == magic3 || OrderMagicNumber() == magic4)) {
          if(OrderType()==OP_BUY && typeHere == -1)
            {
             Alert(symbol, ", closing all buy order");
