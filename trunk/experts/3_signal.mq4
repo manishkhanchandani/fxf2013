@@ -8,13 +8,14 @@
 
 #include <3_signal_inc.mqh>
 extern bool new_strategy = true;
+string rssbox;
 //+------------------------------------------------------------------+
 //| expert initialization function                                   |
 //+------------------------------------------------------------------+
 int init()
   {
 //----
-   start();
+   //start();
 //----
    return(0);
   }
@@ -34,6 +35,16 @@ int deinit()
 int start()
   {
 //----
+   rssbox = "";
+   rssbox = rssbox + "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n";
+   rssbox = rssbox + "<rss version=\"0.91\">\n";
+   rssbox = rssbox + "<channel>\n";
+   rssbox = rssbox + "<title>ForexMastery.org::Signals</title>\n";
+   rssbox = rssbox + "<link>http://www.forexmastery.org</link>\n";
+   rssbox = rssbox + "<description>Forex - By Forexmastery.org</description>\n";
+   rssbox = rssbox + "<language>en-us</language>\n";
+
+   lotcalc();
    hour = Hour() - gmtoffset;
    infobox = "\nTime: " + TimeToStr(TimeCurrent()) + " and Hour is: " + hour + ", Server Hour: " + Hour() + 
    ", minutes: " + Minute() + ", createneworders: " + createneworders + ", build: " + build + ", lots: " + lots + ", Max orders: " + max_orders + "\n";
@@ -69,10 +80,17 @@ int start()
       }
    }
    Comment(orderbox, infobox, createbox, historybox);
+   
+   rssbox = rssbox + "\n";
+   rssbox = rssbox + "</channel>\n";
+   rssbox = rssbox + "</rss>";
    if (filesave && opentime != Time[0]) {
       FileAppend("signals3/signal_" + Year() + "_" + Month() + "_" + Day() + "_" + Hour()  + ".txt", orderbox+infobox+createbox+historybox);
       opentime = Time[0];
       SendMail("EA Message as of " + TimeToStr(TimeCurrent()), orderbox+infobox+createbox+historybox);
+      FileDelete("rss/rss.txt");
+      FileAppend("rss/rss.txt", rssbox);
+      
    }
 //----
    return(0);
@@ -580,25 +598,34 @@ int get_strategy(int x)
    return (strategy);
 }
 
-
-extern bool pair_eurgbpusd = false;
-extern bool pair_euraudnzd = true;
-extern bool pair_gbpaudnzd = false;
-extern bool pair_nzdaudusd = false;
-extern bool pair_audnzdcad = false;
-extern bool pair_audnzdchf = true;
-extern bool pair_eurgbpjpy = false;
-extern bool pair_chfcadjpy = false;
-extern bool pair_audnzdjpy = false;
-extern bool pair_usdcadchf = false;
-extern bool closeonloss = false;
+string showResult(int input)
+{
+   if (input == 1) {
+      return ("Buy");
+   } else if (input == -1) {
+      return ("Sell");
+   }
+   return ("Consolidate");
+}
 int checkforopen(string symbol, int mode)
 {
+   rssbox = rssbox + "<item>\n";
+   rssbox = rssbox + "<title>" + symbol + "</title>\n";
+   rssbox = rssbox + "<link>http://www.forexmastery.org</link>\n";
+   rssbox = rssbox + "<description>\n";
+   rssbox = rssbox + "<h3>CURRENT CONDITION<\h3>";
+
+   infobox = infobox + "\nSymbol: " + symbol;
    int check1 = heikenCurrent(symbol, PERIOD_M1);
    int check5 = heikenCurrent(symbol, PERIOD_M5);
    int check15 = heikenCurrent(symbol, PERIOD_M15);
    int check30 = heikenCurrent(symbol, PERIOD_M30);
    int checkh1 = heikenCurrent(symbol, PERIOD_H1);
+   rssbox = rssbox + TimeframeToString(PERIOD_M1) + ": " + showResult(check1) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_M5) + ": " + showResult(check5) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_M15) + ": " + showResult(check15) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_M30) + ": " + showResult(check30) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_H1) + ": " + showResult(checkh1) + "<br />";
    bool condition_buy, condition_sell;
    condition_buy = ( 
                check1 == 1 &&
@@ -614,14 +641,19 @@ int checkforopen(string symbol, int mode)
                check30 == -1 &&
                checkh1 == -1
             );
+   rssbox = rssbox + "<strong>Condition Buy:</strong> " + condition_buy + "<br />";
+   rssbox = rssbox + "<strong>Condition Sell:</strong> " + condition_sell + "<br />";
+   infobox = infobox + "|" + check1 + ","+check5 + ","+check15 + ","+check30 + ","+checkh1;
    if (condition_buy) return (1);
    else if (condition_sell) return (-1);
 }
 int checkforopen2(string symbol, int mode)
 {
+   rssbox = rssbox + "<h3>CHANGE CONDITION</h3>";
+
    string current_currency1 = StringSubstr(symbol, 0, 3);
    string current_currency2 = StringSubstr(symbol, 3, 3);
-   infobox = infobox + "\nCurrency 1: " + current_currency1 + ", Currency 2: " + current_currency2;
+   infobox = infobox + ", Currency 1: " + current_currency1 + ", Currency 2: " + current_currency2;
    int code1, code2;
    double strength1, strength2;
          for (int z=0; z < PAIRSIZE; z++) {
@@ -633,15 +665,27 @@ int checkforopen2(string symbol, int mode)
                strength2 = aMeter[z];
             }
          }
-   infobox = infobox + "\ncode1: " + code1 + ", strength1: " + strength1;
-   infobox = infobox + "\ncode2: " + code2 + ", strength2: " + strength2;
+   double diffStrength = MathAbs(strength1 - strength2);
+   infobox = infobox + ", code1: " + code1 + ", strength1: " + strength1;
+   infobox = infobox + ", code2: " + code2 + ", strength2: " + strength2;
+   infobox = infobox + ", diffStrength: " + diffStrength;
+   
+   rssbox = rssbox + "code1: " + code1 + ", strength1: " + strength1;
+   rssbox = rssbox + ", code2: " + code2 + ", strength2: " + strength2;
+   rssbox = rssbox + ", diffStrength: " + diffStrength + "<br />";
+   
    int check15 = heiken(symbol, PERIOD_M15);
    int check30 = heiken(symbol, PERIOD_M30);
    int checkh1 = heiken(symbol, PERIOD_H1);
    int checkh4 = heiken(symbol, PERIOD_H4);
+   rssbox = rssbox + TimeframeToString(PERIOD_M15) + ": " + showResult(check15) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_M30) + ": " + showResult(check30) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_H1) + ": " + showResult(checkh1) + "<br />";
+   rssbox = rssbox + TimeframeToString(PERIOD_H4) + ": " + showResult(checkh4) + "<br />";
    bool condition_buy, condition_sell;
    condition_buy = ( 
             (strength1 > strength2)
+            && diffStrength >= 2
             &&
                (check15 == 1 ||
                check30 == 1 ||
@@ -650,19 +694,30 @@ int checkforopen2(string symbol, int mode)
          );
          condition_sell = (
                (strength1 < strength2)
+            && diffStrength >= 2
             &&
                (check15 == -1 ||
                check30 == -1 ||
                checkh1 == -1 ||
                checkh4 == -1)
             );
-   if (condition_buy) return (1);
-   else if (condition_sell) return (-1);
+   infobox = infobox + "|" + check15 + ","+check30 + ","+checkh1 + ","+checkh4;
+   rssbox = rssbox + "<strong>Condition Buy:</strong> " + condition_buy + "<br />";
+   rssbox = rssbox + "<strong>Condition Sell:</strong> " + condition_sell + "<br />";
+   rssbox = rssbox + "</description>\n";
+   rssbox = rssbox + "</item>";
+   if (condition_buy) {
+      infobox = infobox + ", Buy";
+      return (1);
+   }
+   else if (condition_sell) {
+      infobox = infobox + ", Sell";
+      return (-1);
+   }
 }
 
 int new_strategy()
 {
-   
    if (pair_eurgbpusd) {
       processNewStrategy("EURUSD", "GBPUSD", EURUSD, GBPUSD);
    }
@@ -699,13 +754,30 @@ int new_strategy()
       symbol = aPair[x];
       render_avg_costing(symbol, x, lots, true, true);
    }
-   
 }
+/*
 
+<item>
+ <title>Attack Update</title>
+ <link>http://www.downes.ca</link>
+ <description>
+ OK, here's where we stand. I have no email into
+or out of downes.ca - this means that if you are sending me
+email to stephen@downes.ca it will fail. It also means that
+newsletter mailouts are failing (at least, I think they're
+failing...). Additionally, all scheduled processes have
+terminated, which means that Edu_RSS will be updated
+manually. I have no tech support until at least tomorrow,
+so it looks like we'll be limping along like this for a
+bit. Again, please note, email sent to me at downes.ca is
+not reaching me. By Stephen Downes, Stephen's Web, July
+22, 2003
+ </description>
+ </item>
+ */
 
 int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
 {
-
    int buy1, sell1, buy2, sell2;
    bool condition_buy1, condition_sell1;
    bool condition_buy2, condition_sell2;
@@ -713,6 +785,8 @@ int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
    bool condition_buy4, condition_sell4;
    int open1, open2, open3, open4;
    
+   string message = "";
+   message = "Strategy New" + ", " + build;
    buy1 = CalculateOrdersTypeSymbol(cur1, magic, OP_BUY);
    buy2 = CalculateOrdersTypeSymbol(cur2, magic, OP_BUY);
    sell1 = CalculateOrdersTypeSymbol(cur1, magic, OP_SELL);
@@ -721,13 +795,13 @@ int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
    open1 = checkforopen(cur1, cur1Mode);
    if (open1 == 1) condition_buy1 = true;
    else if (open1 == -1) condition_sell1 = true;
-   if (closeonloss) {
+   /*if (closeonloss) {
       if (condition_buy1) {
          CheckForCloseWithoutProfit(cur1, cur1Mode, magic, 1);
       } else if (condition_sell1) {
          CheckForCloseWithoutProfit(cur1, cur1Mode, magic, -1);
       }
-   }
+   }*/
    if (condition_buy1) {
       CheckForCloseALL(cur1, cur1Mode, 1);
    } else if (condition_sell1) {
@@ -736,28 +810,7 @@ int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
    open2 = checkforopen2(cur1, cur1Mode);
    if (open2 == 1) condition_buy2 = true;
    else if (open2 == -1) condition_sell2 = true;
-   //currency 2
-   open3 = checkforopen(cur2, cur2Mode);
-   if (open3 == 1) condition_buy3 = true;
-   else if (open3 == -1) condition_sell3 = true;
-   if (closeonloss) {
-      if (condition_buy3) {
-         CheckForCloseWithoutProfit(cur2, cur2Mode, magic, 1);
-      } else if (condition_sell3) {
-         CheckForCloseWithoutProfit(cur2, cur2Mode, magic, -1);
-      }
-   }
-   if (condition_buy3) {
-      CheckForCloseALL(cur2, cur2Mode, 1);
-   } else if (condition_sell3) {
-      CheckForCloseALL(cur2, cur2Mode, -1);
-   }
-   open4 = checkforopen2(cur2, cur2Mode);
-   if (open4 == 1) condition_buy4 = true;
-   else if (open4 == -1) condition_sell4 = true;
-
-   string message = "";
-   message = "S New" + ", " + build;
+   
    //create currency 1 Order
    if (condition_buy1 && condition_buy2 && buy1 == 0 && buy2 == 0) {
       if (createneworders) {
@@ -768,6 +821,32 @@ int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
          createorder(cur1, -1, lots, magic, message, 0, 0);
       }
    }
+   
+   buy1 = CalculateOrdersTypeSymbol(cur1, magic, OP_BUY);
+   buy2 = CalculateOrdersTypeSymbol(cur2, magic, OP_BUY);
+   sell1 = CalculateOrdersTypeSymbol(cur1, magic, OP_SELL);
+   sell2 = CalculateOrdersTypeSymbol(cur2, magic, OP_SELL);
+   //currency 2
+   open3 = checkforopen(cur2, cur2Mode);
+   if (open3 == 1) condition_buy3 = true;
+   else if (open3 == -1) condition_sell3 = true;
+   /*if (closeonloss) {
+      if (condition_buy3) {
+         CheckForCloseWithoutProfit(cur2, cur2Mode, magic, 1);
+      } else if (condition_sell3) {
+         CheckForCloseWithoutProfit(cur2, cur2Mode, magic, -1);
+      }
+   }*/
+   if (condition_buy3) {
+      CheckForCloseALL(cur2, cur2Mode, 1);
+   } else if (condition_sell3) {
+      CheckForCloseALL(cur2, cur2Mode, -1);
+   }
+   open4 = checkforopen2(cur2, cur2Mode);
+   if (open4 == 1) condition_buy4 = true;
+   else if (open4 == -1) condition_sell4 = true;
+
+   //create currency 2 Order
    if (condition_buy3 && condition_buy4 && buy1 == 0 && buy2 == 0) {
       if (createneworders) {
          createorder(cur2, 1, lots, magic, message, 0, 0);
@@ -778,5 +857,56 @@ int processNewStrategy(string cur1, string cur2, int cur1Mode, int cur2Mode)
       }
    }
 
+   return (0);
+}
+
+
+int processParticularCur(string cur, int curMode)
+{
+   return (0);
+   //processParticularCur("GBP", GBP);
+   string CurPairs[8][8];
+   CurPairs[EUR][USD] = "EURUSD";
+   CurPairs[EUR][GBP] = "EURGBP";
+   CurPairs[EUR][NZD] = "EURNZD";
+   CurPairs[EUR][AUD] = "EURAUD";
+   CurPairs[EUR][CHF] = "EURCHF";
+   CurPairs[EUR][CAD] = "EURCAD";
+   CurPairs[EUR][JPY] = "EURJPY";
+   CurPairs[EUR][EUR] = "";
+   
+   CurPairs[GBP][USD] = "GBPUSD";
+   CurPairs[GBP][EUR] = "EURGBP";
+   CurPairs[GBP][NZD] = "GBPNZD";
+   CurPairs[GBP][AUD] = "GBPAUD";
+   CurPairs[GBP][CHF] = "GBPCHF";
+   CurPairs[GBP][CAD] = "GBPCAD";
+   CurPairs[GBP][JPY] = "GBPJPY";
+   CurPairs[GBP][GBP] = "";
+   string symbol;
+   for (int i = 0; i < 8; i++ ){
+      if (CurPairs[curMode][i] == "") continue;
+      symbol = CurPairs[curMode][i];
+      infobox = StringConcatenate(infobox, "\nCur: ", CurPairs[curMode][i]);
+      int code1, code2;
+      double strength1, strength2;
+      int z;
+      string current_currency1 = StringSubstr(symbol, 0, 3);
+      string current_currency2 = StringSubstr(symbol, 3, 3);
+      infobox = infobox + ", Currency 1: " + current_currency1 + ", Currency 2: " + current_currency2;
+            for ( z=0; z < PAIRSIZE; z++) {
+               if (current_currency1 == aMajor[z]) {
+                  code1 = z;
+                  strength1 = aMeter[z];
+               } else if (current_currency2 == aMajor[z]) {
+                  code2 = z;
+                  strength2 = aMeter[z];
+               }
+            }
+      double diffStrength = MathAbs(strength1 - strength2);
+      infobox = infobox + ", code1: " + code1 + ", strength1: " + strength1;
+      infobox = infobox + ", code2: " + code2 + ", strength2: " + strength2;
+      infobox = infobox + ", diffStrength: " + diffStrength;
+   }
    return (0);
 }
