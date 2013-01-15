@@ -22,10 +22,22 @@ extern int gmtoffset = 11;
 extern bool createneworders = true;
 extern bool current_currency = true;
 
+extern bool pair_eurgbpusd = false;
+extern bool pair_euraudnzd = false;
+extern bool pair_gbpaudnzd = true;
+extern bool pair_nzdaudusd = true;
+extern bool pair_audnzdcad = false;
+extern bool pair_audnzdchf = false;
+extern bool pair_eurgbpjpy = false;
+extern bool pair_chfcadjpy = false;
+extern bool pair_audnzdjpy = false;
+extern bool pair_usdcadchf = false;
+extern bool closeonloss = false;
+
 extern int magic = 1234;
 extern int max_orders = 2;
 extern int overall_max_orders = -1;
-extern double lots = 0.05;
+extern double lots = 0;
 extern bool UseAlerts = true;
 extern bool UseEmailAlerts = true;
 extern bool filesave = false;
@@ -456,15 +468,20 @@ int render_avg_costing(string symbol, int i, double lots, bool trailingFun=true,
 {
    difference[i] = get_difference(symbol, i);
    get_average_costing(symbol, i);
+   if (totalorders[i] == 0) {
+      return (0);
+   }
+   
    if (avg_costing) {
-      infobox = infobox + "\nChecking and Creating Avg Costing";
+      infobox = infobox + "\nAvg Costing";
       create_average_costing(symbol, i, lots);
    }
-   infobox = infobox + "\ntrailingFun: "+trailingFun+", avg_costing: " + avg_costing;
+   //infobox = infobox + ", trailingFun: "+trailingFun+", avg_costing: " + avg_costing;
    if (trailingFun || totalorders[i] > 1) {
-      infobox = infobox + "\nTrailing Fun\n";
+      infobox = infobox + ", Trailing Fun: ";
       closingonprofit(symbol, i);
    }
+   return (0);
 }
 
 
@@ -846,7 +863,7 @@ int get_average_costing(string symbol, int mode)
      returncost[mode] = cost;
   }
   if (totalorders[mode] > 0)
-      infobox = infobox + StringConcatenate(symbol, "\nlotsavg[mode]: ", DoubleToStr(lotsavg[mode], 2), ", totalcost[mode]: ", totalcost[mode], ", typeoforder: ", typeoforder[mode], ", totalprofit[mode]: ", totalprofit[mode], ", returncost[mode]: ", returncost[mode]);
+      infobox = infobox + StringConcatenate("\n", symbol, ", lotsavg[mode]: ", DoubleToStr(lotsavg[mode], 2), ", totalcost[mode]: ", totalcost[mode], ", typeoforder: ", typeoforder[mode], ", totalprofit[mode]: ", totalprofit[mode], ", returncost[mode]: ", returncost[mode]);
    
 }
 
@@ -1484,3 +1501,13 @@ int sar(string symbol, int period)
    return (0);
 }
 
+int lotcalc()
+{
+   double lotnew;
+   lotnew = lots;
+   if (lots == 0) {
+      lotnew = NormalizeDouble((AccountBalance() / 10000)/4, 2);
+      if (lotnew < 0.01) lotnew = 0.01;
+      lots = lotnew;
+   }
+}

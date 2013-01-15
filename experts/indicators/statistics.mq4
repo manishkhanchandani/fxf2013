@@ -81,6 +81,15 @@ int start()
       
       semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
       infobox = infobox + ", Last Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
+      double macd_main = iMACD(symbol, PERIOD_H1,12,26,9,PRICE_CLOSE,MODE_MAIN,0);
+      double macd_signal = iMACD(symbol, PERIOD_H1,12,26,9,PRICE_CLOSE,MODE_SIGNAL,0);
+      double macd_main1 = iMACD(symbol, PERIOD_H1,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
+      double macd_signal1 = iMACD(symbol, PERIOD_H1,12,26,9,PRICE_CLOSE,MODE_SIGNAL,1);
+      if (macd_main > macd_signal && macd_main1 < macd_signal1) {
+         infobox = infobox + ", MACD BUY";
+      } else if (macd_main < macd_signal && macd_main1 > macd_signal1) {
+         infobox = infobox + ", MACD SELL";
+      } 
       if (semaphoreNumber < 15 && semaphore == 1 && condition_buy
             && val4a > val5a) {
          infobox = infobox + ", BUY";

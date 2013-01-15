@@ -161,7 +161,7 @@ int start()
       infobox = infobox + "\n\n";
       mathmurry(symbol, x);
       
-      semaphore = get_lasttrendsemaphore(x, PERIOD_H1, false);
+      semaphore = get_lasttrendsemaphore(x, PERIOD_H4, false);
       infobox = infobox + "\nLast Semaphore: " + semaphore + "(" + semaphoreNumber + ")";
    }
    //FileDelete("statisticsIndsingle.txt");
