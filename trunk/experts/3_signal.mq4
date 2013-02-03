@@ -609,11 +609,6 @@ string showResult(int input)
 }
 int checkforopen(string symbol, int mode)
 {
-   rssbox = rssbox + "<item>\n";
-   rssbox = rssbox + "<title>" + symbol + "</title>\n";
-   rssbox = rssbox + "<link>http://www.forexmastery.org</link>\n";
-   rssbox = rssbox + "<description>\n";
-   rssbox = rssbox + "<h3>CURRENT CONDITION<\h3>";
 
    infobox = infobox + "\nSymbol: " + symbol;
    int check1 = heikenCurrent(symbol, PERIOD_M1);
@@ -621,11 +616,6 @@ int checkforopen(string symbol, int mode)
    int check15 = heikenCurrent(symbol, PERIOD_M15);
    int check30 = heikenCurrent(symbol, PERIOD_M30);
    int checkh1 = heikenCurrent(symbol, PERIOD_H1);
-   rssbox = rssbox + TimeframeToString(PERIOD_M1) + ": " + showResult(check1) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_M5) + ": " + showResult(check5) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_M15) + ": " + showResult(check15) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_M30) + ": " + showResult(check30) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_H1) + ": " + showResult(checkh1) + "<br />";
    bool condition_buy, condition_sell;
    condition_buy = ( 
                check1 == 1 &&
@@ -641,8 +631,6 @@ int checkforopen(string symbol, int mode)
                check30 == -1 &&
                checkh1 == -1
             );
-   rssbox = rssbox + "<strong>Condition Buy:</strong> " + condition_buy + "<br />";
-   rssbox = rssbox + "<strong>Condition Sell:</strong> " + condition_sell + "<br />";
    infobox = infobox + "|" + check1 + ","+check5 + ","+check15 + ","+check30 + ","+checkh1;
    if (condition_buy) return (1);
    else if (condition_sell) return (-1);
@@ -670,18 +658,11 @@ int checkforopen2(string symbol, int mode)
    infobox = infobox + ", code2: " + code2 + ", strength2: " + strength2;
    infobox = infobox + ", diffStrength: " + diffStrength;
    
-   rssbox = rssbox + "code1: " + code1 + ", strength1: " + strength1;
-   rssbox = rssbox + ", code2: " + code2 + ", strength2: " + strength2;
-   rssbox = rssbox + ", diffStrength: " + diffStrength + "<br />";
    
    int check15 = heiken(symbol, PERIOD_M15);
    int check30 = heiken(symbol, PERIOD_M30);
    int checkh1 = heiken(symbol, PERIOD_H1);
    int checkh4 = heiken(symbol, PERIOD_H4);
-   rssbox = rssbox + TimeframeToString(PERIOD_M15) + ": " + showResult(check15) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_M30) + ": " + showResult(check30) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_H1) + ": " + showResult(checkh1) + "<br />";
-   rssbox = rssbox + TimeframeToString(PERIOD_H4) + ": " + showResult(checkh4) + "<br />";
    bool condition_buy, condition_sell;
    condition_buy = ( 
             (strength1 > strength2)
@@ -702,10 +683,7 @@ int checkforopen2(string symbol, int mode)
                checkh4 == -1)
             );
    infobox = infobox + "|" + check15 + ","+check30 + ","+checkh1 + ","+checkh4;
-   rssbox = rssbox + "<strong>Condition Buy:</strong> " + condition_buy + "<br />";
-   rssbox = rssbox + "<strong>Condition Sell:</strong> " + condition_sell + "<br />";
-   rssbox = rssbox + "</description>\n";
-   rssbox = rssbox + "</item>";
+   
    if (condition_buy) {
       infobox = infobox + ", Buy";
       return (1);

@@ -11,36 +11,33 @@
 #include <stdlib.mqh>
 #include <WinUser32.mqh>
 
-extern int InitialTrailingStop = 150;
-extern int TrailingStop = 150;
+int InitialTrailingStop = 300;
+int TrailingStop = 150;
 
-extern int trailingstop = 150;
-extern int mintrailingstop = 500;
-extern int mintrailingstopavgcosting = 500;
-extern int gmtoffset = 11;
-//extern bool gotrendonlyimpcur = true;
-extern bool createneworders = true;
-extern bool current_currency = true;
+int trailingstop = 150;
+int mintrailingstop = 300;
+int mintrailingstopavgcosting = 300;
+int gmtoffset = 3;
+bool createneworders = true;
 
-extern bool pair_eurgbpusd = false;
-extern bool pair_euraudnzd = false;
-extern bool pair_gbpaudnzd = true;
-extern bool pair_nzdaudusd = true;
-extern bool pair_audnzdcad = false;
-extern bool pair_audnzdchf = false;
-extern bool pair_eurgbpjpy = false;
-extern bool pair_chfcadjpy = false;
-extern bool pair_audnzdjpy = false;
-extern bool pair_usdcadchf = false;
-extern bool closeonloss = false;
+bool pair_eurgbpusd = false;
+bool pair_euraudnzd = false;
+bool pair_gbpaudnzd = true;
+bool pair_nzdaudusd = true;
+bool pair_audnzdcad = false;
+bool pair_audnzdchf = false;
+bool pair_eurgbpjpy = false;
+bool pair_chfcadjpy = false;
+bool pair_audnzdjpy = false;
+bool pair_usdcadchf = false;
+bool closeonloss = false;
 
-extern int magic = 1234;
-extern int max_orders = 2;
-extern int overall_max_orders = -1;
-extern double lots = 0;
-extern bool UseAlerts = true;
-extern bool UseEmailAlerts = true;
-extern bool filesave = false;
+int magic = 1234;
+int overall_max_orders = -1;
+double lots = 0.10;
+bool UseAlerts = true;
+bool UseEmailAlerts = true;
+bool filesave = false;
 
 #define ARRSIZE  28
 #define TABSIZE  10
@@ -112,13 +109,13 @@ double aMeter[PAIRSIZE];
 
 //average costing
 
-extern bool create_avg_orders = true;
+bool create_avg_orders = true;
 int difference[ARRSIZE];
 
-extern int magic1 = 1231;
-extern int magic2 = 1232;
-extern int magic3 = 1233;
-extern int magic4 = 1235;
+int magic1 = 1231;
+int magic2 = 1232;
+int magic3 = 1233;
+int magic4 = 1235;
 
 double stoploss[ARRSIZE];
 
@@ -255,7 +252,7 @@ int trailingstopSingle(string symbol)
 int createorder(string symbol, int type, double Lots, int magicnumber, string message, int stoploss, int takeprofit)
 {
 
-   int maxspread = 80;
+   int maxspread = 60;
    int ignorespread = 0;
    int orders;
    int ordertype;
@@ -477,7 +474,7 @@ int render_avg_costing(string symbol, int i, double lots, bool trailingFun=true,
       create_average_costing(symbol, i, lots);
    }
    //infobox = infobox + ", trailingFun: "+trailingFun+", avg_costing: " + avg_costing;
-   if (trailingFun || totalorders[i] > 1) {
+   if (trailingFun) {
       infobox = infobox + ", Trailing Fun: ";
       closingonprofit(symbol, i);
    }
@@ -1137,7 +1134,7 @@ int get_lasttrendsemaphore(int i, int period, bool show=true)
      return (0);
 }
 
-int history(string symbol, int i, int magicnum)
+double history(string symbol, int i, int magicnum)
 {
    int cnt;
    int total = OrdersHistoryTotal();
@@ -1155,7 +1152,7 @@ int history(string symbol, int i, int magicnum)
    }
    historybox = historybox + "\nTotal Profit/Loss For Symbol: " + symbol + " and magic: " + magicnum +
    " is: " + DoubleToStr(gtotal, 2);
-   return (0);
+   return (gtotal);
 }
 
 
@@ -1232,6 +1229,52 @@ int getallinfo()
 }
 
 
+double getoneinfo(string mySymbol)
+{
+   double high, low, bid, ask, point, spread, digits;
+      double aHigh;
+      double aLow;
+      double aHigh1;
+      double aBid;
+      double aAsk;
+      double aRatio;
+      double aRange;
+      double aLookup;
+      double aStrength;
+      int z;
+         bid = MarketInfo(mySymbol, MODE_BID);
+         ask = MarketInfo(mySymbol, MODE_ASK);
+         point = MarketInfo(mySymbol, MODE_POINT);
+         spread = MarketInfo(mySymbol, MODE_SPREAD);
+         digits = MarketInfo(mySymbol, MODE_DIGITS);
+         //Calculating the points:
+         high = -1;
+         low = -1;
+         for (z=0; z<4; z++) {
+            if (high == -1) {
+               high = iHigh(mySymbol, PERIOD_H4, z);
+            }
+            if (iHigh(mySymbol, PERIOD_H4, z) > high) {
+               high = iHigh(mySymbol, PERIOD_H4, z);
+            }
+            if (low == -1) {
+               low = iLow(mySymbol, PERIOD_H4, z);
+            }
+            if (iLow(mySymbol, PERIOD_H4, z) < low) {
+               low = iLow(mySymbol, PERIOD_H4, z);
+            }
+         }
+         aHigh = high;
+         aLow      = low; 
+         aBid      = bid;                 
+         aAsk      = ask;                 
+         aRange    = MathMax((aHigh-aLow)/point,1);      // calculate range today  
+         aRatio    = (aBid-aLow)/aRange/point;     // calculate pair ratio
+         double aLookup1   = iLookup(aRatio*100);                        // set a pair grade
+         double aStrength1 = 9-aLookup1;
+         return (aLookup1);
+         
+}
 
 double openPositionTotal(string symbol)
 {
@@ -1354,10 +1397,10 @@ void CheckForCloseWithoutProfit(string symbol, int mode, int magicnumber, int ty
   
 int heiken(string symbol, int period)
 {
-   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,0);
-   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,0);
-   double val6 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,1);
-   double val7 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,1);
+   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,1);
+   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,1);
+   double val6 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,2);
+   double val7 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,2);
          
    if (val2 < val3 && val6 > val7) {
       TimeFrame = TimeframeToString(period);
@@ -1372,8 +1415,8 @@ int heiken(string symbol, int period)
 
 int heikenCurrent(string symbol, int period)
 {
-   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,0);
-   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,0);
+   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,1);
+   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,1);
          
    if (val2 < val3) {
       return (1);
@@ -1418,12 +1461,86 @@ int macdCurrent(string symbol, int period)
 }
 
 
+int macdR(string symbol, int period)
+{
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
+      double MacdPrevious=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,2);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,1);
+      double SignalPrevious=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,2);
+         
+   if (MacdCurrent > SignalCurrent && MacdPrevious < SignalPrevious) {
+      TimeFrame = TimeframeToString(period);
+      return (1);
+   } else if (MacdCurrent < SignalCurrent && MacdPrevious > SignalPrevious) {
+      TimeFrame = TimeframeToString(period);
+      return (-1);
+   }
+
+   return (0);
+}
+
+int macdRCurrent(string symbol, int period)
+{
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,1);
+         
+   if (MacdCurrent > SignalCurrent) {
+      TimeFrame = TimeframeToString(period);
+      return (1);
+   } else if (MacdCurrent < SignalCurrent) {
+      TimeFrame = TimeframeToString(period);
+      return (-1);
+   }
+
+   return (0);
+}
+
+
+double macdDiffernce(string symbol, int period)
+{
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,1);
+      return (MacdCurrent - SignalCurrent);
+}
+
+
+int macdCount(string symbol, int period)
+{
+   double Macd=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
+   bool buy = false;
+   bool sell = false;
+   if (Macd > 0)
+      buy = true;
+   if (Macd < 0)
+      sell = true;
+   int cnt = 0;
+   for (int i = 1; i <= 200; i++) {
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,i);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,i);
+      double MacdPrevious=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,i+1);
+      double SignalPrevious=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,i+1);
+      if (buy && MacdCurrent > 0) {
+      
+      } else if (sell && MacdCurrent < 0) {
+      
+      } else {
+         break;
+      }
+      if (MacdCurrent > SignalCurrent && MacdPrevious < SignalPrevious) {
+         cnt++;
+      } else if (MacdCurrent < SignalCurrent && MacdPrevious > SignalPrevious) {
+         cnt++;
+      }
+   }
+   return (cnt);
+}
+
 int tenkan(string symbol, int period)
 {
-   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 0);
-   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 0);
-   double tenkan_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
-   double kijun_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
+   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
+   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
+   double tenkan_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 2);
+   double kijun_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 2);
          
    if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_2 <= kijun_sen_2) {
       TimeFrame = TimeframeToString(period);
@@ -1438,12 +1555,12 @@ int tenkan(string symbol, int period)
 
 int tenkanCurrent(string symbol, int period)
 {
-   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 0);
-   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 0);
+   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
+   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
          
-   if (tenkan_sen_1 > kijun_sen_1) {
+   if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_1 < iClose(symbol, period, 1)) {
       return (1);
-   } else if (tenkan_sen_1 < kijun_sen_1) {
+   } else if (tenkan_sen_1 < kijun_sen_1 && tenkan_sen_1 > iClose(symbol, period, 1)) {
       return (-1);
    }
 
@@ -1509,5 +1626,189 @@ int lotcalc()
       lotnew = NormalizeDouble((AccountBalance() / 10000)/4, 2);
       if (lotnew < 0.01) lotnew = 0.01;
       lots = lotnew;
+   }
+}
+
+int bbreversal(string symbol, int period, int shift)
+{
+   double bbh = iBands(symbol,period,20,2,0,PRICE_CLOSE,MODE_UPPER,shift);
+   double bbl = iBands(symbol,period,20,2,0,PRICE_CLOSE,MODE_LOWER,shift);
+   double high1 = iHigh(symbol, period, shift);
+   double high2 = iHigh(symbol, period, shift+1);
+   double high3 = iHigh(symbol, period, shift+2);
+   double low1 = iLow(symbol, period, shift);
+   double low2 = iLow(symbol, period, shift+1);
+   double low3 = iLow(symbol, period, shift+2);
+   
+   if (high1 < high2 && high2 > high3) {
+      return (-1);
+   } else if (low1 > low2 && low2 < low3) {
+      return (1);
+   }
+
+   return (0);
+}
+
+int macd_divergence(string symbol, int period)
+{
+   double MacdCurrent = iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
+   infobox = infobox + "  MacdCurrent: " + MacdCurrent + "\n";
+      double Macd, Macd2;
+      int macdchange = macdR(symbol, period);
+      if (MacdCurrent > 0) { //sell position
+         // checking high and Low
+         int highest = iHighest(symbol,period,MODE_HIGH,50,1);
+         double high = iHigh(symbol, period, highest);
+         infobox = infobox + "Highest: " + highest + ", High: " + high;
+         int highest2 = iHighest(symbol,period,MODE_HIGH,50,highest+5);
+         double high2 = iHigh(symbol, period, highest2);
+         infobox = infobox + ", highest2: " + highest2 + ", High2: " + high2;
+         //macd calculation
+         Macd = iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,highest);
+         Macd2 = iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,highest2);
+
+         infobox = infobox + ", Macd: " + Macd + ", Macd2: " + Macd2;
+         infobox = infobox + "\n";
+         if (Macd > 0 && Macd < Macd2 && macdchange == -1) {
+            infobox = infobox + "Possible Sell Condition";
+            return (-1);
+         } 
+      } else if (MacdCurrent < 0) { //buy position
+         // checking high and Low
+         int lowest = iLowest(symbol,period,MODE_LOW,50,1);
+         double low = iLow(symbol, period, lowest);
+         infobox = infobox + ", Lowest: " + lowest + ", low: " + low;
+         int lowest2 = iLowest(symbol,period,MODE_LOW,50,lowest+5);
+         double low2 = iLow(symbol, period, lowest2);
+         infobox = infobox + ", Lowest2: " + lowest2 + ", low2: " + low2;
+
+   
+         //macd calculation
+         Macd = iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,lowest);
+         Macd2 = iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,lowest2);
+         infobox = infobox + ", Macd: " + Macd + ", Macd2: " + Macd2;
+         infobox = infobox + "\n";
+         if (Macd < 0 && Macd > Macd2 && macdchange == 1) {
+            infobox = infobox + "Possible Buy Condition";
+            return (1);
+         } 
+      }
+      return (0);
+}
+
+
+
+
+
+
+int get_per_unit_cost()
+{
+   for(int cnt=0;cnt<OrdersTotal();cnt++) {
+      OrderSelect(cnt, SELECT_BY_POS, MODE_TRADES);
+      infobox = infobox + "\nSymbol: " + OrderSymbol() + ", Loss/Profit: " + OrderProfit()
+      + ", Lots: " + OrderLots() * 100 + ", Per unit loss/profit: " + OrderProfit() /(OrderLots() * 100)
+      ;
+   }
+
+}
+
+double ppf_r3;
+double ppf_r2;
+double ppf_r1;
+double ppf_p;
+double ppf_s1;
+double ppf_s2;
+double ppf_s3;
+double ppf_high;
+double ppf_low;
+double ppf_close;
+int pivot_point_fib(double high, double low, double close)
+{
+   ppf_p = (high + low + close) / 3;
+   ppf_r3 = ppf_p + (1.000 * (high - low));
+   ppf_r2 = ppf_p + (0.618 * (high - low));
+   ppf_r1 = ppf_p + (0.382 * (high - low));
+   ppf_s1 = ppf_p - (0.382 * (high - low));
+   ppf_s2 = ppf_p - (0.618 * (high - low));
+   ppf_s3 = ppf_p - (1.000 * (high - low));
+   return (0);
+}
+int get_ppf(string symbol, int mode, int period)
+{
+   int highest = iHighest(symbol,period,MODE_HIGH,200,1);
+   double high = iHigh(symbol, period, highest);
+   ppf_high = high;
+   int lowest = iLowest(symbol,period,MODE_LOW,200,1);
+   double low = iLow(symbol, period, lowest);
+   ppf_low = low;
+   double close = iClose(symbol, period, 1);
+   ppf_close = close;
+   pivot_point_fib(high, low, close);
+}
+
+int checkforclose(int period)
+{
+   for(int cnt=0;cnt<OrdersTotal();cnt++) {
+      OrderSelect(cnt, SELECT_BY_POS, MODE_TRADES);
+      
+      if (OrderProfit() > 0) { 
+         
+         int macd2 = macdRCurrent(OrderSymbol(), period);
+         int heiken2 = heikenCurrent(OrderSymbol(), period);
+         infobox = infobox + "\nSymbol: " + OrderSymbol() + ", Profit: " + OrderProfit()
+         + ", macd2: " + macd2 + ", heiken2: " + heiken2;
+         if (heiken2 == 1 && macd2 == 1) {
+            // close all sell Order
+            if(OrderType()==OP_SELL) {
+               Alert("Close Sell order for " + OrderSymbol());
+               OrderClose(OrderTicket(),OrderLots(),MarketInfo(OrderSymbol(), MODE_ASK),3,White);
+            }
+         } else if (heiken2 == -1 && macd2 == -1) {
+            // close all buy Order
+            if(OrderType()==OP_BUY) {
+               Alert("Close Buy order for " + OrderSymbol());
+               OrderClose(OrderTicket(),OrderLots(),MarketInfo(OrderSymbol(), MODE_BID),3,White);
+            }
+         }
+      } 
+   }
+
+}
+
+int create_label(string name, int window, 
+datetime time1, double price1, int corner, int x, int y, string text, color colors)
+{
+   if (ObjectCreate(name, OBJ_LABEL, window, time1, price1)) {
+      if (corner > 0)
+         ObjectSet(name, OBJPROP_CORNER, corner);
+      if (x >= 0)
+         ObjectSet(name, OBJPROP_XDISTANCE, x);
+      if (y >= 0)
+         ObjectSet(name, OBJPROP_YDISTANCE, y);
+      ObjectSetText(name, text, 10, "Verdana", colors);
+   }
+}
+
+
+void create_arrow(string name, int x, int y, int trend)
+{
+   if (ObjectCreate(name, OBJ_LABEL, 0, 0, 0)) {
+      ObjectSet(name, OBJPROP_CORNER, 1);
+      ObjectSet(name, OBJPROP_XDISTANCE, x);
+      ObjectSet(name, OBJPROP_YDISTANCE, y);
+      string text = "";
+      color color_code;
+      if (trend == 1) {
+         text = CharToStr(233);
+         color_code = Blue;
+      } else if (trend == -1) {
+         text = CharToStr(234);
+         color_code = Red;
+      } else {
+         text = CharToStr(232);
+         color_code = Gold;
+      }
+      
+      ObjectSetText(name, text, 10, "Wingdings", color_code);
    }
 }

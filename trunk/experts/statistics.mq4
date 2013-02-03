@@ -38,6 +38,7 @@ int start()
    infobox = "\n";
    string symbol;
    double val2, val3, val4, val5; int x;
+   int macd;
    double history;
    double openPositionTotal;
    double lotnew = NormalizeDouble(AccountBalance() / 10000, 2);
@@ -49,6 +50,14 @@ int start()
       val4 = iCustom(symbol, PERIOD_H4, "Heiken_Ashi_Smoothed",2,2);
       val5 = iCustom(symbol, PERIOD_H4, "Heiken_Ashi_Smoothed",3,2);
          infobox = infobox + "\nSymbol: " + symbol;
+      
+      macd = macdR(symbol, PERIOD_H1);
+      if (macd == 1) {
+         infobox = infobox + " MACD BUY";
+      } else if (macd == -1) {
+         infobox = infobox + " MACD SELL";
+      }
+      /*
       if (
       val2 < val3 && val4 > val5
       ) {
@@ -132,7 +141,7 @@ int start()
       } else if (
       val2 > val3) {
          infobox = infobox + ", M1:0";
-      } 
+      } */
          infobox = infobox + ", Spread: " + DoubleToStr(MarketInfo(symbol, MODE_SPREAD), 0);
    }
    getallinfo();
