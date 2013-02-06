@@ -143,12 +143,15 @@ int start()
    name = "entry";
    int macdchange = macdR(Symbol(), Period());
    double MacdCur =iMACD(Symbol(), Period(),12,26,9,PRICE_CLOSE,MODE_MAIN,1);
-   if (MacdCur > 0 && macdchange == 1)
+   if (MacdCur > 0 && macdchange == 1) {
+      Alert(Symbol(), " buy signal");
       create_label(name, 0, 0, 0, 1, 60, 230, "Buy", Blue);
-   else if (MacdCur < 0 && macdchange == -1)
+   } else if (MacdCur < 0 && macdchange == -1) {
+      Alert(Symbol(), " sell signal");
       create_label(name, 0, 0, 0, 1, 60, 230, "Sell", Red);
-   else 
+   } else {
       create_label(name, 0, 0, 0, 1, 60, 230, "Wait", Yellow);
+   }
       
       
    name = "exitlbl";

@@ -1427,13 +1427,45 @@ int heikenCurrent(string symbol, int period)
    return (0);
 }
 
+int heikenshift(string symbol, int period, int shift)
+{
+   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,shift);
+   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,shift);
+   double val6 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,shift+1);
+   double val7 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,shift+1);
+         
+   if (val2 < val3 && val6 > val7) {
+      TimeFrame = TimeframeToString(period);
+      return (1);
+   } else if (val2 > val3 && val6 < val7) {
+      TimeFrame = TimeframeToString(period);
+      return (-1);
+   }
+
+   return (0);
+}
+
+int heikenCurrentshift(string symbol, int period, int shift)
+{
+   double val2 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",2,shift);
+   double val3 = iCustom(symbol, period, "Heiken_Ashi_Smoothed",3,shift);
+         
+   if (val2 < val3) {
+      return (1);
+   } else if (val2 > val3) {
+      return (-1);
+   }
+
+   return (0);
+}
+
 
 int macd(string symbol, int period)
 {
-   double val2 = iCustom(symbol, period, "MACD_Complete",1,0);
-   double val3 = iCustom(symbol, period, "MACD_Complete",2,0);
-   double val6 = iCustom(symbol, period, "MACD_Complete",1,1);
-   double val7 = iCustom(symbol, period, "MACD_Complete",2,1);
+   double val2 = iCustom(symbol, period, "MACD_Complete",1,1);
+   double val3 = iCustom(symbol, period, "MACD_Complete",2,1);
+   double val6 = iCustom(symbol, period, "MACD_Complete",1,2);
+   double val7 = iCustom(symbol, period, "MACD_Complete",2,2);
          
    if (val2 > val3 && val6 < val7) {
       TimeFrame = TimeframeToString(period);
@@ -1448,8 +1480,8 @@ int macd(string symbol, int period)
 
 int macdCurrent(string symbol, int period)
 {
-   double val2 = iCustom(symbol, period, "MACD_Complete",1,0);
-   double val3 = iCustom(symbol, period, "MACD_Complete",2,0);
+   double val2 = iCustom(symbol, period, "MACD_Complete",1,1);
+   double val3 = iCustom(symbol, period, "MACD_Complete",2,1);
          
    if (val2 > val3) {
       return (1);
@@ -1495,7 +1527,56 @@ int macdRCurrent(string symbol, int period)
    return (0);
 }
 
+int macdRshift(string symbol, int period, int shift)
+{
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,shift);
+      double MacdPrevious=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,shift+1);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,shift);
+      double SignalPrevious=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,shift+1);
+         
+   if (MacdCurrent > SignalCurrent && MacdPrevious < SignalPrevious) {
+      TimeFrame = TimeframeToString(period);
+      return (1);
+   } else if (MacdCurrent < SignalCurrent && MacdPrevious > SignalPrevious) {
+      TimeFrame = TimeframeToString(period);
+      return (-1);
+   }
 
+   return (0);
+}
+
+int macdRCurrentshift(string symbol, int period, int shift)
+{
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,shift);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,shift);
+         
+   if (MacdCurrent > SignalCurrent) {
+      TimeFrame = TimeframeToString(period);
+      return (1);
+   } else if (MacdCurrent < SignalCurrent) {
+      TimeFrame = TimeframeToString(period);
+      return (-1);
+   }
+
+   return (0);
+}
+
+
+int macdRCurrentZero(string symbol, int period)
+{
+      double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,0);
+      double SignalCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_SIGNAL,0);
+         
+   if (MacdCurrent > SignalCurrent) {
+      TimeFrame = TimeframeToString(period);
+      return (1);
+   } else if (MacdCurrent < SignalCurrent) {
+      TimeFrame = TimeframeToString(period);
+      return (-1);
+   }
+
+   return (0);
+}
 double macdDiffernce(string symbol, int period)
 {
       double MacdCurrent=iMACD(symbol,period,12,26,9,PRICE_CLOSE,MODE_MAIN,1);
@@ -1558,9 +1639,9 @@ int tenkanCurrent(string symbol, int period)
    double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
    double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
          
-   if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_1 < iClose(symbol, period, 1)) {
+   if (tenkan_sen_1 > kijun_sen_1) {
       return (1);
-   } else if (tenkan_sen_1 < kijun_sen_1 && tenkan_sen_1 > iClose(symbol, period, 1)) {
+   } else if (tenkan_sen_1 < kijun_sen_1) {
       return (-1);
    }
 
@@ -1811,4 +1892,26 @@ void create_arrow(string name, int x, int y, int trend)
       
       ObjectSetText(name, text, 10, "Wingdings", color_code);
    }
+}
+
+int getShift(string symbol, int period, datetime sometime)
+{
+  //datetime some_time=D'2004.03.21 12:00';
+  int      shift=iBarShift(symbol, period, sometime);
+  //infobox = infobox + StringConcatenate("\nshift of bar with open time ",TimeToStr(sometime)," is ",shift);
+  return (shift);
+}
+
+int getPoints(string symbol, int type, double price1, double price2)
+{
+   double pts = MarketInfo(symbol, MODE_POINT);
+   double diffprice;
+   if (type == 1) {
+      diffprice = price2 - price1;
+   } else if (type == -1) {
+      diffprice = price1 - price2;
+   }
+
+   int result = diffprice / pts;
+   return (result);
 }
