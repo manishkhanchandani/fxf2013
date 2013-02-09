@@ -1,0 +1,53 @@
+13:59:45 9Squared MM EURUSD,Daily: loaded successfully
+13:59:45 3_Level_ZZ_Semafor EURUSD,Daily: loaded successfully
+13:59:45 Heiken_Ashi_Smoothed EURUSD,Daily: loaded successfully
+13:59:45 ZigZag EURUSD,Daily: loaded successfully
+13:59:45 9Squared MM EURUSD,Daily: initialized
+13:59:45 3_Level_ZZ_Semafor EURUSD,Daily: initialized
+13:59:45 Heiken_Ashi_Smoothed EURUSD,Daily: initialized
+13:59:45 ZigZag EURUSD,Daily: initialized
+13:59:46 9Squared MM AUDUSD,M15: loaded successfully
+13:59:46 3_Level_ZZ_Semafor AUDUSD,M15: loaded successfully
+13:59:46 Heiken_Ashi_Smoothed AUDUSD,M15: loaded successfully
+13:59:46 ZigZag AUDUSD,M15: loaded successfully
+13:59:46 Auto Fibonacci Retracement AUDUSD,M15: loaded successfully
+13:59:46 9Squared MM AUDUSD,M15: initialized
+13:59:46 3_Level_ZZ_Semafor AUDUSD,M15: initialized
+13:59:46 Heiken_Ashi_Smoothed AUDUSD,M15: initialized
+13:59:46 ZigZag AUDUSD,M15: initialized
+13:59:46 Auto Fibonacci Retracement AUDUSD,M15: initialized
+13:59:47 3_Level_ZZ_Semafor NZDUSD,M1: loaded successfully
+13:59:47 3_Level_ZZ_Semafor NZDUSD,M1: initialized
+13:59:47 3_signal EURUSD,M15: loaded successfully
+13:59:47 3_signal EURUSD,M15 inputs: InitialTrailingStop=150; TrailingStop=150; trailingstop=150; mintrailingstop=500; mintrailingstopavgcosting=500; gmtoffset=3; gotrendonlyimpcur=true; createneworders=true; magic=1234; max_orders=1; lots=0.05; UseAlerts=true; UseEmailAlerts=true; filesave=false; current_symbol=false; create_avg_orders=true; magic1=1231; magic2=1232; magic3=1233; magic4=1234; 
+13:59:54 3_signal EURUSD,M15: initialized
+14:00:13 Heiken_Ashi_Smoothed USDCHF,M1: loaded successfully
+14:00:17 Heiken_Ashi_Smoothed USDCHF,M1: initialized
+14:00:17 Heiken_Ashi_Smoothed USDCHF,M5: loaded successfully
+14:00:17 Heiken_Ashi_Smoothed USDCHF,M5: initialized
+14:00:17 Heiken_Ashi_Smoothed USDCHF,M15: loaded successfully
+14:00:17 Heiken_Ashi_Smoothed USDCHF,M15: initialized
+14:00:18 Heiken_Ashi_Smoothed EURUSD,M1: loaded successfully
+14:00:22 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+14:00:23 Heiken_Ashi_Smoothed EURUSD,M5: loaded successfully
+14:00:24 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+14:00:24 Heiken_Ashi_Smoothed EURUSD,M15: loaded successfully
+14:00:24 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+14:00:24 Heiken_Ashi_Smoothed AUDUSD,M1: loaded successfully
+14:00:25 Heiken_Ashi_Smoothed AUDUSD,M1: initialized
+14:00:25 Heiken_Ashi_Smoothed AUDUSD,M5: loaded successfully
+14:00:28 Heiken_Ashi_Smoothed AUDUSD,M5: initialized
+14:00:28 Heiken_Ashi_Smoothed AUDUSD,M15: loaded successfully
+14:00:28 Heiken_Ashi_Smoothed AUDUSD,M15: initialized
+14:00:28 Heiken_Ashi_Smoothed EURJPY,M1: loaded successfully
+14:00:35 Heiken_Ashi_Smoothed EURJPY,M1: initialized
+14:00:35 Heiken_Ashi_Smoothed EURJPY,M5: loaded successfully
+14:00:41 Heiken_Ashi_Smoothed EURJPY,M5: initialized
+14:00:41 Heiken_Ashi_Smoothed EURJPY,M15: loaded successfully
+14:00:43 Heiken_Ashi_Smoothed EURJPY,M15: initialized
+14:00:43 Heiken_Ashi_Smoothed NZDUSD,M1: loaded successfully
+14:00:43 Heiken_Ashi_Smoothed NZDUSD,M1: initialized
+14:00:45 Heiken_Ashi_Smoothed NZDUSD,M5: loaded successfully
+14:00:48 Heiken_Ashi_Smoothed NZDUSD,M5: initialized
+14:00:48 Heiken_Ashi_Smoothed NZDUSD,M15: loaded successfully
+14:00:52 Heiken_Ashi_Smoothed NZDUSD,M15: initialized

@@ -1,0 +1,197 @@
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;44:18;'<script type="text/javascript" src="http://netdna2.forex-tsd.com/clientscript/yui/connection/connection-min.js?v=4111"><\/script>' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;45:17;'clientscript/yui' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;51:17;'http://yui.yahooapis.com/2.9.0/build' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;52:22;'http://yui.yahooapis.com/combo' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;56:19;'<script type="text/javascript" src="http://yui.yahooapis.com/2.9.0/build/connection/connection-min.js"><\/script>' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;102:15;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;102:36;'http://partner.googleadservices.com/gampad/google_service.js' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;104:14;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;108:14;'text/javascript' - more than 1 symbol
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;128:48;'document.documentElement.clientHeight' - too long variable name
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;129:23;'document.documentElement.clientWidth' - too long variable name
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;146:30;'document.documentElement.scrollTop' - too long variable name
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;225:14;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;238:26;'floatbox' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;247:27;'http://www.forex-tsd.com' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;249:10;'ncode_imageresizer_warning_small' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;249:47;'Click this bar to view the full image.' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;250:10;'ncode_imageresizer_warning_filesize' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;250:50;'This image has been resized. Click this bar to view the full image. The original image is sized %1$sx%2$s and weights %3$sKB.' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;251:10;'ncode_imageresizer_warning_no_filesize' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;251:53;'This image has been resized. Click this bar to view the full image. The original image is sized %1$sx%2$s.' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;252:10;'ncode_imageresizer_warning_fullsize' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;252:50;'Click this bar to view the small image.' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;270:18;'both' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:33;'UA-96718-1' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:80;'_setAccount' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:94;'UA-96718-1' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:109;'_setVar' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:119;'usergroup-1-Unregistered / Not Logged In' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:164;'_trackPageview' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:229;'script' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:249;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:294;'https:' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:334;'https://ssl' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:349;'http://www' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:364;'.google-analytics.com/ga.js' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;285:432;'script' - more than 1 symbol
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;297:1;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;298:23;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;300:11;'0px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;301:10;'0px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;311:1;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;312:23;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;313:14;'15px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;315:16;'16px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;317:11;'0px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;318:10;'0px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;324:1;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;325:11;'' - empty token
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;347:21;'modal_splash' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;352:55;'CA' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;365:18;'modal_splash' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;375:49;'display: none;' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;376:30;'display: none;' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;384:14;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;415:30;'CSS1Compat' - more than 1 symbol
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;417:9;'document.documentElement.offsetWidth' - too long variable name
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;419:16;'document.documentElement.offsetHeight' - too long variable name
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;425:64;'block' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;426:60;'block' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;433:59;'none' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;434:63;'none' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;435:63;'none' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;444:15;'modal_splash' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;510:28;'navbar_password_hint' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;511:28;'navbar_password' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;525:26;'User Name' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;529:26;'#303030' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;540:20;'User Name' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;541:26;'#DCDCDC' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;550:29;'navbar_password_hint' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;551:29;'navbar_password' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;552:24;'navbar_password' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;562:30;'navbar_password_hint' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;563:30;'navbar_password' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;580:14;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;623:17;'search' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;623:42;'en' - more than 1 symbol
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;625:34;'google.search.CustomSearchControl' - too long variable name
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;625:68;'000037347398856321800:y1pc3l0rgxw' - more than 1 symbol
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;626:4;'customSearchControl.setResultSetSize' - too long variable name
+2;70;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;626:41;'google.search.Search.FILTERED_CSE_RESULTSET' - too long variable name
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;630:29;'cse-search-form' - more than 1 symbol
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;636:18;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;639:18;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;640:22;'' - empty token
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;661:15;'.newSearch input[type="text"]' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;662:24;'.newSearch' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;662:46;'searchFocused' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;663:31;'Enter Symbols or Keywords' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;665:30;'placeholder' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;668:12;'.newSearch input[type="text"]' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;669:24;'.newSearch' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;669:49;'searchFocused' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;670:32;'Enter Symbols or Keywords' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;671:22;'Enter Symbols or Keywords' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;672:27;'placeholder' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;675:12;'#searchSubmit' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;676:28;'form' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;676:40;'input[type="text"]' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;676:96;'form' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;676:108;'input[type="text"]' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;676:138;'Enter Symbols or Keywords' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;678:30;'form' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;680:12;'.newSearch input[type="text"]' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;682:56;'Enter Symbols or Keywords' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;684:30;'form' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;687:10;'#headerSearchWrap .newSearchSubmit' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;688:25;'#headerSearchWrap' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;688:50;'.advSearchExWrap' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;690:12;'#headerSearchWrap' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;691:22;'.advSearchExWrap' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;719:15;'.drop_menu' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;720:26;'hovered' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;720:41;'>ul' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;722:29;'hovered' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;722:44;'>ul' - more than 1 symbol
+2;60;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;807:110;'s Posts</a></span>            ' - double quotes needed
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;807:110;'s Posts</a></span>            ' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;893:15;'#menu li' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;894:22;'.dropMenu' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;896:22;'.dropMenu' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;905:14;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;922:14;'.above_body' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;922:41;'min-height' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;922:54;'1145px' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;923:44;'.above_body' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;934:14;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;941:14;'text/javascript' - more than 1 symbol
+2;60;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1028:107;'s post, access administrative features or some other privileged system?</li>' - double quotes needed
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1028:107;'s post, access administrative features or some other privileged system?</li>' - more than 1 symbol
+2;60;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1075:55;'s Online</a></li>' - double quotes needed
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1075:55;'s Online</a></li>' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1415:43;'header' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1415:55;'navbar' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1461:32;'width: 350px;' - more than 1 symbol
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1520:169;'4.1.11' - invalid number
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1532:25;'display:none;' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1537:18;'en_US' - more than 1 symbol
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1580:1;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1580:25;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1580:62;'12px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1581:1;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1581:46;'5px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1582:1;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1582:49;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1582:61;'5px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1583:1;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1584:14;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1585:13;'1px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1585:23;'' - empty token
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1586:23;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1588:11;'160px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1589:14;'1px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1590:37;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1591:38;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1592:33;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1593:34;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1594:29;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1595:30;'10px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1596:26;'10px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1596:31;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1597:29;'10px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1597:34;'' - empty token
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1598:17;'1px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1598:21;'1px' - invalid number
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1598:25;'10px' - invalid number
+2;58;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1598:30;'' - empty token
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1609:35;'close_footer_slider()' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1648:40;'close_footer_slider' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1652:15;'#footer_slider' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1657:10;'#footer_slider' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1661:14;'close_footer_slider' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1663:10;'#footerWrapper' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1663:62;'280px' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1667:9;'#promotion_tab' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1668:10;'#footer_slider' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1669:11;'#footerWrapper' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1669:63;'440px' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1671:10;'#discount_20' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1673:10;'#footer_slider' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1673:75;'-140px' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1674:11;'#footerWrapper' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1674:63;'280px' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1676:10;'#discount_20' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1676:72;'-432px' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1692:14;'_setAccount' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1692:28;'UA-10059987-1' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1693:14;'_trackPageview' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1696:37;'script' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1696:57;'text/javascript' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1697:15;'https:' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1697:55;'https://ssl' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1697:70;'http://www' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1697:85;'.google-analytics.com/ga.js' - more than 1 symbol
+2;114;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1698:43;'script' - more than 1 symbol
+2;112;C:\Program Files (x86)\fxcm2\experts\indicators\ewtrend.mq4;1707:15;'0c12390116aadc53c252cf7bf3f4320b' - invalid number

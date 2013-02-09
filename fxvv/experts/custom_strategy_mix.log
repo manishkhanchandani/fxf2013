@@ -1,0 +1,7 @@
+1;39;;;Function "order_send" is not referenced and will be removed from exp-file
+1;39;;;Function "CalculateCurrentOrdersLots" is not referenced and will be removed from exp-file
+1;39;;;Function "createorder_lots" is not referenced and will be removed from exp-file
+1;39;;;Function "TrendTostring" is not referenced and will be removed from exp-file
+1;39;;;Function "LotsOptimized" is not referenced and will be removed from exp-file
+1;39;;;Function "create_multi_order" is not referenced and will be removed from exp-file
+1;39;;;Function "FileAppend" is not referenced and will be removed from exp-file

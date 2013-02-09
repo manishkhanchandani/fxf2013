@@ -1,0 +1,270 @@
+01:00:04 GreatProfit EA v5 EURJPY,H1: open #9477638 sell 0.05 CADCHF at 0.96581 ok
+01:00:05 stdlib EURJPY,H1: loaded successfully
+01:00:05 GreatProfit EA v5 EURJPY,H1: CADCHF Unable to set SL/TP! Error: too many requests
+01:00:05 GreatProfit EA v5 EURJPY,H1: Bid: 0.9658 SL: 0.9688 TP: 0.9607
+01:00:06 GreatProfit EA v5 EURJPY,H1: CADCHF Unable to set SL/TP! Error: too many requests
+01:00:06 GreatProfit EA v5 EURJPY,H1: Bid: 0.9658 SL: 0.9688 TP: 0.9607
+01:00:06 GreatProfit EA v5 EURJPY,H1: CADCHF Unable to set SL/TP! Error: too many requests
+01:00:06 GreatProfit EA v5 EURJPY,H1: Bid: 0.9658 SL: 0.9688 TP: 0.9607
+01:00:07 GreatProfit EA v5 EURJPY,H1: CADCHF Unable to set SL/TP! Error: too many requests
+01:00:07 GreatProfit EA v5 EURJPY,H1: Bid: 0.9658 SL: 0.9688 TP: 0.9607
+01:00:08 GreatProfit EA v5 EURJPY,H1: CADCHF Unable to set SL/TP! Error: too many requests
+01:00:08 GreatProfit EA v5 EURJPY,H1: Bid: 0.9658 SL: 0.9688 TP: 0.9607
+01:00:14 GreatProfit EA v5 EURJPY,H1: modify #9477638 sell 0.05 CADCHF at 0.96581 sl: 0.96878 tp: 0.96075 ok
+01:00:14 GreatProfit EA v5 EURJPY,H1: Alert: CADCHF  SELL Signal @ 0.96577
+01:58:55 GreatProfit EA v5 EURJPY,H1: open #9478082 buy 0.05 EURCAD at 1.24534 ok
+01:58:55 GreatProfit EA v5 EURJPY,H1: modify #9478082 buy 0.05 EURCAD at 1.24534 sl: 1.24070 tp: 1.25032 ok
+01:58:56 GreatProfit EA v5 EURJPY,H1: Alert: EURCAD  BUY Signal @ 1.24534
+01:58:56 GreatProfit EA v5 EURJPY,H1: modify #9477638 sell 0.05 CADCHF at 0.96581 sl: 0.96811 tp: 0.96075 ok
+01:59:04 GreatProfit EA v5 EURJPY,H1: Old Quotes : EURCHF - 60 min
+01:59:04 GreatProfit EA v5 EURJPY,H1: open #9478105 sell 0.05 CADJPY at 79.251 ok
+01:59:05 GreatProfit EA v5 EURJPY,H1: modify #9478105 sell 0.05 CADJPY at 79.251 sl: 79.487 tp: 78.751 ok
+01:59:05 GreatProfit EA v5 EURJPY,H1: Alert: CADJPY  SELL Signal @ 79.251
+02:58:54 GreatProfit EA v5 EURJPY,H1: Old Quotes : NZDJPY - 60 min
+02:58:54 GreatProfit EA v5 EURJPY,H1: Old Quotes : USDJPY - 60 min
+02:58:54 GreatProfit EA v5 EURJPY,H1: Old Quotes : AUDNZD - 60 min
+02:58:54 GreatProfit EA v5 EURJPY,H1: Old Quotes : AUDJPY - 60 min
+02:58:54 GreatProfit EA v5 EURJPY,H1: Old Quotes : CADJPY - 60 min
+02:58:54 GreatProfit EA v5 EURJPY,H1: Old Quotes : GBPCAD - 60 min
+02:58:56 GreatProfit EA v5 EURJPY,H1: modify #9478082 buy 0.05 EURCAD at 1.24534 sl: 1.24146 tp: 1.25032 ok
+02:58:57 GreatProfit EA v5 EURJPY,H1: modify #9477638 sell 0.05 CADCHF at 0.96581 sl: 0.96753 tp: 0.96075 ok
+02:58:58 GreatProfit EA v5 EURJPY,H1: modify #9478105 sell 0.05 CADJPY at 79.251 sl: 79.452 tp: 78.751 ok
+03:58:54 GreatProfit EA v5 EURJPY,H1: modify #9478082 buy 0.05 EURCAD at 1.24534 sl: 1.24210 tp: 1.25032 ok
+03:58:54 GreatProfit EA v5 EURJPY,H1: modify #9477638 sell 0.05 CADCHF at 0.96581 sl: 0.96703 tp: 0.96075 ok
+03:58:55 GreatProfit EA v5 EURJPY,H1: modify #9478105 sell 0.05 CADJPY at 79.251 sl: 79.416 tp: 78.751 ok
+03:58:58 GreatProfit EA v5 EURJPY,H1: Old Quotes : NZDCHF - 60 min
+04:16:05 GreatProfit EA v5 EURJPY,H1: deinitialized
+04:16:05 GreatProfit EA v5 EURJPY,H1: uninit reason 6
+04:16:05 GreatProfit Indicator 5 CADCHF,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 CADCHF,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 CADCHF,H1: removed
+04:16:05 GreatProfit Indicator 5 NZDCHF,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 NZDCHF,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 NZDCHF,H1: removed
+04:16:05 GreatProfit Indicator 5 GBPJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 GBPJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 GBPJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 GBPNZD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 GBPNZD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 GBPNZD,H1: removed
+04:16:05 GreatProfit Indicator 5 GBPCHF,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 GBPCHF,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 GBPCHF,H1: removed
+04:16:05 GreatProfit Indicator 5 GBPCAD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 GBPCAD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 GBPCAD,H1: removed
+04:16:05 GreatProfit Indicator 5 GBPAUD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 GBPAUD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 GBPAUD,H1: removed
+04:16:05 GreatProfit Indicator 5 EURNZD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURNZD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURNZD,H1: removed
+04:16:05 GreatProfit Indicator 5 EURJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 EURCAD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURCAD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURCAD,H1: removed
+04:16:05 GreatProfit Indicator 5 EURAUD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURAUD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURAUD,H1: removed
+04:16:05 GreatProfit Indicator 5 CHFJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 CHFJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 CHFJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 CADJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 CADJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 CADJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 AUDJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 AUDJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 AUDJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 AUDCHF,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 AUDCHF,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 AUDCHF,H1: removed
+04:16:05 GreatProfit Indicator 5 AUDCAD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 AUDCAD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 AUDCAD,H1: removed
+04:16:05 GreatProfit Indicator 5 USDCAD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 USDCAD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 USDCAD,H1: removed
+04:16:05 GreatProfit Indicator 5 EURGBP,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURGBP,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURGBP,H1: removed
+04:16:05 GreatProfit Indicator 5 EURCHF,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURCHF,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURCHF,H1: removed
+04:16:05 GreatProfit Indicator 5 AUDUSD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 AUDUSD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 AUDUSD,H1: removed
+04:16:05 GreatProfit Indicator 5 AUDNZD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 AUDNZD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 AUDNZD,H1: removed
+04:16:05 GreatProfit Indicator 5 USDJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 USDJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 USDJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 NZDJPY,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 NZDJPY,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 NZDJPY,H1: removed
+04:16:05 GreatProfit Indicator 5 NZDCAD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 NZDCAD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 NZDCAD,H1: removed
+04:16:05 GreatProfit Indicator 5 EURUSD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 EURUSD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 EURUSD,H1: removed
+04:16:05 GreatProfit Indicator 5 GBPUSD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 GBPUSD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 GBPUSD,H1: removed
+04:16:05 GreatProfit Indicator 5 NZDUSD,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 NZDUSD,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 NZDUSD,H1: removed
+04:16:05 GreatProfit Indicator 5 USDCHF,H1: deinitialized
+04:16:05 GreatProfit Indicator 5 USDCHF,H1: uninit reason 1
+04:16:05 GreatProfit Indicator 5 USDCHF,H1: removed
+04:16:05 GreatProfit EA v5 EURJPY,H1: initialized
+04:16:05 GreatProfit Indicator 5 USDCHF,H1: loaded successfully
+04:16:05 GreatProfit Indicator 5 USDCHF,H1: initialized
+04:16:06 GreatProfit Indicator 5 NZDUSD,H1: loaded successfully
+04:16:06 GreatProfit Indicator 5 NZDUSD,H1: initialized
+04:16:07 GreatProfit Indicator 5 GBPUSD,H1: loaded successfully
+04:16:07 GreatProfit Indicator 5 GBPUSD,H1: initialized
+04:16:07 GreatProfit Indicator 5 EURUSD,H1: loaded successfully
+04:16:07 GreatProfit Indicator 5 EURUSD,H1: initialized
+04:16:19 GreatProfit Indicator 5 NZDCAD,H1: loaded successfully
+04:16:19 GreatProfit Indicator 5 NZDCAD,H1: initialized
+04:16:19 GreatProfit Indicator 5 NZDJPY,H1: loaded successfully
+04:16:19 GreatProfit Indicator 5 NZDJPY,H1: initialized
+04:16:19 GreatProfit Indicator 5 USDJPY,H1: loaded successfully
+04:16:19 GreatProfit Indicator 5 USDJPY,H1: initialized
+04:16:19 GreatProfit Indicator 5 AUDNZD,H1: loaded successfully
+04:16:19 GreatProfit Indicator 5 AUDNZD,H1: initialized
+04:16:20 GreatProfit Indicator 5 AUDUSD,H1: loaded successfully
+04:16:20 GreatProfit Indicator 5 AUDUSD,H1: initialized
+04:16:20 GreatProfit Indicator 5 EURCHF,H1: loaded successfully
+04:16:20 GreatProfit Indicator 5 EURCHF,H1: initialized
+04:16:20 GreatProfit Indicator 5 EURGBP,H1: loaded successfully
+04:16:20 GreatProfit Indicator 5 EURGBP,H1: initialized
+04:16:20 GreatProfit Indicator 5 USDCAD,H1: loaded successfully
+04:16:20 GreatProfit Indicator 5 USDCAD,H1: initialized
+04:16:21 GreatProfit Indicator 5 AUDCAD,H1: loaded successfully
+04:16:21 GreatProfit Indicator 5 AUDCAD,H1: initialized
+04:16:21 GreatProfit Indicator 5 AUDCHF,H1: loaded successfully
+04:16:21 GreatProfit Indicator 5 AUDCHF,H1: initialized
+04:16:21 GreatProfit Indicator 5 AUDJPY,H1: loaded successfully
+04:16:21 GreatProfit Indicator 5 AUDJPY,H1: initialized
+04:16:22 GreatProfit Indicator 5 CADJPY,H1: loaded successfully
+04:16:22 GreatProfit Indicator 5 CADJPY,H1: initialized
+04:16:22 GreatProfit Indicator 5 CHFJPY,H1: loaded successfully
+04:16:22 GreatProfit Indicator 5 CHFJPY,H1: initialized
+04:16:22 GreatProfit Indicator 5 EURAUD,H1: loaded successfully
+04:16:22 GreatProfit Indicator 5 EURAUD,H1: initialized
+04:16:22 GreatProfit Indicator 5 EURCAD,H1: loaded successfully
+04:16:22 GreatProfit Indicator 5 EURCAD,H1: initialized
+04:16:22 GreatProfit Indicator 5 EURJPY,H1: loaded successfully
+04:16:22 GreatProfit Indicator 5 EURJPY,H1: initialized
+04:16:23 GreatProfit Indicator 5 EURNZD,H1: loaded successfully
+04:16:23 GreatProfit Indicator 5 EURNZD,H1: initialized
+04:16:23 GreatProfit Indicator 5 GBPAUD,H1: loaded successfully
+04:16:23 GreatProfit Indicator 5 GBPAUD,H1: initialized
+04:16:23 GreatProfit Indicator 5 GBPCAD,H1: loaded successfully
+04:16:23 GreatProfit Indicator 5 GBPCAD,H1: initialized
+04:16:23 GreatProfit Indicator 5 GBPCHF,H1: loaded successfully
+04:16:23 GreatProfit Indicator 5 GBPCHF,H1: initialized
+04:16:23 GreatProfit Indicator 5 GBPNZD,H1: loaded successfully
+04:16:23 GreatProfit Indicator 5 GBPNZD,H1: initialized
+04:16:24 GreatProfit Indicator 5 GBPJPY,H1: loaded successfully
+04:16:24 GreatProfit Indicator 5 GBPJPY,H1: initialized
+04:16:24 GreatProfit Indicator 5 NZDCHF,H1: loaded successfully
+04:16:24 GreatProfit Indicator 5 NZDCHF,H1: initialized
+04:16:24 GreatProfit Indicator 5 CADCHF,H1: loaded successfully
+04:16:24 GreatProfit Indicator 5 CADCHF,H1: initialized
+04:45:05 GreatProfit EA v5 EURJPY,H1: deinitialized
+04:45:05 GreatProfit EA v5 EURJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 CADCHF,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 CADCHF,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 CADCHF,H1: removed
+04:45:05 GreatProfit Indicator 5 NZDCHF,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 NZDCHF,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 NZDCHF,H1: removed
+04:45:05 GreatProfit Indicator 5 GBPJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 GBPJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 GBPJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 GBPNZD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 GBPNZD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 GBPNZD,H1: removed
+04:45:05 GreatProfit Indicator 5 GBPCHF,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 GBPCHF,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 GBPCHF,H1: removed
+04:45:05 GreatProfit Indicator 5 GBPCAD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 GBPCAD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 GBPCAD,H1: removed
+04:45:05 GreatProfit Indicator 5 GBPAUD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 GBPAUD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 GBPAUD,H1: removed
+04:45:05 GreatProfit Indicator 5 EURNZD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURNZD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURNZD,H1: removed
+04:45:05 GreatProfit Indicator 5 EURJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 EURCAD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURCAD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURCAD,H1: removed
+04:45:05 GreatProfit Indicator 5 EURAUD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURAUD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURAUD,H1: removed
+04:45:05 GreatProfit Indicator 5 CHFJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 CHFJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 CHFJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 CADJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 CADJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 CADJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 AUDJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 AUDJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 AUDJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 AUDCHF,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 AUDCHF,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 AUDCHF,H1: removed
+04:45:05 GreatProfit Indicator 5 AUDCAD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 AUDCAD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 AUDCAD,H1: removed
+04:45:05 GreatProfit Indicator 5 USDCAD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 USDCAD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 USDCAD,H1: removed
+04:45:05 GreatProfit Indicator 5 EURGBP,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURGBP,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURGBP,H1: removed
+04:45:05 GreatProfit Indicator 5 EURCHF,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURCHF,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURCHF,H1: removed
+04:45:05 GreatProfit Indicator 5 AUDUSD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 AUDUSD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 AUDUSD,H1: removed
+04:45:05 GreatProfit Indicator 5 AUDNZD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 AUDNZD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 AUDNZD,H1: removed
+04:45:05 GreatProfit Indicator 5 USDJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 USDJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 USDJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 NZDJPY,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 NZDJPY,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 NZDJPY,H1: removed
+04:45:05 GreatProfit Indicator 5 NZDCAD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 NZDCAD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 NZDCAD,H1: removed
+04:45:05 GreatProfit Indicator 5 EURUSD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 EURUSD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 EURUSD,H1: removed
+04:45:05 GreatProfit Indicator 5 GBPUSD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 GBPUSD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 GBPUSD,H1: removed
+04:45:05 GreatProfit Indicator 5 NZDUSD,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 NZDUSD,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 NZDUSD,H1: removed
+04:45:05 GreatProfit Indicator 5 USDCHF,H1: deinitialized
+04:45:05 GreatProfit Indicator 5 USDCHF,H1: uninit reason 1
+04:45:05 GreatProfit Indicator 5 USDCHF,H1: removed
+04:45:05 stdlib EURJPY,H1: uninit reason 0
+04:45:05 stdlib EURJPY,H1: removed
+04:45:05 GreatProfit EA v5 EURJPY,H1: removed
+04:45:29 GreatProfit Indicator 5 EURJPY,H1: deinitialized
+04:45:29 GreatProfit Indicator 5 EURJPY,H1: uninit reason 1
+04:45:29 GreatProfit Indicator 5 EURJPY,H1: removed

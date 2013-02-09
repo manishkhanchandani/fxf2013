@@ -1,0 +1,48 @@
+20:02:29 9Squared MM EURUSD,H4: loaded successfully
+20:02:29 3_Level_ZZ_Semafor EURUSD,H4: loaded successfully
+20:02:29 Heiken_Ashi_Smoothed EURUSD,H4: loaded successfully
+20:02:29 ZigZag EURUSD,H4: loaded successfully
+20:02:29 9Squared MM EURUSD,H4: initialized
+20:02:29 3_Level_ZZ_Semafor EURUSD,H4: initialized
+20:02:29 Heiken_Ashi_Smoothed EURUSD,H4: initialized
+20:02:29 ZigZag EURUSD,H4: initialized
+20:02:29 9Squared MM AUDUSD,M15: loaded successfully
+20:02:29 3_Level_ZZ_Semafor AUDUSD,M15: loaded successfully
+20:02:29 Heiken_Ashi_Smoothed AUDUSD,M15: loaded successfully
+20:02:29 ZigZag AUDUSD,M15: loaded successfully
+20:02:29 Auto Fibonacci Retracement AUDUSD,M15: loaded successfully
+20:02:29 9Squared MM AUDUSD,M15: initialized
+20:02:29 3_Level_ZZ_Semafor AUDUSD,M15: initialized
+20:02:29 Heiken_Ashi_Smoothed AUDUSD,M15: initialized
+20:02:29 ZigZag AUDUSD,M15: initialized
+20:02:29 Auto Fibonacci Retracement AUDUSD,M15: initialized
+20:02:29 3_Level_ZZ_Semafor NZDUSD,M1: loaded successfully
+20:02:30 3_Level_ZZ_Semafor NZDUSD,M1: initialized
+20:18:33 9Squared MM EURUSD,H4: deinitialized
+20:18:33 9Squared MM EURUSD,H4: uninit reason 1
+20:18:33 3_Level_ZZ_Semafor EURUSD,H4: deinitialized
+20:18:33 3_Level_ZZ_Semafor EURUSD,H4: uninit reason 1
+20:18:33 Heiken_Ashi_Smoothed EURUSD,H4: deinitialized
+20:18:33 Heiken_Ashi_Smoothed EURUSD,H4: uninit reason 1
+20:18:33 ZigZag EURUSD,H4: uninit reason 1
+20:18:33 9Squared MM EURUSD,H4: removed
+20:18:33 3_Level_ZZ_Semafor EURUSD,H4: removed
+20:18:33 Heiken_Ashi_Smoothed EURUSD,H4: removed
+20:18:33 ZigZag EURUSD,H4: removed
+20:18:33 9Squared MM AUDUSD,M15: deinitialized
+20:18:33 9Squared MM AUDUSD,M15: uninit reason 1
+20:18:33 3_Level_ZZ_Semafor AUDUSD,M15: deinitialized
+20:18:33 3_Level_ZZ_Semafor AUDUSD,M15: uninit reason 1
+20:18:33 Heiken_Ashi_Smoothed AUDUSD,M15: deinitialized
+20:18:33 Heiken_Ashi_Smoothed AUDUSD,M15: uninit reason 1
+20:18:33 ZigZag AUDUSD,M15: uninit reason 1
+20:18:33 Auto Fibonacci Retracement AUDUSD,M15: deinitialized
+20:18:33 Auto Fibonacci Retracement AUDUSD,M15: uninit reason 1
+20:18:33 9Squared MM AUDUSD,M15: removed
+20:18:33 3_Level_ZZ_Semafor AUDUSD,M15: removed
+20:18:33 Heiken_Ashi_Smoothed AUDUSD,M15: removed
+20:18:33 ZigZag AUDUSD,M15: removed
+20:18:33 Auto Fibonacci Retracement AUDUSD,M15: removed
+20:18:33 3_Level_ZZ_Semafor NZDUSD,M1: deinitialized
+20:18:33 3_Level_ZZ_Semafor NZDUSD,M1: uninit reason 1
+20:18:33 3_Level_ZZ_Semafor NZDUSD,M1: removed

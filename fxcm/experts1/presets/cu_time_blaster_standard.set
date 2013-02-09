@@ -1,0 +1,15 @@
+Lots=0.10000000
+InitialTrailingStop=150
+TrailingStop=100
+stoploss=0
+takeprofit=500
+gmt_offset=0
+particular_symbol=
+particular_currency=
+create_order=1
+pending_margin=1000
+maxorders=2
+hedging=0
+markethours=0
+top=6.00000000
+bottom=2.90000000

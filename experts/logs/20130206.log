@@ -1,0 +1,2805 @@
+00:00:01 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+00:00:02 pack_1 GBPUSD,M1: close #64934054 buy 0.10 GBPUSD at 1.56426 at price 1.56432
+00:00:02 pack_1 GBPUSD,M1: open #64936172 sell 0.10 GBPUSD at 1.56432 ok
+00:00:04 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:01:02 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+00:01:03 pack_1 USDJPY,M1: close #64934142 buy 0.10 USDJPY at 93.739 at price 93.738
+00:01:03 pack_1 USDJPY,M1: open #64936588 sell 0.10 USDJPY at 93.738 ok
+00:01:04 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+00:02:01 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+00:02:02 pack_1 EURUSD,M1: close #64934753 buy 0.10 EURUSD at 1.35414 at price 1.35240
+00:02:03 pack_1 EURUSD,M1: open #64936802 sell 0.10 EURUSD at 1.35228 ok
+00:02:05 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+00:07:01 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+00:07:02 pack_1 GBPUSD,M1: close #64936172 sell 0.10 GBPUSD at 1.56432 at price 1.56455
+00:07:03 pack_1 GBPUSD,M1: open #64937975 buy 0.10 GBPUSD at 1.56451 ok
+00:07:04 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:10:01 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+00:10:02 pack_1 GBPUSD,M1: close #64937975 buy 0.10 GBPUSD at 1.56451 at price 1.56426
+00:10:02 pack_1 GBPUSD,M1: open #64938349 sell 0.10 GBPUSD at 1.56426 ok
+00:10:03 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:16:00 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+00:16:01 pack_1 EURUSD,M1: close #64936802 sell 0.10 EURUSD at 1.35228 at price 1.35288
+00:16:02 pack_1 EURUSD,M1: open #64939132 buy 0.10 EURUSD at 1.35288 ok
+00:16:02 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+00:16:03 pack_1 USDJPY,M1: close #64936588 sell 0.10 USDJPY at 93.738 at price 93.768
+00:16:03 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+00:16:04 pack_1 USDJPY,M1: open #64939136 buy 0.10 USDJPY at 93.769 ok
+00:16:05 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+00:22:01 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+00:22:02 pack_1 GBPUSD,M1: close #64938349 sell 0.10 GBPUSD at 1.56426 at price 1.56449
+00:22:02 pack_1 GBPUSD,M1: open #64939584 buy 0.10 GBPUSD at 1.56449 ok
+00:22:04 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:27:59 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+00:28:00 pack_1 GBPUSD,M1: close #64939584 buy 0.10 GBPUSD at 1.56449 at price 1.56347
+00:28:01 pack_1 GBPUSD,M1: open #64940004 sell 0.10 GBPUSD at 1.56347 ok
+00:28:02 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:34:59 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+00:35:00 pack_1 USDJPY,M1: close #64939136 buy 0.10 USDJPY at 93.769 at price 93.685
+00:35:00 pack_1 USDJPY,M1: open #64940732 sell 0.10 USDJPY at 93.685 ok
+00:35:01 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+00:38:00 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+00:38:01 pack_1 GBPUSD,M1: close #64940004 sell 0.10 GBPUSD at 1.56347 at price 1.56403
+00:38:01 pack_1 GBPUSD,M1: open #64940940 buy 0.10 GBPUSD at 1.56406 ok
+00:38:02 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:41:01 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+00:41:02 pack_1 EURUSD,M1: close #64939132 buy 0.10 EURUSD at 1.35288 at price 1.35343
+00:41:03 pack_1 EURUSD,M1: open #64941112 sell 0.10 EURUSD at 1.35343 ok
+00:41:04 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+00:45:58 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+00:45:59 pack_1 USDJPY,M1: close #64940732 sell 0.10 USDJPY at 93.685 at price 93.748
+00:46:00 pack_1 USDJPY,M1: open #64941353 buy 0.10 USDJPY at 93.748 ok
+00:46:01 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+00:47:02 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+00:47:03 pack_1 EURUSD,M1: close #64941112 sell 0.10 EURUSD at 1.35343 at price 1.35440
+00:47:04 pack_1 EURUSD,M1: open #64941460 buy 0.10 EURUSD at 1.35438 ok
+00:47:05 pack_1 EURUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+00:55:58 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+00:55:59 pack_1 GBPUSD,M1: close #64940940 buy 0.10 GBPUSD at 1.56406 at price 1.56401
+00:55:59 pack_1 GBPUSD,M1: open #64942034 sell 0.10 GBPUSD at 1.56401 ok
+00:56:00 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+00:57:58 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all sell order
+00:57:59 pack_1 EURJPY,H1: open #64942253 sell 0.10 EURJPY at 126.964 ok
+00:57:59 pack_1 GBPJPY,M5: close #64930730 sell 0.10 GBPJPY at 146.741 at price 146.641
+00:57:59 pack_1 GBPJPY,M5: open #64942276 buy 0.10 GBPJPY at 146.641 ok
+00:58:00 pack_1 EURJPY,H1: Alert: Bearish, s1 60 H, Broker: OANDA Corporation, AccType Demo: 1 on EURJPY @ H1
+00:58:00 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+00:58:57 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+00:58:57 pack_1 EURUSD,M1: close #64941460 buy 0.10 EURUSD at 1.35438 at price 1.35403
+00:58:58 pack_1 EURUSD,M1: open #64942417 sell 0.10 EURUSD at 1.35403 ok
+00:58:59 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+00:59:58 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+00:59:59 pack_1 USDJPY,M1: close #64941353 buy 0.10 USDJPY at 93.748 at price 93.703
+01:00:00 pack_1 USDJPY,M1: open #64942518 sell 0.10 USDJPY at 93.700 ok
+01:00:01 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+01:04:56 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+01:04:57 pack_1 USDJPY,M1: close #64942518 sell 0.10 USDJPY at 93.700 at price 93.767
+01:04:58 pack_1 USDJPY,M1: open #64942911 buy 0.10 USDJPY at 93.767 ok
+01:04:59 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+01:08:01 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+01:08:02 pack_1 GBPUSD,M1: close #64942034 sell 0.10 GBPUSD at 1.56401 at price 1.56406
+01:08:02 pack_1 GBPUSD,M1: open #64943029 buy 0.10 GBPUSD at 1.56406 ok
+01:08:04 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+01:12:30 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+01:12:31 pack_1 EURUSD,M1: close #64942417 sell 0.10 EURUSD at 1.35403 at price 1.35434
+01:12:34 pack_1 EURUSD,M1: open #64943241 buy 0.10 EURUSD at 1.35434 ok
+01:12:35 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+01:13:39 pack_1 CADJPY,M15: Alert: CADJPY, closing sell order
+01:13:40 pack_1 CADJPY,M15: close #64927844 sell 0.10 CADJPY at 94.105 at price 94.232
+01:13:40 pack_1 CADJPY,M15: open #64943384 buy 0.10 CADJPY at 94.232 ok
+01:13:41 pack_1 CADJPY,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+01:14:39 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+01:14:40 pack_1 EURUSD,M1: close #64943241 buy 0.10 EURUSD at 1.35434 at price 1.35355
+01:14:41 pack_1 EURUSD,M1: open #64943476 sell 0.10 EURUSD at 1.35353 ok
+01:14:42 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+01:23:58 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+01:23:58 pack_1 USDJPY,M1: close #64942911 buy 0.10 USDJPY at 93.767 at price 93.776
+01:23:59 pack_1 USDJPY,M1: open #64944050 sell 0.10 USDJPY at 93.776 ok
+01:24:00 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+01:26:55 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+01:26:56 pack_1 GBPUSD,M1: close #64943029 buy 0.10 GBPUSD at 1.56406 at price 1.56427
+01:26:57 pack_1 GBPUSD,M1: open #64944346 sell 0.10 GBPUSD at 1.56427 ok
+01:26:58 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+01:32:00 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+01:32:01 pack_1 GBPUSD,M1: close #64944346 sell 0.10 GBPUSD at 1.56427 at price 1.56531
+01:32:02 pack_1 GBPUSD,M1: open #64944864 buy 0.10 GBPUSD at 1.56531 ok
+01:32:03 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+01:35:57 pack_1 EURUSD,M1: Alert: EURUSD, closing all sell order
+01:35:58 pack_1 EURUSD,M1: close #64943476 sell 0.10 EURUSD at 1.35353 at price 1.35294
+01:35:59 pack_1 EURUSD,M1: open #64945170 buy 0.10 EURUSD at 1.35291 ok
+01:36:00 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+01:39:59 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+01:40:01 pack_1 USDJPY,M1: close #64944050 sell 0.10 USDJPY at 93.776 at price 93.809
+01:40:01 pack_1 USDJPY,M1: open #64945449 buy 0.10 USDJPY at 93.809 ok
+01:40:02 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+01:42:59 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+01:43:01 pack_1 USDJPY,M1: close #64945449 buy 0.10 USDJPY at 93.809 at price 93.750
+01:43:01 pack_1 USDJPY,M1: open #64945681 sell 0.10 USDJPY at 93.752 ok
+01:43:02 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+01:49:56 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+01:49:57 pack_1 GBPUSD,M1: close #64944864 buy 0.10 GBPUSD at 1.56531 at price 1.56616
+01:49:58 pack_1 GBPUSD,M1: open #64946242 sell 0.10 GBPUSD at 1.56617 ok
+01:49:59 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+01:58:59 pack_1 CADJPY,M15: Alert: CADJPY, closing buy order
+01:59:00 pack_1 CADJPY,M15: close #64943384 buy 0.10 CADJPY at 94.232 at price 94.045
+01:59:00 pack_1 CADJPY,M15: open #64946709 sell 0.10 CADJPY at 94.043 ok
+01:59:02 pack_1 CADJPY,M15: Alert: Bearish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+02:02:56 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+02:02:57 pack_1 EURUSD,M1: close #64945170 buy 0.10 EURUSD at 1.35291 at price 1.35363
+02:02:58 pack_1 EURUSD,M1: open #64946968 sell 0.10 EURUSD at 1.35363 ok
+02:02:59 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+02:08:55 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all buy order
+02:08:56 pack_1 GBPJPY,M5: close #64942276 buy 0.10 GBPJPY at 146.641 at price 146.734
+02:08:57 pack_1 GBPJPY,M5: open #64947407 sell 0.10 GBPJPY at 146.736 ok
+02:08:59 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+02:10:00 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+02:10:01 pack_1 GBPUSD,M1: close #64946242 sell 0.10 GBPUSD at 1.56617 at price 1.56632
+02:10:02 pack_1 GBPUSD,M1: open #64947484 buy 0.10 GBPUSD at 1.56632 ok
+02:10:03 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+02:14:57 pack_1 USDJPY,M1: Alert: USDJPY, closing all sell order
+02:14:58 pack_1 USDJPY,M1: close #64945681 sell 0.10 USDJPY at 93.752 at price 93.727
+02:14:59 pack_1 USDJPY,M1: open #64947696 buy 0.10 USDJPY at 93.727 ok
+02:15:00 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+02:15:56 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+02:15:57 pack_1 EURUSD,M1: close #64946968 sell 0.10 EURUSD at 1.35363 at price 1.35376
+02:15:58 pack_1 EURUSD,M1: open #64947721 buy 0.10 EURUSD at 1.35376 ok
+02:15:59 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+02:18:56 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+02:18:57 pack_1 GBPUSD,M1: close #64947484 buy 0.10 GBPUSD at 1.56632 at price 1.56583
+02:18:57 pack_1 GBPUSD,M1: open #64947849 sell 0.10 GBPUSD at 1.56583 ok
+02:18:58 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+02:21:54 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+02:21:54 pack_1 GBPUSD,M1: close #64947849 sell 0.10 GBPUSD at 1.56583 at price 1.56680
+02:21:55 pack_1 GBPUSD,M1: open #64947994 buy 0.10 GBPUSD at 1.56680 ok
+02:21:56 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+02:23:54 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+02:23:55 pack_1 EURUSD,M1: close #64947721 buy 0.10 EURUSD at 1.35376 at price 1.35284
+02:23:55 pack_1 EURUSD,M1: open #64948186 sell 0.10 EURUSD at 1.35284 ok
+02:23:56 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+02:24:56 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+02:24:57 pack_1 GBPUSD,M1: close #64947994 buy 0.10 GBPUSD at 1.56680 at price 1.56572
+02:24:58 pack_1 GBPUSD,M1: open #64948266 sell 0.10 GBPUSD at 1.56572 ok
+02:24:59 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+02:29:54 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+02:29:55 pack_1 USDJPY,M1: close #64947696 buy 0.10 USDJPY at 93.727 at price 93.658
+02:29:56 pack_1 USDJPY,M1: open #64948542 sell 0.10 USDJPY at 93.657 ok
+02:29:57 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+02:37:52 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+02:37:53 pack_1 EURUSD,M1: close #64948186 sell 0.10 EURUSD at 1.35284 at price 1.35301
+02:37:54 pack_1 EURUSD,M1: open #64949038 buy 0.10 EURUSD at 1.35299 ok
+02:37:55 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+02:38:52 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+02:38:53 pack_1 USDJPY,M1: close #64948542 sell 0.10 USDJPY at 93.657 at price 93.713
+02:38:54 pack_1 USDJPY,M1: open #64949174 buy 0.10 USDJPY at 93.713 ok
+02:38:55 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+02:42:01 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+02:42:02 pack_1 GBPUSD,M1: close #64948266 sell 0.10 GBPUSD at 1.56572 at price 1.56600
+02:42:02 pack_1 GBPUSD,M1: open #64949400 buy 0.10 GBPUSD at 1.56600 ok
+02:42:03 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+02:45:54 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+02:45:55 pack_1 USDJPY,M1: close #64949174 buy 0.10 USDJPY at 93.713 at price 93.646
+02:45:55 pack_1 USDJPY,M1: open #64949551 sell 0.10 USDJPY at 93.646 ok
+02:45:56 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+02:50:58 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+02:50:59 pack_1 USDJPY,M1: close #64949551 sell 0.10 USDJPY at 93.646 at price 93.716
+02:50:59 pack_1 USDJPY,M1: open #64949903 buy 0.10 USDJPY at 93.716 ok
+02:51:00 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+02:58:51 pack_1 GBPJPY,M5: Alert: GBPJPY, closing sell order
+02:58:52 pack_1 GBPJPY,M5: close #64947407 sell 0.10 GBPJPY at 146.736 at price 146.856
+02:58:53 pack_1 GBPJPY,M5: open #64950725 buy 0.10 GBPJPY at 146.849 ok
+02:58:55 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+02:59:55 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+02:59:56 pack_1 USDJPY,M1: close #64949903 buy 0.10 USDJPY at 93.716 at price 93.662
+02:59:57 pack_1 USDJPY,M1: open #64950834 sell 0.10 USDJPY at 93.662 ok
+02:59:58 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+03:03:54 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+03:03:55 pack_1 EURUSD,M1: close #64949038 buy 0.10 EURUSD at 1.35299 at price 1.35379
+03:03:55 pack_1 EURUSD,M1: open #64950959 sell 0.10 EURUSD at 1.35379 ok
+03:03:57 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+03:13:13 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+03:13:16 pack_1 USDJPY,M1: close #64950834 sell 0.10 USDJPY at 93.662 at price 93.668
+03:13:17 pack_1 USDJPY,M1: open #64951460 buy 0.10 USDJPY at 93.669 ok
+03:13:18 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+03:14:51 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+03:14:52 pack_1 GBPUSD,M1: close #64949400 buy 0.10 GBPUSD at 1.56600 at price 1.56716
+03:14:53 pack_1 GBPUSD,M1: open #64951516 sell 0.10 GBPUSD at 1.56716 ok
+03:14:54 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+03:25:51 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+03:25:52 pack_1 USDJPY,M1: close #64951460 buy 0.10 USDJPY at 93.669 at price 93.667
+03:25:53 pack_1 USDJPY,M1: open #64951869 sell 0.10 USDJPY at 93.668 ok
+03:25:54 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+03:26:49 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+03:26:49 pack_1 EURUSD,M1: Alert: EURUSD, closing all sell order
+03:26:50 pack_1 USDJPY,M1: close #64951869 sell 0.10 USDJPY at 93.668 at price 93.695
+03:26:50 pack_1 EURUSD,M1: close #64950959 sell 0.10 EURUSD at 1.35379 at price 1.35356
+03:26:50 pack_1 USDJPY,M1: open #64951896 buy 0.10 USDJPY at 93.695 ok
+03:26:52 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+03:26:52 pack_1 EURUSD,M1: open #64951898 buy 0.10 EURUSD at 1.35355 ok
+03:26:54 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+03:30:56 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+03:30:57 pack_1 GBPUSD,M1: close #64951516 sell 0.10 GBPUSD at 1.56716 at price 1.56750
+03:30:58 pack_1 GBPUSD,M1: open #64952061 buy 0.10 GBPUSD at 1.56750 ok
+03:30:59 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+03:32:49 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+03:32:50 pack_1 USDJPY,M1: close #64951896 buy 0.10 USDJPY at 93.695 at price 93.647
+03:32:51 pack_1 USDJPY,M1: open #64952132 sell 0.10 USDJPY at 93.647 ok
+03:32:52 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+03:34:47 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+03:34:47 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+03:34:48 pack_1 GBPUSD,M1: close #64952061 buy 0.10 GBPUSD at 1.56750 at price 1.56631
+03:34:48 pack_1 EURUSD,M1: close #64951898 buy 0.10 EURUSD at 1.35355 at price 1.35266
+03:34:48 pack_1 GBPUSD,M1: open #64952282 sell 0.10 GBPUSD at 1.56631 ok
+03:34:50 pack_1 EURUSD,M1: open #64952295 sell 0.10 EURUSD at 1.35248 ok
+03:34:50 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+03:34:52 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+03:38:47 pack_1 GBPJPY,M5: Alert: GBPJPY, closing buy order
+03:38:48 pack_1 GBPJPY,M5: close #64950725 buy 0.10 GBPJPY at 146.849 at price 146.745
+03:38:49 pack_1 GBPJPY,M5: open #64952496 sell 0.10 GBPJPY at 146.745 ok
+03:38:50 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+03:41:47 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+03:41:47 pack_1 USDJPY,M1: close #64952132 sell 0.10 USDJPY at 93.647 at price 93.681
+03:41:48 pack_1 USDJPY,M1: open #64952648 buy 0.10 USDJPY at 93.679 ok
+03:41:50 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+03:47:48 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+03:47:49 pack_1 EURUSD,M1: close #64952295 sell 0.10 EURUSD at 1.35248 at price 1.35298
+03:47:50 pack_1 EURUSD,M1: open #64952876 buy 0.10 EURUSD at 1.35297 ok
+03:47:51 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+03:59:47 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all sell order
+03:59:47 pack_1 GBPUSD,M1: close #64952282 sell 0.10 GBPUSD at 1.56631 at price 1.56630
+03:59:48 pack_1 GBPUSD,M1: open #64953377 buy 0.10 GBPUSD at 1.56630 ok
+03:59:49 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+04:08:46 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+04:08:47 pack_1 EURUSD,M1: close #64952876 buy 0.10 EURUSD at 1.35297 at price 1.35272
+04:08:47 pack_1 EURUSD,M1: open #64953805 sell 0.10 EURUSD at 1.35272 ok
+04:08:48 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+04:10:44 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+04:10:45 pack_1 EURUSD,M1: close #64953805 sell 0.10 EURUSD at 1.35272 at price 1.35374
+04:10:46 pack_1 EURUSD,M1: open #64954012 buy 0.10 EURUSD at 1.35373 ok
+04:10:47 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+04:13:44 pack_1 GBPJPY,M5: Alert: GBPJPY, closing sell order
+04:13:45 pack_1 GBPJPY,M5: close #64952496 sell 0.10 GBPJPY at 146.745 at price 146.846
+04:13:46 pack_1 GBPJPY,M5: open #64954273 buy 0.10 GBPJPY at 146.846 ok
+04:13:47 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+04:14:46 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+04:14:46 pack_1 GBPUSD,M1: close #64953377 buy 0.10 GBPUSD at 1.56630 at price 1.56580
+04:14:47 pack_1 GBPUSD,M1: open #64954352 sell 0.10 GBPUSD at 1.56580 ok
+04:14:48 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+04:15:45 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+04:15:47 pack_1 EURUSD,M1: close #64954012 buy 0.10 EURUSD at 1.35373 at price 1.35266
+04:15:47 pack_1 EURUSD,M1: open #64954393 sell 0.10 EURUSD at 1.35266 ok
+04:15:49 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+04:19:56 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+04:19:57 pack_1 USDJPY,M1: close #64952648 buy 0.10 USDJPY at 93.679 at price 93.727
+04:19:57 pack_1 USDJPY,M1: open #64954734 sell 0.10 USDJPY at 93.727 ok
+04:19:59 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+04:23:45 pack_1 GBPJPY,M5: Alert: GBPJPY, closing buy order
+04:23:46 pack_1 GBPJPY,M5: close #64954273 buy 0.10 GBPJPY at 146.846 at price 146.638
+04:23:46 pack_1 GBPJPY,M5: open #64954964 sell 0.10 GBPJPY at 146.638 ok
+04:23:48 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+04:30:45 pack_1 EURUSD,M1: Alert: EURUSD, closing all sell order
+04:30:45 pack_1 EURUSD,M1: close #64954393 sell 0.10 EURUSD at 1.35266 at price 1.35235
+04:30:46 pack_1 EURUSD,M1: open #64955800 buy 0.10 EURUSD at 1.35235 ok
+04:30:47 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+04:32:41 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all sell order
+04:32:42 pack_1 GBPUSD,M1: close #64954352 sell 0.10 GBPUSD at 1.56580 at price 1.56552
+04:32:43 pack_1 GBPUSD,M1: open #64955969 buy 0.10 GBPUSD at 1.56552 ok
+04:32:44 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+04:33:42 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+04:33:43 pack_1 EURUSD,M1: close #64955800 buy 0.10 EURUSD at 1.35235 at price 1.35167
+04:33:43 pack_1 EURUSD,M1: open #64956150 sell 0.10 EURUSD at 1.35167 ok
+04:33:45 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+04:34:41 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+04:34:43 pack_1 USDJPY,M1: close #64954734 sell 0.10 USDJPY at 93.727 at price 93.722
+04:34:43 pack_1 USDJPY,M1: open #64956233 buy 0.10 USDJPY at 93.722 ok
+04:34:44 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+04:41:41 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+04:41:43 pack_1 USDJPY,M1: close #64956233 buy 0.10 USDJPY at 93.722 at price 93.620
+04:41:44 pack_1 USDJPY,M1: open #64956934 sell 0.10 USDJPY at 93.611 ok
+04:41:45 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+04:42:43 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+04:42:44 pack_1 GBPUSD,M1: close #64955969 buy 0.10 GBPUSD at 1.56552 at price 1.56482
+04:42:45 pack_1 GBPUSD,M1: open #64957090 sell 0.10 GBPUSD at 1.56482 ok
+04:42:47 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+04:50:41 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+04:50:42 pack_1 GBPUSD,M1: close #64957090 sell 0.10 GBPUSD at 1.56482 at price 1.56573
+04:50:42 pack_1 GBPUSD,M1: open #64957781 buy 0.10 GBPUSD at 1.56573 ok
+04:50:44 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+04:54:41 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+04:54:42 pack_1 EURUSD,M1: close #64956150 sell 0.10 EURUSD at 1.35167 at price 1.35263
+04:54:42 pack_1 EURUSD,M1: open #64958424 buy 0.10 EURUSD at 1.35267 ok
+04:54:44 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:00:41 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+05:00:41 pack_1 GBPUSD,M1: close #64957781 buy 0.10 GBPUSD at 1.56573 at price 1.56550
+05:00:42 pack_1 GBPUSD,M1: open #64959332 sell 0.10 GBPUSD at 1.56551 ok
+05:00:43 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+05:01:41 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+05:01:41 pack_1 EURUSD,M1: close #64958424 buy 0.10 EURUSD at 1.35267 at price 1.35070
+05:01:42 pack_1 EURUSD,M1: open #64959547 sell 0.10 EURUSD at 1.35069 ok
+05:01:43 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:13:38 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+05:13:39 pack_1 GBPUSD,M1: close #64959332 sell 0.10 GBPUSD at 1.56551 at price 1.56607
+05:13:40 pack_1 GBPUSD,M1: open #64960900 buy 0.10 GBPUSD at 1.56607 ok
+05:13:41 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+05:14:38 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+05:14:39 pack_1 USDJPY,M1: Alert: USDJPY, closing all sell order
+05:14:39 pack_1 EURUSD,M1: close #64959547 sell 0.10 EURUSD at 1.35069 at price 1.35174
+05:14:40 pack_1 EURUSD,M1: open #64961016 buy 0.10 EURUSD at 1.35174 ok
+05:14:40 pack_1 USDJPY,M1: close #64956934 sell 0.10 USDJPY at 93.611 at price 93.577
+05:14:40 pack_1 USDJPY,M1: open #64961019 buy 0.10 USDJPY at 93.574 ok
+05:14:41 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:14:42 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+05:22:37 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+05:22:38 pack_1 EURUSD,M1: close #64961016 buy 0.10 EURUSD at 1.35174 at price 1.35136
+05:22:39 pack_1 EURUSD,M1: open #64961667 sell 0.10 EURUSD at 1.35141 ok
+05:22:40 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:24:39 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+05:24:40 pack_1 EURUSD,M1: close #64961667 sell 0.10 EURUSD at 1.35141 at price 1.35179
+05:24:41 pack_1 EURUSD,M1: open #64961776 buy 0.10 EURUSD at 1.35179 ok
+05:24:42 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:28:38 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+05:28:39 pack_1 EURUSD,M1: close #64961776 buy 0.10 EURUSD at 1.35179 at price 1.35120
+05:28:40 pack_1 EURUSD,M1: open #64962015 sell 0.10 EURUSD at 1.35121 ok
+05:28:41 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:30:39 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+05:30:40 pack_1 USDJPY,M1: close #64961019 buy 0.10 USDJPY at 93.574 at price 93.563
+05:30:41 pack_1 USDJPY,M1: open #64962143 sell 0.10 USDJPY at 93.563 ok
+05:30:42 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+05:32:38 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+05:32:39 pack_1 GBPUSD,M1: close #64960900 buy 0.10 GBPUSD at 1.56607 at price 1.56617
+05:32:40 pack_1 GBPUSD,M1: open #64962335 sell 0.10 GBPUSD at 1.56617 ok
+05:32:41 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+05:37:37 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+05:37:39 pack_1 GBPUSD,M1: close #64962335 sell 0.10 GBPUSD at 1.56617 at price 1.56681
+05:37:39 pack_1 GBPUSD,M1: open #64963147 buy 0.10 GBPUSD at 1.56681 ok
+05:37:41 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+05:41:37 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+05:41:38 pack_1 GBPUSD,M1: close #64963147 buy 0.10 GBPUSD at 1.56681 at price 1.56584
+05:41:39 pack_1 GBPUSD,M1: open #64963744 sell 0.10 GBPUSD at 1.56588 ok
+05:41:40 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+05:43:37 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+05:43:38 pack_1 EURUSD,M1: close #64962015 sell 0.10 EURUSD at 1.35121 at price 1.35137
+05:43:39 pack_1 EURUSD,M1: open #64963931 buy 0.10 EURUSD at 1.35137 ok
+05:43:41 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:48:37 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+05:48:38 pack_1 EURUSD,M1: close #64963931 buy 0.10 EURUSD at 1.35137 at price 1.35033
+05:48:38 pack_1 EURUSD,M1: open #64964515 sell 0.10 EURUSD at 1.35034 ok
+05:48:39 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:52:36 pack_1 USDJPY,M1: Alert: USDJPY, closing all sell order
+05:52:38 pack_1 USDJPY,M1: close #64962143 sell 0.10 USDJPY at 93.563 at price 93.432
+05:52:38 pack_1 USDJPY,M1: open #64964789 buy 0.10 USDJPY at 93.432 ok
+05:52:39 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+05:54:40 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+05:54:41 pack_1 GBPUSD,M1: close #64963744 sell 0.10 GBPUSD at 1.56588 at price 1.56631
+05:54:41 pack_1 GBPUSD,M1: open #64964930 buy 0.10 GBPUSD at 1.56631 ok
+05:54:42 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+05:56:37 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+05:56:38 pack_1 EURUSD,M1: close #64964515 sell 0.10 EURUSD at 1.35034 at price 1.35100
+05:56:38 pack_1 EURUSD,M1: open #64965096 buy 0.10 EURUSD at 1.35105 ok
+05:56:40 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:58:37 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+05:58:38 pack_1 EURUSD,M1: close #64965096 buy 0.10 EURUSD at 1.35105 at price 1.34997
+05:58:39 pack_1 EURUSD,M1: open #64965425 sell 0.10 EURUSD at 1.35003 ok
+05:58:40 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+05:59:36 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+05:59:37 pack_1 USDJPY,M1: close #64964789 buy 0.10 USDJPY at 93.432 at price 93.334
+05:59:38 pack_1 USDJPY,M1: open #64965656 sell 0.10 USDJPY at 93.334 ok
+05:59:40 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:02:34 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+06:02:35 pack_1 EURUSD,M1: close #64965425 sell 0.10 EURUSD at 1.35003 at price 1.35124
+06:02:35 pack_1 EURUSD,M1: open #64965941 buy 0.10 EURUSD at 1.35127 ok
+06:02:37 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+06:06:34 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+06:06:36 pack_1 USDJPY,M1: close #64965656 sell 0.10 USDJPY at 93.334 at price 93.432
+06:06:37 pack_1 USDJPY,M1: open #64966381 buy 0.10 USDJPY at 93.431 ok
+06:06:38 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:17:35 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+06:17:36 pack_1 GBPUSD,M1: close #64964930 buy 0.10 GBPUSD at 1.56631 at price 1.56635
+06:17:36 pack_1 GBPUSD,M1: open #64967117 sell 0.10 GBPUSD at 1.56635 ok
+06:17:37 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+06:19:34 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+06:19:35 pack_1 USDJPY,M1: close #64966381 buy 0.10 USDJPY at 93.431 at price 93.412
+06:19:35 pack_1 USDJPY,M1: open #64967216 sell 0.10 USDJPY at 93.412 ok
+06:19:36 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:20:33 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+06:20:33 pack_1 EURUSD,M1: close #64965941 buy 0.10 EURUSD at 1.35127 at price 1.35156
+06:20:34 pack_1 EURUSD,M1: open #64967283 sell 0.10 EURUSD at 1.35155 ok
+06:20:35 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+06:25:41 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+06:25:42 pack_1 USDJPY,M1: close #64967216 sell 0.10 USDJPY at 93.412 at price 93.444
+06:25:43 pack_1 USDJPY,M1: open #64967638 buy 0.10 USDJPY at 93.444 ok
+06:25:44 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:29:33 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+06:29:34 pack_1 USDJPY,M1: close #64967638 buy 0.10 USDJPY at 93.444 at price 93.364
+06:29:34 pack_1 USDJPY,M1: open #64967933 sell 0.10 USDJPY at 93.364 ok
+06:29:36 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:37:33 pack_1 EURUSD,M1: Alert: EURUSD, closing all sell order
+06:37:34 pack_1 EURUSD,M1: close #64967283 sell 0.10 EURUSD at 1.35155 at price 1.35140
+06:37:35 pack_1 EURUSD,M1: open #64968661 buy 0.10 EURUSD at 1.35140 ok
+06:37:36 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+06:37:36 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all sell order
+06:37:37 pack_1 GBPUSD,M1: close #64967117 sell 0.10 GBPUSD at 1.56635 at price 1.56536
+06:37:37 pack_1 GBPUSD,M1: open #64968663 buy 0.10 GBPUSD at 1.56536 ok
+06:37:38 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+06:39:35 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+06:39:36 pack_1 USDJPY,M1: close #64967933 sell 0.10 USDJPY at 93.364 at price 93.413
+06:39:37 pack_1 USDJPY,M1: open #64968821 buy 0.10 USDJPY at 93.415 ok
+06:39:38 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:46:32 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+06:46:32 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+06:46:33 pack_1 USDJPY,M1: close #64968821 buy 0.10 USDJPY at 93.415 at price 93.299
+06:46:33 pack_1 GBPUSD,M1: close #64968663 buy 0.10 GBPUSD at 1.56536 at price 1.56428
+06:46:33 pack_1 USDJPY,M1: open #64969608 sell 0.10 USDJPY at 93.286 ok
+06:46:34 pack_1 GBPUSD,M1: open #64969616 sell 0.10 GBPUSD at 1.56445 ok
+06:46:35 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:46:35 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+06:51:35 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+06:51:36 pack_1 USDJPY,M1: close #64969608 sell 0.10 USDJPY at 93.286 at price 93.389
+06:51:36 pack_1 USDJPY,M1: open #64970169 buy 0.10 USDJPY at 93.389 ok
+06:51:38 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+06:52:34 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+06:52:35 pack_1 GBPUSD,M1: close #64969616 sell 0.10 GBPUSD at 1.56445 at price 1.56522
+06:52:36 pack_1 GBPUSD,M1: open #64970219 buy 0.10 GBPUSD at 1.56522 ok
+06:52:37 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+07:02:31 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+07:02:32 pack_1 EURUSD,M1: close #64968661 buy 0.10 EURUSD at 1.35140 at price 1.35213
+07:02:33 pack_1 EURUSD,M1: open #64971115 sell 0.10 EURUSD at 1.35213 ok
+07:02:34 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+07:05:32 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+07:05:33 pack_1 USDJPY,M1: close #64970169 buy 0.10 USDJPY at 93.389 at price 93.414
+07:05:33 pack_1 USDJPY,M1: open #64971331 sell 0.10 USDJPY at 93.414 ok
+07:05:34 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+07:08:31 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all sell order
+07:08:32 pack_1 GBPJPY,M5: close #64954964 sell 0.10 GBPJPY at 146.638 at price 146.343
+07:08:32 pack_1 GBPJPY,M5: open #64971650 buy 0.10 GBPJPY at 146.349 ok
+07:08:34 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+07:09:31 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+07:09:31 pack_1 USDJPY,M1: close #64971331 sell 0.10 USDJPY at 93.414 at price 93.516
+07:09:32 pack_1 USDJPY,M1: open #64971764 buy 0.10 USDJPY at 93.519 ok
+07:09:34 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+07:20:33 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+07:20:34 pack_1 GBPUSD,M1: close #64970219 buy 0.10 GBPUSD at 1.56522 at price 1.56610
+07:20:35 pack_1 GBPUSD,M1: open #64972458 sell 0.10 GBPUSD at 1.56615 ok
+07:20:36 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+07:25:30 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+07:25:31 pack_1 EURUSD,M1: close #64971115 sell 0.10 EURUSD at 1.35213 at price 1.35286
+07:25:31 pack_1 EURUSD,M1: open #64972887 buy 0.10 EURUSD at 1.35287 ok
+07:25:33 pack_1 EURUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+07:28:29 pack_1 CADJPY,M15: Alert: CADJPY, closing all sell order
+07:28:31 pack_1 CADJPY,M15: close #64946709 sell 0.10 CADJPY at 94.043 at price 94.017
+07:28:32 pack_1 CADJPY,M15: open #64973098 buy 0.10 CADJPY at 94.017 ok
+07:28:33 pack_1 CADJPY,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+07:29:35 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+07:29:36 pack_1 EURUSD,M1: close #64972887 buy 0.10 EURUSD at 1.35287 at price 1.35233
+07:29:36 pack_1 EURUSD,M1: open #64973161 sell 0.10 EURUSD at 1.35233 ok
+07:29:38 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+07:33:30 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+07:33:31 pack_1 USDJPY,M1: close #64971764 buy 0.10 USDJPY at 93.519 at price 93.546
+07:33:32 pack_1 USDJPY,M1: open #64973457 sell 0.10 USDJPY at 93.546 ok
+07:33:33 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+07:37:29 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+07:37:30 pack_1 EURUSD,M1: close #64973161 sell 0.10 EURUSD at 1.35233 at price 1.35275
+07:37:31 pack_1 EURUSD,M1: open #64973711 buy 0.10 EURUSD at 1.35275 ok
+07:37:32 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+07:48:28 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+07:48:29 pack_1 USDJPY,M1: close #64973457 sell 0.10 USDJPY at 93.546 at price 93.637
+07:48:29 pack_1 USDJPY,M1: open #64974288 buy 0.10 USDJPY at 93.637 ok
+07:48:30 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+07:50:28 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all sell order
+07:50:29 pack_1 GBPUSD,M1: close #64972458 sell 0.10 GBPUSD at 1.56615 at price 1.56536
+07:50:30 pack_1 GBPUSD,M1: open #64974464 buy 0.10 GBPUSD at 1.56538 ok
+07:50:32 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+07:52:28 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+07:52:29 pack_1 USDJPY,M1: close #64974288 buy 0.10 USDJPY at 93.637 at price 93.585
+07:52:30 pack_1 USDJPY,M1: open #64974694 sell 0.10 USDJPY at 93.587 ok
+07:52:31 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+08:04:27 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+08:04:28 pack_1 EURUSD,M1: close #64973711 buy 0.10 EURUSD at 1.35275 at price 1.35331
+08:04:29 pack_1 EURUSD,M1: open #64975524 sell 0.10 EURUSD at 1.35331 ok
+08:04:30 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:13:24 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+08:13:25 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all buy order
+08:13:26 pack_1 GBPUSD,M1: close #64974464 buy 0.10 GBPUSD at 1.56538 at price 1.56542
+08:13:26 pack_1 GBPJPY,M5: close #64971650 buy 0.10 GBPJPY at 146.349 at price 146.435
+08:13:26 pack_1 GBPUSD,M1: open #64976053 sell 0.10 GBPUSD at 1.56542 ok
+08:13:27 pack_1 GBPJPY,M5: open #64976060 sell 0.10 GBPJPY at 146.429 ok
+08:13:28 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+08:13:29 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+08:14:26 pack_1 USDJPY,M1: Alert: USDJPY, closing all sell order
+08:14:27 pack_1 USDJPY,M1: close #64974694 sell 0.10 USDJPY at 93.587 at price 93.560
+08:14:28 pack_1 USDJPY,M1: open #64976152 buy 0.10 USDJPY at 93.560 ok
+08:14:29 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+08:17:24 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+08:17:25 pack_1 EURUSD,M1: close #64975524 sell 0.10 EURUSD at 1.35331 at price 1.35394
+08:17:26 pack_1 EURUSD,M1: open #64976284 buy 0.10 EURUSD at 1.35394 ok
+08:17:27 pack_1 EURUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:21:24 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+08:21:25 pack_1 EURUSD,M1: close #64976284 buy 0.10 EURUSD at 1.35394 at price 1.35349
+08:21:25 pack_1 EURUSD,M1: open #64976470 sell 0.10 EURUSD at 1.35349 ok
+08:21:27 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:22:25 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+08:22:25 pack_1 EURUSD,M1: close #64976470 sell 0.10 EURUSD at 1.35349 at price 1.35396
+08:22:26 pack_1 EURUSD,M1: open #64976539 buy 0.10 EURUSD at 1.35396 ok
+08:22:27 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:23:24 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+08:23:25 pack_1 USDJPY,M1: close #64976152 buy 0.10 USDJPY at 93.560 at price 93.523
+08:23:26 pack_1 USDJPY,M1: open #64976622 sell 0.10 USDJPY at 93.523 ok
+08:23:27 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+08:25:23 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+08:25:24 pack_1 EURUSD,M1: close #64976539 buy 0.10 EURUSD at 1.35396 at price 1.35341
+08:25:25 pack_1 EURUSD,M1: open #64976720 sell 0.10 EURUSD at 1.35341 ok
+08:25:26 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:28:24 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+08:28:24 pack_1 NZDJPY,M30: Alert: NZDJPY, closing all sell order
+08:28:25 pack_1 NZDJPY,M30: close #64931799 sell 0.10 NZDJPY at 79.036 at price 78.870
+08:28:25 pack_1 GBPUSD,M1: close #64976053 sell 0.10 GBPUSD at 1.56542 at price 1.56561
+08:28:26 pack_1 GBPUSD,M1: open #64976919 buy 0.10 GBPUSD at 1.56561 ok
+08:28:27 pack_1 NZDJPY,M30: open #64976921 buy 0.10 NZDJPY at 78.860 ok
+08:28:27 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+08:28:28 pack_1 NZDJPY,M30: Alert: Bullish, s1 30 H, Broker: OANDA Corporation, AccType Demo: 1 on NZDJPY @ M30
+08:32:23 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+08:32:25 pack_1 USDJPY,M1: close #64976622 sell 0.10 USDJPY at 93.523 at price 93.563
+08:32:25 pack_1 USDJPY,M1: open #64977074 buy 0.10 USDJPY at 93.569 ok
+08:32:26 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+08:41:23 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+08:41:30 pack_1 EURUSD,M1: close #64976720 sell 0.10 EURUSD at 1.35341 at price 1.35358
+08:41:30 pack_1 EURUSD,M1: open #64977494 buy 0.10 EURUSD at 1.35358 ok
+08:41:32 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:42:25 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+08:42:26 pack_1 USDJPY,M1: close #64977074 buy 0.10 USDJPY at 93.569 at price 93.505
+08:42:26 pack_1 USDJPY,M1: open #64977540 sell 0.10 USDJPY at 93.505 ok
+08:42:28 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+08:47:30 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+08:47:32 pack_1 GBPUSD,M1: close #64976919 buy 0.10 GBPUSD at 1.56561 at price 1.56534
+08:47:32 pack_1 GBPUSD,M1: open #64977730 sell 0.10 GBPUSD at 1.56534 ok
+08:47:33 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+08:48:33 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+08:48:34 pack_1 USDJPY,M1: close #64977540 sell 0.10 USDJPY at 93.505 at price 93.549
+08:48:35 pack_1 USDJPY,M1: open #64977766 buy 0.10 USDJPY at 93.554 ok
+08:48:37 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+08:50:24 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+08:50:25 pack_1 EURUSD,M1: close #64977494 buy 0.10 EURUSD at 1.35358 at price 1.35292
+08:50:26 pack_1 EURUSD,M1: open #64977829 sell 0.10 EURUSD at 1.35293 ok
+08:50:28 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+08:58:37 pack_1 AUDJPY,H4: open #64978373 sell 0.10 AUDJPY at 96.562 ok
+08:58:39 pack_1 AUDJPY,H4: Alert: Bearish, s1 240 H, Broker: OANDA Corporation, AccType Demo: 1 on AUDJPY @ H4
+09:00:27 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+09:00:27 pack_1 GBPUSD,M1: close #64977730 sell 0.10 GBPUSD at 1.56534 at price 1.56562
+09:00:28 pack_1 GBPUSD,M1: open #64978477 buy 0.10 GBPUSD at 1.56562 ok
+09:00:30 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+09:03:24 pack_1 GBPJPY,M5: Alert: GBPJPY, closing sell order
+09:03:25 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+09:03:25 pack_1 GBPJPY,M5: close #64976060 sell 0.10 GBPJPY at 146.429 at price 146.541
+09:03:26 pack_1 GBPJPY,M5: open #64978563 buy 0.10 GBPJPY at 146.541 ok
+09:03:27 pack_1 EURUSD,M1: close #64977829 sell 0.10 EURUSD at 1.35293 at price 1.35305
+09:03:27 pack_1 EURUSD,M1: open #64978565 buy 0.10 EURUSD at 1.35302 ok
+09:03:27 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+09:03:29 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+09:19:20 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+09:19:21 pack_1 USDJPY,M1: close #64977766 buy 0.10 USDJPY at 93.554 at price 93.618
+09:19:22 pack_1 USDJPY,M1: open #64979303 sell 0.10 USDJPY at 93.620 ok
+09:19:23 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+09:28:19 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+09:28:20 pack_1 EURUSD,M1: close #64978565 buy 0.10 EURUSD at 1.35302 at price 1.35314
+09:28:21 pack_1 EURUSD,M1: open #64979525 sell 0.10 EURUSD at 1.35316 ok
+09:28:22 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+09:29:22 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+09:29:23 pack_1 GBPUSD,M1: close #64978477 buy 0.10 GBPUSD at 1.56562 at price 1.56596
+09:29:23 pack_1 GBPUSD,M1: open #64979651 sell 0.10 GBPUSD at 1.56596 ok
+09:29:24 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+09:38:20 pack_1 GBPJPY,M5: Alert: GBPJPY, closing buy order
+09:38:21 pack_1 GBPJPY,M5: close #64978563 buy 0.10 GBPJPY at 146.541 at price 146.433
+09:38:21 pack_1 GBPJPY,M5: open #64980145 sell 0.10 GBPJPY at 146.433 ok
+09:38:23 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+09:48:32 pack_1 USDJPY,M1: Alert: USDJPY, closing all sell order
+09:48:33 pack_1 USDJPY,M1: close #64979303 sell 0.10 USDJPY at 93.620 at price 93.533
+09:48:34 pack_1 USDJPY,M1: open #64980401 buy 0.10 USDJPY at 93.534 ok
+09:48:35 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+09:56:17 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+09:56:19 pack_1 USDJPY,M1: close #64980401 buy 0.10 USDJPY at 93.534 at price 93.455
+09:56:20 pack_1 USDJPY,M1: open #64980740 sell 0.10 USDJPY at 93.453 ok
+09:56:21 pack_1 USDJPY,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+09:58:17 pack_1 GBPCHF,H1: Alert: GBPCHF, closing buy order
+09:58:19 pack_1 GBPCHF,H1: close #64935368 buy 0.10 GBPCHF at 1.42817 at price 1.42394
+09:58:23 pack_1 GBPCHF,H1: open #64981140 sell 0.10 GBPCHF at 1.42393 ok
+09:58:24 pack_1 GBPCHF,H1: Alert: Bearish, s1 60 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPCHF @ H1
+10:09:20 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all sell order
+10:09:21 pack_1 GBPUSD,M1: close #64979651 sell 0.10 GBPUSD at 1.56596 at price 1.56569
+10:09:22 pack_1 GBPUSD,M1: open #64981689 buy 0.10 GBPUSD at 1.56569 ok
+10:09:23 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+10:13:26 pack_1 CADJPY,M15: Alert: CADJPY, closing buy order
+10:13:27 pack_1 CADJPY,M15: close #64973098 buy 0.10 CADJPY at 94.017 at price 93.749
+10:13:28 pack_1 CADJPY,M15: open #64981812 sell 0.10 CADJPY at 93.749 ok
+10:13:29 pack_1 CADJPY,M15: Alert: Bearish, s1 15 M, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+10:14:16 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+10:14:17 pack_1 USDJPY,M1: close #64980740 sell 0.10 USDJPY at 93.453 at price 93.453
+10:14:18 pack_1 USDJPY,M1: open #64981851 buy 0.10 USDJPY at 93.453 ok
+10:14:19 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+10:16:31 pack_1 EURUSD,M1: Alert: EURUSD, closing all sell order
+10:16:32 pack_1 EURUSD,M1: close #64979525 sell 0.10 EURUSD at 1.35316 at price 1.35187
+10:16:33 pack_1 EURUSD,M1: open #64981930 buy 0.10 EURUSD at 1.35187 ok
+10:16:34 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+10:23:46 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+10:23:47 pack_1 USDJPY,M1: close #64981851 buy 0.10 USDJPY at 93.453 at price 93.345
+10:23:53 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+10:23:54 pack_1 GBPUSD,M1: close #64981689 buy 0.10 GBPUSD at 1.56569 at price 1.56534
+10:23:55 pack_1 GBPUSD,M1: open #64982290 sell 0.10 GBPUSD at 1.56535 ok
+10:23:56 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+10:24:16 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+10:24:16 pack_1 EURUSD,M1: close #64981930 buy 0.10 EURUSD at 1.35187 at price 1.35114
+10:24:17 pack_1 EURUSD,M1: open #64982330 sell 0.10 EURUSD at 1.35114 ok
+10:24:19 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+10:31:16 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+10:31:17 pack_1 GBPUSD,M1: close #64982290 sell 0.10 GBPUSD at 1.56535 at price 1.56581
+10:31:18 pack_1 GBPUSD,M1: open #64982750 buy 0.10 GBPUSD at 1.56581 ok
+10:31:19 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+10:34:15 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+10:34:16 pack_1 EURUSD,M1: close #64982330 sell 0.10 EURUSD at 1.35114 at price 1.35138
+10:34:17 pack_1 EURUSD,M1: open #64982861 buy 0.10 EURUSD at 1.35137 ok
+10:34:18 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+10:39:17 pack_1 USDJPY,M1: open #64983001 buy 0.10 USDJPY at 93.348 ok
+10:39:19 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+10:42:17 pack_1 GBPUSD,M1: Alert: GBPUSD, closing buy order
+10:42:18 pack_1 GBPUSD,M1: close #64982750 buy 0.10 GBPUSD at 1.56581 at price 1.56539
+10:42:19 pack_1 GBPUSD,M1: open #64983130 sell 0.10 GBPUSD at 1.56539 ok
+10:42:20 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+10:52:16 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+10:52:17 pack_1 EURUSD,M1: close #64982861 buy 0.10 EURUSD at 1.35137 at price 1.35142
+10:52:18 pack_1 EURUSD,M1: open #64983526 sell 0.10 EURUSD at 1.35142 ok
+10:52:20 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+10:53:15 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+10:53:16 pack_1 GBPUSD,M1: close #64983130 sell 0.10 GBPUSD at 1.56539 at price 1.56585
+10:53:16 pack_1 GBPUSD,M1: open #64983551 buy 0.10 GBPUSD at 1.56585 ok
+10:53:18 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+10:58:35 pack_1 NZDJPY,M30: Alert: NZDJPY, closing buy order
+10:58:36 pack_1 NZDJPY,M30: close #64976921 buy 0.10 NZDJPY at 78.860 at price 78.568
+10:58:37 pack_1 NZDJPY,M30: open #64983706 sell 0.10 NZDJPY at 78.568 ok
+10:58:38 pack_1 NZDJPY,M30: Alert: Bearish, s1 30 M, Broker: OANDA Corporation, AccType Demo: 1 on NZDJPY @ M30
+11:00:15 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+11:00:16 pack_1 USDJPY,M1: close #64983001 buy 0.10 USDJPY at 93.348 at price 93.335
+11:00:16 pack_1 USDJPY,M1: open #64983785 sell 0.10 USDJPY at 93.335 ok
+11:00:17 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:09:12 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+11:09:13 pack_1 EURUSD,M1: close #64983526 sell 0.10 EURUSD at 1.35142 at price 1.35155
+11:09:14 pack_1 EURUSD,M1: open #64984089 buy 0.10 EURUSD at 1.35155 ok
+11:09:15 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+11:09:27 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+11:09:27 pack_1 USDJPY,M1: close #64983785 sell 0.10 USDJPY at 93.335 at price 93.372
+11:09:28 pack_1 USDJPY,M1: open #64984093 buy 0.10 USDJPY at 93.372 ok
+11:09:29 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:18:12 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all sell order
+11:18:13 pack_1 GBPJPY,M5: close #64980145 sell 0.10 GBPJPY at 146.433 at price 146.352
+11:18:14 pack_1 GBPJPY,M5: open #64984406 buy 0.10 GBPJPY at 146.352 ok
+11:18:15 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+11:19:12 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+11:19:13 pack_1 EURUSD,M1: close #64984089 buy 0.10 EURUSD at 1.35155 at price 1.35125
+11:19:14 pack_1 EURUSD,M1: open #64984435 sell 0.10 EURUSD at 1.35130 ok
+11:19:15 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+11:22:16 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+11:22:17 pack_1 USDJPY,M1: close #64984093 buy 0.10 USDJPY at 93.372 at price 93.378
+11:22:17 pack_1 USDJPY,M1: open #64984566 sell 0.10 USDJPY at 93.378 ok
+11:22:19 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:31:12 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+11:31:13 pack_1 EURUSD,M1: close #64984435 sell 0.10 EURUSD at 1.35130 at price 1.35153
+11:31:13 pack_1 EURUSD,M1: open #64984863 buy 0.10 EURUSD at 1.35153 ok
+11:31:14 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+11:34:12 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+11:34:12 pack_1 USDJPY,M1: close #64984566 sell 0.10 USDJPY at 93.378 at price 93.435
+11:34:13 pack_1 USDJPY,M1: open #64984921 buy 0.10 USDJPY at 93.435 ok
+11:34:14 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:36:12 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+11:36:13 pack_1 USDJPY,M1: close #64984921 buy 0.10 USDJPY at 93.435 at price 93.384
+11:36:14 pack_1 USDJPY,M1: open #64984965 sell 0.10 USDJPY at 93.384 ok
+11:36:15 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:48:09 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+11:48:10 pack_1 USDJPY,M1: close #64984965 sell 0.10 USDJPY at 93.384 at price 93.432
+11:48:10 pack_1 USDJPY,M1: open #64985348 buy 0.10 USDJPY at 93.432 ok
+11:48:12 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:51:12 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+11:51:13 pack_1 USDJPY,M1: close #64985348 buy 0.10 USDJPY at 93.432 at price 93.387
+11:51:14 pack_1 USDJPY,M1: open #64985493 sell 0.10 USDJPY at 93.387 ok
+11:51:15 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:54:09 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+11:54:10 pack_1 USDJPY,M1: close #64985493 sell 0.10 USDJPY at 93.387 at price 93.417
+11:54:11 pack_1 USDJPY,M1: open #64985547 buy 0.10 USDJPY at 93.417 ok
+11:54:12 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+11:57:14 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+11:57:15 pack_1 GBPUSD,M1: close #64983551 buy 0.10 GBPUSD at 1.56585 at price 1.56650
+11:57:16 pack_1 GBPUSD,M1: open #64985609 sell 0.10 GBPUSD at 1.56650 ok
+11:57:17 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+11:58:10 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+11:58:11 pack_1 USDJPY,M1: close #64985547 buy 0.10 USDJPY at 93.417 at price 93.382
+11:58:11 pack_1 USDJPY,M1: open #64985690 sell 0.10 USDJPY at 93.382 ok
+11:58:13 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+12:03:07 pack_1 EURUSD,M1: Alert: EURUSD, closing all buy order
+12:03:08 pack_1 EURUSD,M1: close #64984863 buy 0.10 EURUSD at 1.35153 at price 1.35220
+12:03:09 pack_1 EURUSD,M1: open #64985945 sell 0.10 EURUSD at 1.35220 ok
+12:03:10 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:11:05 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+12:11:07 pack_1 USDJPY,M1: close #64985690 sell 0.10 USDJPY at 93.382 at price 93.414
+12:11:07 pack_1 USDJPY,M1: open #64986121 buy 0.10 USDJPY at 93.415 ok
+12:11:08 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+12:20:19 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+12:20:20 pack_1 EURUSD,M1: close #64985945 sell 0.10 EURUSD at 1.35220 at price 1.35256
+12:20:21 pack_1 EURUSD,M1: open #64986309 buy 0.10 EURUSD at 1.35256 ok
+12:20:22 pack_1 EURUSD,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:27:07 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+12:27:08 pack_1 EURUSD,M1: close #64986309 buy 0.10 EURUSD at 1.35256 at price 1.35219
+12:27:09 pack_1 EURUSD,M1: open #64986470 sell 0.10 EURUSD at 1.35219 ok
+12:27:10 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:28:07 pack_1 CADJPY,M15: Alert: CADJPY, closing sell order
+12:28:08 pack_1 CADJPY,M15: close #64981812 sell 0.10 CADJPY at 93.749 at price 93.927
+12:28:08 pack_1 CADJPY,M15: open #64986542 buy 0.10 CADJPY at 93.927 ok
+12:28:10 pack_1 CADJPY,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+12:29:08 pack_1 GBPUSD,M1: Alert: GBPUSD, closing sell order
+12:29:09 pack_1 GBPUSD,M1: close #64985609 sell 0.10 GBPUSD at 1.56650 at price 1.56670
+12:29:09 pack_1 GBPUSD,M1: open #64986604 buy 0.10 GBPUSD at 1.56670 ok
+12:29:11 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+12:43:03 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all buy order
+12:43:04 pack_1 GBPUSD,M1: close #64986604 buy 0.10 GBPUSD at 1.56670 at price 1.56672
+12:43:04 pack_1 GBPUSD,M1: open #64987047 sell 0.10 GBPUSD at 1.56672 ok
+12:43:05 pack_1 GBPUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+12:45:05 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+12:45:06 pack_1 EURUSD,M1: close #64986470 sell 0.10 EURUSD at 1.35219 at price 1.35239
+12:45:06 pack_1 EURUSD,M1: open #64987093 buy 0.10 EURUSD at 1.35239 ok
+12:45:07 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:46:08 pack_1 USDJPY,M1: Alert: USDJPY, closing all buy order
+12:46:09 pack_1 USDJPY,M1: close #64986121 buy 0.10 USDJPY at 93.415 at price 93.504
+12:46:09 pack_1 USDJPY,M1: open #64987104 sell 0.10 USDJPY at 93.504 ok
+12:46:10 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+12:50:04 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+12:50:05 pack_1 EURUSD,M1: close #64987093 buy 0.10 EURUSD at 1.35239 at price 1.35213
+12:50:05 pack_1 EURUSD,M1: open #64987235 sell 0.10 EURUSD at 1.35213 ok
+12:50:06 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:52:06 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+12:52:07 pack_1 EURUSD,M1: close #64987235 sell 0.10 EURUSD at 1.35213 at price 1.35236
+12:52:08 pack_1 EURUSD,M1: open #64987401 buy 0.10 EURUSD at 1.35228 ok
+12:52:09 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:53:07 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+12:53:08 pack_1 EURUSD,M1: close #64987401 buy 0.10 EURUSD at 1.35228 at price 1.35207
+12:53:08 pack_1 EURUSD,M1: open #64987432 sell 0.10 EURUSD at 1.35209 ok
+12:53:10 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:57:02 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+12:57:03 pack_1 EURUSD,M1: close #64987432 sell 0.10 EURUSD at 1.35209 at price 1.35233
+12:57:04 pack_1 EURUSD,M1: open #64987573 buy 0.10 EURUSD at 1.35233 ok
+12:57:05 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+12:58:03 pack_1 NZDJPY,M30: Alert: NZDJPY, closing sell order
+12:58:05 pack_1 NZDJPY,M30: close #64983706 sell 0.10 NZDJPY at 78.568 at price 78.850
+12:58:05 pack_1 NZDJPY,M30: open #64987691 buy 0.10 NZDJPY at 78.850 ok
+12:58:06 pack_1 NZDJPY,M30: Alert: Bullish, s1 30 H, Broker: OANDA Corporation, AccType Demo: 1 on NZDJPY @ M30
+12:59:04 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+12:59:05 pack_1 EURUSD,M1: close #64987573 buy 0.10 EURUSD at 1.35233 at price 1.35193
+12:59:06 pack_1 EURUSD,M1: open #64987891 sell 0.10 EURUSD at 1.35193 ok
+12:59:08 pack_1 EURUSD,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+13:00:03 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+13:00:04 pack_1 USDJPY,M1: close #64987104 sell 0.10 USDJPY at 93.504 at price 93.536
+13:00:05 pack_1 USDJPY,M1: open #64987962 buy 0.10 USDJPY at 93.536 ok
+13:00:06 pack_1 USDJPY,M1: Alert: Bullish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+13:16:03 pack_1 USDJPY,M1: Alert: USDJPY, closing buy order
+13:16:04 pack_1 USDJPY,M1: close #64987962 buy 0.10 USDJPY at 93.536 at price 93.537
+13:16:05 pack_1 USDJPY,M1: open #65002909 sell 0.10 USDJPY at 93.537 ok
+13:16:06 pack_1 USDJPY,M1: Alert: Bearish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+13:27:59 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all buy order
+13:28:00 pack_1 GBPJPY,M5: close #64984406 buy 0.10 GBPJPY at 146.352 at price 146.388
+13:28:01 pack_1 GBPJPY,M5: open #65020090 sell 0.10 GBPJPY at 146.390 ok
+13:28:03 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+13:32:47 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+13:32:49 pack_1 EURUSD,M1: close #64987891 sell 0.10 EURUSD at 1.35193 at price 1.35201
+13:32:49 pack_1 EURUSD,M1: open #65027215 buy 0.10 EURUSD at 1.35201 ok
+13:32:50 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+13:36:00 pack_1 GBPUSD,M1: Alert: GBPUSD, closing all sell order
+13:36:00 pack_1 GBPUSD,M1: close #64987047 sell 0.10 GBPUSD at 1.56672 at price 1.56582
+13:36:01 pack_1 GBPUSD,M1: open #65031733 buy 0.10 GBPUSD at 1.56582 ok
+13:36:02 pack_1 GBPUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M1
+13:37:59 pack_1 EURUSD,M1: Alert: EURUSD, closing buy order
+13:38:00 pack_1 EURUSD,M1: close #65027215 buy 0.10 EURUSD at 1.35201 at price 1.35165
+13:38:01 pack_1 EURUSD,M1: open #65034936 sell 0.10 EURUSD at 1.35163 ok
+13:38:02 pack_1 EURUSD,M1: Alert: Bearish, s1 1 M, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+13:40:11 pack_1 USDJPY,M1: Alert: USDJPY, closing sell order
+13:40:12 pack_1 USDJPY,M1: close #65002909 sell 0.10 USDJPY at 93.537 at price 93.540
+13:40:13 pack_1 USDJPY,M1: open #65038471 buy 0.10 USDJPY at 93.540 ok
+13:40:14 pack_1 USDJPY,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M1
+13:43:58 pack_1 EURUSD,M1: Alert: EURUSD, closing sell order
+13:43:59 pack_1 EURUSD,M1: close #65034936 sell 0.10 EURUSD at 1.35163 at price 1.35198
+13:44:00 pack_1 EURUSD,M1: open #65045720 buy 0.10 EURUSD at 1.35198 ok
+13:44:01 pack_1 EURUSD,M1: Alert: Bullish, s1 1 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M1
+13:57:57 pack_1 GBPJPY,M5: Alert: GBPJPY, closing sell order
+13:57:58 pack_1 GBPJPY,M5: close #65020090 sell 0.10 GBPJPY at 146.390 at price 146.683
+13:59:40 pack_1 EURUSD,M1: deinitialized
+13:59:40 pack_1 EURUSD,M1: uninit reason 3
+13:59:40 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+13:59:40 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 1
+13:59:40 Heiken_Ashi_Smoothed EURUSD,M1: removed
+13:59:40 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+13:59:40 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+13:59:40 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+13:59:42 pack_1 EURUSD,M15: initialized
+13:59:44 pack_1 GBPUSD,M1: deinitialized
+13:59:44 pack_1 GBPUSD,M1: uninit reason 3
+13:59:44 Heiken_Ashi_Smoothed GBPUSD,M1: deinitialized
+13:59:44 Heiken_Ashi_Smoothed GBPUSD,M1: uninit reason 1
+13:59:44 Heiken_Ashi_Smoothed GBPUSD,M1: removed
+13:59:44 Heiken_Ashi_Smoothed GBPUSD,M1: deinitialized
+13:59:44 Heiken_Ashi_Smoothed GBPUSD,M1: uninit reason 3
+13:59:44 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+13:59:45 pack_1 GBPUSD,M15: initialized
+13:59:49 Heiken_Ashi_Smoothed GBPUSD,M15: loaded successfully
+13:59:49 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+13:59:49 Heiken_Ashi_Smoothed EURUSD,M15: loaded successfully
+13:59:49 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+13:59:50 pack_1 GBPUSD,M15: Alert: GBPUSD, closing buy order
+13:59:51 pack_1 GBPUSD,M15: close #65031733 buy 0.10 GBPUSD at 1.56582 at price 1.56565
+14:00:04 pack_1 USDJPY,M1: deinitialized
+14:00:04 pack_1 USDJPY,M1: uninit reason 3
+14:00:04 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+14:00:04 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 1
+14:00:04 Heiken_Ashi_Smoothed USDJPY,M1: removed
+14:00:04 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+14:00:04 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 3
+14:00:04 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+14:00:05 pack_1 USDJPY,M15: initialized
+14:00:16 Heiken_Ashi_Smoothed USDJPY,M15: loaded successfully
+14:00:16 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+14:00:33 pack_1 GBPJPY,M5: open #65081847 buy 0.10 GBPJPY at 146.660 ok
+14:00:34 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+14:52:55 pack_1 GBPJPY,M5: Alert: GBPJPY, closing buy order
+14:52:55 pack_1 GBPJPY,M5: close #65081847 buy 0.10 GBPJPY at 146.660 at price 146.498
+14:52:56 pack_1 GBPJPY,M5: open #65087276 sell 0.10 GBPJPY at 146.498 ok
+14:52:57 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+14:57:52 pack_1 NZDJPY,M30: Alert: NZDJPY, closing buy order
+14:57:53 pack_1 NZDJPY,M30: close #64987691 buy 0.10 NZDJPY at 78.850 at price 78.454
+14:57:54 pack_1 NZDJPY,M30: open #65087443 sell 0.10 NZDJPY at 78.454 ok
+14:57:57 pack_1 NZDJPY,M30: Alert: Bearish, s1 30 M, Broker: OANDA Corporation, AccType Demo: 1 on NZDJPY @ M30
+15:27:56 pack_1 GBPUSD,M15: open #65088571 buy 0.10 GBPUSD at 1.56634 ok
+15:27:58 pack_1 GBPUSD,M15: Alert: Bullish, s1 15 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M15
+15:58:46 pack_1 CADJPY,M15: Alert: CADJPY, closing buy order
+15:58:47 pack_1 CADJPY,M15: close #64986542 buy 0.10 CADJPY at 93.927 at price 93.814
+15:58:47 pack_1 CADJPY,M15: open #65089857 sell 0.10 CADJPY at 93.814 ok
+15:58:49 pack_1 CADJPY,M15: Alert: Bearish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+15:58:49 pack_1 USDJPY,M15: Alert: USDJPY, closing buy order
+15:58:49 pack_1 USDJPY,M15: close #65038471 buy 0.10 USDJPY at 93.540 at price 93.430
+15:58:50 pack_1 USDJPY,M15: open #65089869 sell 0.10 USDJPY at 93.430 ok
+15:58:51 pack_1 USDJPY,M15: Alert: Bearish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M15
+16:13:50 pack_1 GBPUSD,M15: Alert: GBPUSD, closing buy order
+16:13:51 pack_1 GBPUSD,M15: close #65088571 buy 0.10 GBPUSD at 1.56634 at price 1.56608
+16:13:51 pack_1 GBPUSD,M15: open #65090519 sell 0.10 GBPUSD at 1.56608 ok
+16:13:52 pack_1 GBPUSD,M15: Alert: Bearish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M15
+16:43:51 pack_1 EURUSD,M15: Alert: EURUSD, closing buy order
+16:43:51 pack_1 EURUSD,M15: close #65045720 buy 0.10 EURUSD at 1.35198 at price 1.35147
+16:43:52 pack_1 EURUSD,M15: open #65092159 sell 0.10 EURUSD at 1.35147 ok
+16:43:53 pack_1 EURUSD,M15: Alert: Bearish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M15
+18:13:39 pack_1 GBPJPY,M5: Alert: GBPJPY, closing all sell order
+18:13:40 pack_1 GBPJPY,M5: close #65087276 sell 0.10 GBPJPY at 146.498 at price 146.309
+18:13:41 pack_1 GBPJPY,M5: open #65096702 buy 0.10 GBPJPY at 146.309 ok
+18:13:42 pack_1 GBPJPY,M5: Alert: Bullish, s1 5 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+19:08:35 pack_1 GBPJPY,M5: Alert: GBPJPY, closing buy order
+19:08:36 pack_1 GBPJPY,M5: close #65096702 buy 0.10 GBPJPY at 146.309 at price 146.136
+19:08:37 pack_1 GBPJPY,M5: open #65099818 sell 0.10 GBPJPY at 146.136 ok
+19:08:38 pack_1 GBPJPY,M5: Alert: Bearish, s1 5 M, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ M5
+19:10:25 pack_1 GBPJPY,M5: deinitialized
+19:10:25 pack_1 GBPJPY,M5: uninit reason 3
+19:10:25 Heiken_Ashi_Smoothed GBPJPY,M5: deinitialized
+19:10:25 Heiken_Ashi_Smoothed GBPJPY,M5: uninit reason 1
+19:10:25 Heiken_Ashi_Smoothed GBPJPY,M5: removed
+19:10:25 Heiken_Ashi_Smoothed GBPJPY,M5: deinitialized
+19:10:25 Heiken_Ashi_Smoothed GBPJPY,M5: uninit reason 3
+19:10:25 Heiken_Ashi_Smoothed GBPJPY,H1: initialized
+19:10:26 pack_1 GBPJPY,H1: initialized
+19:10:31 Heiken_Ashi_Smoothed GBPJPY,H1: loaded successfully
+19:10:31 Heiken_Ashi_Smoothed GBPJPY,H1: initialized
+20:13:31 pack_1 GBPUSD,M15: Alert: GBPUSD, closing all sell order
+20:13:32 pack_1 GBPUSD,M15: close #65090519 sell 0.10 GBPUSD at 1.56608 at price 1.56605
+20:13:33 pack_1 GBPUSD,M15: open #65102725 buy 0.10 GBPUSD at 1.56605 ok
+20:13:34 pack_1 GBPUSD,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M15
+20:25:59 Heiken_Ashi_Smoothed GBPCHF,H1: deinitialized
+20:25:59 Heiken_Ashi_Smoothed GBPCHF,H1: uninit reason 1
+20:25:59 pack_1 GBPCHF,H1: deinitialized
+20:25:59 pack_1 GBPCHF,H1: uninit reason 4
+20:25:59 Heiken_Ashi_Smoothed GBPCHF,H1: deinitialized
+20:25:59 Heiken_Ashi_Smoothed GBPCHF,H1: uninit reason 1
+20:25:59 Heiken_Ashi_Smoothed GBPCHF,H1: removed
+20:26:00 pack_1 GBPCHF,H1: removed
+20:26:00 Heiken_Ashi_Smoothed GBPCHF,H1: removed
+20:26:00 Heiken_Ashi_Smoothed CADJPY,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed CADJPY,M15: uninit reason 1
+20:26:00 pack_1 CADJPY,M15: deinitialized
+20:26:00 pack_1 CADJPY,M15: uninit reason 4
+20:26:00 Heiken_Ashi_Smoothed CADJPY,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed CADJPY,M15: uninit reason 1
+20:26:00 Heiken_Ashi_Smoothed CADJPY,M15: removed
+20:26:00 pack_1 CADJPY,M15: removed
+20:26:00 Heiken_Ashi_Smoothed CADJPY,M15: removed
+20:26:00 Heiken_Ashi_Smoothed GBPJPY,H1: deinitialized
+20:26:00 Heiken_Ashi_Smoothed GBPJPY,H1: uninit reason 1
+20:26:00 pack_1 GBPJPY,H1: deinitialized
+20:26:00 pack_1 GBPJPY,H1: uninit reason 4
+20:26:00 Heiken_Ashi_Smoothed GBPJPY,H1: deinitialized
+20:26:00 Heiken_Ashi_Smoothed GBPJPY,H1: uninit reason 1
+20:26:00 Heiken_Ashi_Smoothed GBPJPY,H1: removed
+20:26:00 pack_1 GBPJPY,H1: removed
+20:26:00 Heiken_Ashi_Smoothed GBPJPY,H1: removed
+20:26:00 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 1
+20:26:00 pack_1 USDJPY,M15: deinitialized
+20:26:00 pack_1 USDJPY,M15: uninit reason 4
+20:26:00 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 1
+20:26:00 Heiken_Ashi_Smoothed USDJPY,M15: removed
+20:26:00 pack_1 USDJPY,M15: removed
+20:26:00 Heiken_Ashi_Smoothed USDJPY,M15: removed
+20:26:00 Heiken_Ashi_Smoothed GBPUSD,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed GBPUSD,M15: uninit reason 1
+20:26:00 pack_1 GBPUSD,M15: deinitialized
+20:26:00 pack_1 GBPUSD,M15: uninit reason 4
+20:26:00 Heiken_Ashi_Smoothed GBPUSD,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed GBPUSD,M15: uninit reason 1
+20:26:00 Heiken_Ashi_Smoothed GBPUSD,M15: removed
+20:26:00 pack_1 GBPUSD,M15: removed
+20:26:00 Heiken_Ashi_Smoothed GBPUSD,M15: removed
+20:26:00 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 1
+20:26:00 pack_1 EURUSD,M15: deinitialized
+20:26:00 pack_1 EURUSD,M15: uninit reason 4
+20:26:00 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+20:26:00 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 1
+20:26:00 Heiken_Ashi_Smoothed EURUSD,M15: removed
+20:26:00 pack_1 EURUSD,M15: removed
+20:26:00 Heiken_Ashi_Smoothed EURUSD,M15: removed
+20:26:01 Heiken_Ashi_Smoothed EURAUD,H1: deinitialized
+20:26:01 Heiken_Ashi_Smoothed EURAUD,H1: uninit reason 1
+20:26:01 cu_allinone EURAUD,H1: deinitialized
+20:26:01 cu_allinone EURAUD,H1: uninit reason 1
+20:26:01 Heiken_Ashi_Smoothed EURAUD,H1: deinitialized
+20:26:01 Heiken_Ashi_Smoothed EURAUD,H1: uninit reason 1
+20:26:01 Heiken_Ashi_Smoothed EURAUD,H1: removed
+20:26:01 Heiken_Ashi_Smoothed EURAUD,H1: removed
+20:26:01 cu_allinone EURAUD,H1: removed
+20:26:01 Heiken_Ashi_Smoothed EURJPY,H1: deinitialized
+20:26:01 Heiken_Ashi_Smoothed EURJPY,H1: uninit reason 1
+20:26:01 pack_1 EURJPY,H1: deinitialized
+20:26:01 pack_1 EURJPY,H1: uninit reason 4
+20:26:01 Heiken_Ashi_Smoothed EURJPY,H1: deinitialized
+20:26:01 Heiken_Ashi_Smoothed EURJPY,H1: uninit reason 1
+20:26:01 Heiken_Ashi_Smoothed EURJPY,H1: removed
+20:26:01 pack_1 EURJPY,H1: removed
+20:26:01 Heiken_Ashi_Smoothed EURJPY,H1: removed
+20:26:01 Heiken_Ashi_Smoothed NZDJPY,M30: deinitialized
+20:26:01 Heiken_Ashi_Smoothed NZDJPY,M30: uninit reason 1
+20:26:01 pack_1 NZDJPY,M30: deinitialized
+20:26:01 pack_1 NZDJPY,M30: uninit reason 4
+20:26:01 Heiken_Ashi_Smoothed NZDJPY,M30: deinitialized
+20:26:01 Heiken_Ashi_Smoothed NZDJPY,M30: uninit reason 1
+20:26:01 Heiken_Ashi_Smoothed NZDJPY,M30: removed
+20:26:01 pack_1 NZDJPY,M30: removed
+20:26:01 Heiken_Ashi_Smoothed NZDJPY,M30: removed
+20:26:01 Heiken_Ashi_Smoothed AUDJPY,H4: deinitialized
+20:26:01 Heiken_Ashi_Smoothed AUDJPY,H4: uninit reason 1
+20:26:01 pack_1 AUDJPY,H4: deinitialized
+20:26:01 pack_1 AUDJPY,H4: uninit reason 4
+20:26:01 Heiken_Ashi_Smoothed AUDJPY,H4: deinitialized
+20:26:01 Heiken_Ashi_Smoothed AUDJPY,H4: uninit reason 1
+20:26:01 Heiken_Ashi_Smoothed AUDJPY,H4: removed
+20:26:01 pack_1 AUDJPY,H4: removed
+20:26:02 Heiken_Ashi_Smoothed AUDJPY,H4: removed
+20:26:02 Heiken_Ashi_Smoothed CHFJPY,Daily: deinitialized
+20:26:02 Heiken_Ashi_Smoothed CHFJPY,Daily: uninit reason 1
+20:26:02 pack_1 CHFJPY,Daily: deinitialized
+20:26:02 pack_1 CHFJPY,Daily: uninit reason 4
+20:26:02 Heiken_Ashi_Smoothed CHFJPY,Daily: deinitialized
+20:26:02 Heiken_Ashi_Smoothed CHFJPY,Daily: uninit reason 1
+20:26:02 Heiken_Ashi_Smoothed CHFJPY,Daily: removed
+20:26:02 pack_1 CHFJPY,Daily: removed
+20:26:02 Heiken_Ashi_Smoothed CHFJPY,Daily: removed
+20:26:02 Heiken_Ashi_Smoothed USDJPY,H1: deinitialized
+20:26:02 Heiken_Ashi_Smoothed USDJPY,H1: uninit reason 1
+20:26:02 cu_allinone USDJPY,H1: deinitialized
+20:26:02 cu_allinone USDJPY,H1: uninit reason 1
+20:26:02 Heiken_Ashi_Smoothed USDJPY,H1: deinitialized
+20:26:02 Heiken_Ashi_Smoothed USDJPY,H1: uninit reason 1
+20:26:02 Heiken_Ashi_Smoothed USDJPY,H1: removed
+20:26:02 Heiken_Ashi_Smoothed USDJPY,H1: removed
+20:26:02 cu_allinone USDJPY,H1: removed
+20:26:02 Heiken_Ashi_Smoothed EURJPY,H1: deinitialized
+20:26:02 Heiken_Ashi_Smoothed EURJPY,H1: uninit reason 1
+20:26:02 pack_1 EURJPY,H1: deinitialized
+20:26:02 pack_1 EURJPY,H1: uninit reason 4
+20:26:02 Heiken_Ashi_Smoothed EURJPY,H1: deinitialized
+20:26:02 Heiken_Ashi_Smoothed EURJPY,H1: uninit reason 1
+20:26:02 Heiken_Ashi_Smoothed EURJPY,H1: removed
+20:26:02 pack_1 EURJPY,H1: removed
+20:26:02 Heiken_Ashi_Smoothed EURJPY,H1: removed
+20:42:17 Heiken_Ashi_Smoothed USDJPY,M15: loaded successfully
+20:42:17 pack_1 USDJPY,M15: loaded successfully
+20:42:17 pack_1 USDJPY,M15 inputs: lotsize=0.1; 
+20:42:17 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+20:42:17 Heiken_Ashi_Smoothed GBPJPY,H1: loaded successfully
+20:42:17 pack_1 GBPJPY,H1: loaded successfully
+20:42:17 pack_1 GBPJPY,H1 inputs: lotsize=0.1; 
+20:42:17 Heiken_Ashi_Smoothed GBPJPY,H1: initialized
+20:42:18 Heiken_Ashi_Smoothed CADJPY,M15: loaded successfully
+20:42:18 pack_1 CADJPY,M15: loaded successfully
+20:42:18 pack_1 CADJPY,M15 inputs: lotsize=0.1; 
+20:42:18 Heiken_Ashi_Smoothed CADJPY,M15: initialized
+20:42:18 Heiken_Ashi_Smoothed EURJPY,H1: loaded successfully
+20:42:18 pack_1 EURJPY,H1: loaded successfully
+20:42:18 pack_1 EURJPY,H1 inputs: lotsize=0.1; 
+20:42:18 Heiken_Ashi_Smoothed EURJPY,H1: initialized
+20:42:18 Heiken_Ashi_Smoothed NZDJPY,M30: loaded successfully
+20:42:18 pack_1 NZDJPY,M30: loaded successfully
+20:42:18 pack_1 NZDJPY,M30 inputs: lotsize=0.1; 
+20:42:19 Heiken_Ashi_Smoothed NZDJPY,M30: initialized
+20:42:19 Heiken_Ashi_Smoothed AUDJPY,H4: loaded successfully
+20:42:19 pack_1 AUDJPY,H4: loaded successfully
+20:42:19 pack_1 AUDJPY,H4 inputs: lotsize=0.1; 
+20:42:19 Heiken_Ashi_Smoothed AUDJPY,H4: initialized
+20:42:20 Heiken_Ashi_Smoothed CHFJPY,Daily: loaded successfully
+20:42:20 pack_1 CHFJPY,Daily: loaded successfully
+20:42:20 pack_1 CHFJPY,Daily inputs: lotsize=0.1; 
+20:42:20 Heiken_Ashi_Smoothed CHFJPY,Daily: initialized
+20:42:21 Heiken_Ashi_Smoothed EURUSD,M15: loaded successfully
+20:42:21 pack_1 EURUSD,M15: loaded successfully
+20:42:21 pack_1 EURUSD,M15 inputs: lotsize=0.1; 
+20:42:21 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+20:42:21 Heiken_Ashi_Smoothed GBPUSD,M15: loaded successfully
+20:42:21 pack_1 GBPUSD,M15: loaded successfully
+20:42:21 pack_1 GBPUSD,M15 inputs: lotsize=0.1; 
+20:42:22 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+20:42:22 Heiken_Ashi_Smoothed GBPCHF,H1: loaded successfully
+20:42:22 pack_1 GBPCHF,H1: loaded successfully
+20:42:22 pack_1 GBPCHF,H1 inputs: lotsize=0.1; 
+20:42:22 Heiken_Ashi_Smoothed GBPCHF,H1: initialized
+20:42:22 Heiken_Ashi_Smoothed USDJPY,H1: loaded successfully
+20:42:22 cu_allinone USDJPY,H1: loaded successfully
+20:42:23 Heiken_Ashi_Smoothed USDJPY,H1: initialized
+20:42:23 cu_allinone USDJPY,H1: initialized
+20:42:23 Heiken_Ashi_Smoothed USDJPY,H1: loaded successfully
+20:42:23 Heiken_Ashi_Smoothed USDJPY,H1: initialized
+20:42:23 Heiken_Ashi_Smoothed EURAUD,H1: loaded successfully
+20:42:23 cu_allinone EURAUD,H1: loaded successfully
+20:42:24 Heiken_Ashi_Smoothed EURAUD,H1: initialized
+20:42:24 cu_allinone EURAUD,H1: initialized
+20:42:24 Heiken_Ashi_Smoothed EURAUD,H1: loaded successfully
+20:42:24 Heiken_Ashi_Smoothed EURAUD,H1: initialized
+20:42:25 Heiken_Ashi_Smoothed EURJPY,H1: loaded successfully
+20:42:25 pack_1 EURJPY,H1: loaded successfully
+20:42:25 pack_1 EURJPY,H1 inputs: lotsize=0.1; 
+20:42:25 Heiken_Ashi_Smoothed EURJPY,H1: initialized
+20:42:35 pack_1 EURJPY,H1: initialized
+20:42:35 pack_1 GBPCHF,H1: initialized
+20:42:35 pack_1 GBPUSD,M15: initialized
+20:42:35 pack_1 EURUSD,M15: initialized
+20:42:35 pack_1 CHFJPY,Daily: initialized
+20:42:35 pack_1 AUDJPY,H4: initialized
+20:42:35 pack_1 NZDJPY,M30: initialized
+20:42:35 pack_1 EURJPY,H1: initialized
+20:42:35 pack_1 CADJPY,M15: initialized
+20:42:35 pack_1 GBPJPY,H1: initialized
+20:42:35 pack_1 USDJPY,M15: initialized
+20:42:36 Heiken_Ashi_Smoothed AUDJPY,H4: loaded successfully
+20:42:36 Heiken_Ashi_Smoothed AUDJPY,H4: initialized
+20:42:38 Heiken_Ashi_Smoothed USDJPY,M15: loaded successfully
+20:42:38 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+20:42:38 Heiken_Ashi_Smoothed NZDJPY,M30: loaded successfully
+20:42:38 Heiken_Ashi_Smoothed NZDJPY,M30: initialized
+20:42:39 Heiken_Ashi_Smoothed EURUSD,M15: loaded successfully
+20:42:39 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+20:42:40 Heiken_Ashi_Smoothed CADJPY,M15: loaded successfully
+20:42:40 Heiken_Ashi_Smoothed CADJPY,M15: initialized
+20:42:41 Heiken_Ashi_Smoothed EURJPY,H1: loaded successfully
+20:42:41 Heiken_Ashi_Smoothed EURJPY,H1: initialized
+20:42:41 Heiken_Ashi_Smoothed EURJPY,H1: loaded successfully
+20:42:41 Heiken_Ashi_Smoothed EURJPY,H1: initialized
+20:42:41 Heiken_Ashi_Smoothed GBPJPY,H1: loaded successfully
+20:42:41 Heiken_Ashi_Smoothed GBPJPY,H1: initialized
+20:42:41 Heiken_Ashi_Smoothed CHFJPY,Daily: loaded successfully
+20:42:41 Heiken_Ashi_Smoothed CHFJPY,Daily: initialized
+20:42:41 Heiken_Ashi_Smoothed GBPUSD,M15: loaded successfully
+20:42:41 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+20:42:44 Heiken_Ashi_Smoothed GBPCHF,H1: loaded successfully
+20:42:44 Heiken_Ashi_Smoothed GBPCHF,H1: initialized
+20:58:29 pack_1 CADJPY,M15: Alert: CADJPY, closing sell order
+20:58:30 pack_1 CADJPY,M15: close #65089857 sell 0.10 CADJPY at 93.814 at price 93.823
+20:58:31 pack_1 CADJPY,M15: open #65104685 buy 0.10 CADJPY at 93.821 ok
+20:58:32 pack_1 CADJPY,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on CADJPY @ M15
+21:13:29 pack_1 EURUSD,M15: Alert: EURUSD, closing all sell order
+21:13:30 pack_1 EURUSD,M15: close #65092159 sell 0.10 EURUSD at 1.35147 at price 1.35138
+21:13:31 pack_1 EURUSD,M15: open #65105548 buy 0.10 EURUSD at 1.35138 ok
+21:13:32 pack_1 EURUSD,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on EURUSD @ M15
+21:13:34 pack_1 USDJPY,M15: Alert: USDJPY, closing sell order
+21:13:35 pack_1 USDJPY,M15: close #65089869 sell 0.10 USDJPY at 93.430 at price 93.471
+21:13:35 pack_1 USDJPY,M15: open #65105561 buy 0.10 USDJPY at 93.474 ok
+21:13:36 pack_1 USDJPY,M15: Alert: Bullish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on USDJPY @ M15
+21:58:25 pack_1 GBPCHF,H1: Alert: GBPCHF, closing sell order
+21:58:26 pack_1 GBPCHF,H1: close #64981140 sell 0.10 GBPCHF at 1.42393 at price 1.42638
+21:58:27 pack_1 GBPCHF,H1: open #65108486 buy 0.10 GBPCHF at 1.42636 ok
+21:58:28 pack_1 GBPCHF,H1: Alert: Bullish, s1 60 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPCHF @ H1
+22:28:30 pack_1 NZDJPY,M30: Alert: NZDJPY, closing all sell order
+22:28:31 pack_1 NZDJPY,M30: close #65087443 sell 0.10 NZDJPY at 78.454 at price 78.379
+22:28:31 pack_1 NZDJPY,M30: open #65110715 buy 0.10 NZDJPY at 78.379 ok
+22:28:33 pack_1 NZDJPY,M30: Alert: Bullish, s1 30 H, Broker: OANDA Corporation, AccType Demo: 1 on NZDJPY @ M30
+22:58:20 pack_1 EURJPY,H1: Alert: EURJPY, closing all sell order
+22:58:20 pack_1 EURJPY,H1: Alert: EURJPY, closing all sell order
+22:58:21 pack_1 EURJPY,H1: Alert: EURJPY, closing sell order
+22:58:21 pack_1 EURJPY,H1: close #64942253 sell 0.10 EURJPY at 126.964 at price 126.713
+22:58:22 pack_1 EURJPY,H1: open #65112286 buy 0.10 EURJPY at 126.714 ok
+22:58:23 pack_1 EURJPY,H1: Alert: Bullish, s1 60 H, Broker: OANDA Corporation, AccType Demo: 1 on EURJPY @ H1
+22:58:23 pack_1 GBPJPY,H1: Alert: GBPJPY, closing sell order
+22:58:24 pack_1 GBPJPY,H1: close #65099818 sell 0.10 GBPJPY at 146.136 at price 146.657
+22:58:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:24 pack_1 GBPJPY,H1: open #65112305 buy 0.10 GBPJPY at 146.644 ok
+22:58:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:26 pack_1 GBPJPY,H1: Alert: Bullish, s1 60 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPJPY @ H1
+22:58:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:58:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+22:59:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:00:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:01:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:02:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:03:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:04:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:05:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:06:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:07:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:08:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:09:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:10:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:11:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:12:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:13:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:14:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:15:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:16:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:17:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:18:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:19:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:20:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:21:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:22:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:23:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:24:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:25:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:26:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:27:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:28:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:29:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:30:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:31:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:32:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:33:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:34:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:35:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:36:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:37:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:38:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:39:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:40:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:41:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:42:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:43:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:44:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:45:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:46:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:47:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:48:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:49:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:50:59 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:39 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:51:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:52:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:53:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:54:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:33 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:38 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:41 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:48 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:55:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:01 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:04 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:17 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:19 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:20 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:26 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:28 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:30 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:31 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:35 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:37 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:40 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:43 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:45 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:53 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:57 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:56:58 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:05 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:07 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:09 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:13 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:15 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:16 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:18 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:21 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:22 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:23 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:24 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:25 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:27 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:29 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:32 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:34 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:36 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:42 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:44 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:46 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:47 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:49 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:50 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:51 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:52 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:54 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:55 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:57:56 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:00 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:02 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:03 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:06 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:08 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:10 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:11 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:12 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:14 cu_allinone USDJPY,H1: Alert: USDJPY buy signal
+23:58:15 pack_1 GBPUSD,M15: Alert: GBPUSD, closing all buy order
+23:58:18 pack_1 GBPUSD,M15: close #65102725 buy 0.10 GBPUSD at 1.56605 at price 1.56620
+23:58:18 pack_1 GBPUSD,M15: open #65115096 sell 0.10 GBPUSD at 1.56620 ok
+23:58:20 pack_1 GBPUSD,M15: Alert: Bearish, s1 15 H, Broker: OANDA Corporation, AccType Demo: 1 on GBPUSD @ M15
