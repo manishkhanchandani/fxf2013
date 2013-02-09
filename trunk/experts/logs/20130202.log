@@ -1,0 +1,1308 @@
+07:08:36 3_Level_ZZ_Semafor EURUSD,Monthly: loaded successfully
+07:08:37 3_Level_ZZ_Semafor EURUSD,Monthly: initialized
+07:08:58 Heiken_Ashi_Smoothed EURUSD,Monthly: loaded successfully
+07:09:00 Heiken_Ashi_Smoothed EURUSD,Monthly: initialized
+07:09:53 3_Level_ZZ_Semafor EURUSD,Monthly: deinitialized
+07:09:53 3_Level_ZZ_Semafor EURUSD,Monthly: uninit reason 3
+07:09:53 Heiken_Ashi_Smoothed EURUSD,Monthly: deinitialized
+07:09:53 Heiken_Ashi_Smoothed EURUSD,Monthly: uninit reason 3
+07:09:53 3_Level_ZZ_Semafor EURUSD,Weekly: initialized
+07:09:53 Heiken_Ashi_Smoothed EURUSD,Weekly: initialized
+07:10:15 3_Level_ZZ_Semafor EURUSD,Weekly: deinitialized
+07:10:15 3_Level_ZZ_Semafor EURUSD,Weekly: uninit reason 3
+07:10:15 Heiken_Ashi_Smoothed EURUSD,Weekly: deinitialized
+07:10:15 Heiken_Ashi_Smoothed EURUSD,Weekly: uninit reason 3
+07:10:15 3_Level_ZZ_Semafor EURUSD,Daily: initialized
+07:10:16 Heiken_Ashi_Smoothed EURUSD,Daily: initialized
+07:10:24 Auto Fibonacci Retracement EURUSD,Daily: loaded successfully
+07:10:33 Auto Fibonacci Retracement EURUSD,Daily: initialized
+07:10:48 3_Level_ZZ_Semafor EURUSD,Daily: deinitialized
+07:10:48 3_Level_ZZ_Semafor EURUSD,Daily: uninit reason 3
+07:10:48 Heiken_Ashi_Smoothed EURUSD,Daily: deinitialized
+07:10:48 Heiken_Ashi_Smoothed EURUSD,Daily: uninit reason 3
+07:10:48 Auto Fibonacci Retracement EURUSD,Daily: deinitialized
+07:10:48 Auto Fibonacci Retracement EURUSD,Daily: uninit reason 3
+07:10:48 3_Level_ZZ_Semafor EURUSD,Weekly: initialized
+07:10:48 Heiken_Ashi_Smoothed EURUSD,Weekly: initialized
+07:10:48 Auto Fibonacci Retracement EURUSD,Weekly: initialized
+07:11:03 3_Level_ZZ_Semafor EURUSD,Weekly: deinitialized
+07:11:03 3_Level_ZZ_Semafor EURUSD,Weekly: uninit reason 3
+07:11:03 Heiken_Ashi_Smoothed EURUSD,Weekly: deinitialized
+07:11:03 Heiken_Ashi_Smoothed EURUSD,Weekly: uninit reason 3
+07:11:03 Auto Fibonacci Retracement EURUSD,Weekly: deinitialized
+07:11:03 Auto Fibonacci Retracement EURUSD,Weekly: uninit reason 3
+07:11:03 3_Level_ZZ_Semafor EURUSD,Monthly: initialized
+07:11:03 Heiken_Ashi_Smoothed EURUSD,Monthly: initialized
+07:11:03 Auto Fibonacci Retracement EURUSD,Monthly: initialized
+07:11:08 3_Level_ZZ_Semafor EURUSD,Monthly: deinitialized
+07:11:08 3_Level_ZZ_Semafor EURUSD,Monthly: uninit reason 3
+07:11:08 Heiken_Ashi_Smoothed EURUSD,Monthly: deinitialized
+07:11:08 Heiken_Ashi_Smoothed EURUSD,Monthly: uninit reason 3
+07:11:08 Auto Fibonacci Retracement EURUSD,Monthly: deinitialized
+07:11:08 Auto Fibonacci Retracement EURUSD,Monthly: uninit reason 3
+07:11:09 3_Level_ZZ_Semafor EURUSD,H4: initialized
+07:11:09 Heiken_Ashi_Smoothed EURUSD,H4: initialized
+07:11:09 Auto Fibonacci Retracement EURUSD,H4: initialized
+07:12:38 3_Level_ZZ_Semafor EURUSD,H4: deinitialized
+07:12:38 3_Level_ZZ_Semafor EURUSD,H4: uninit reason 3
+07:12:38 Heiken_Ashi_Smoothed EURUSD,H4: deinitialized
+07:12:38 Heiken_Ashi_Smoothed EURUSD,H4: uninit reason 3
+07:12:38 Auto Fibonacci Retracement EURUSD,H4: deinitialized
+07:12:38 Auto Fibonacci Retracement EURUSD,H4: uninit reason 3
+07:12:39 3_Level_ZZ_Semafor EURUSD,M30: initialized
+07:12:39 Heiken_Ashi_Smoothed EURUSD,M30: initialized
+07:12:39 Auto Fibonacci Retracement EURUSD,M30: initialized
+07:12:44 3_Level_ZZ_Semafor EURUSD,M30: deinitialized
+07:12:44 3_Level_ZZ_Semafor EURUSD,M30: uninit reason 3
+07:12:44 Heiken_Ashi_Smoothed EURUSD,M30: deinitialized
+07:12:44 Heiken_Ashi_Smoothed EURUSD,M30: uninit reason 3
+07:12:44 Auto Fibonacci Retracement EURUSD,M30: deinitialized
+07:12:44 Auto Fibonacci Retracement EURUSD,M30: uninit reason 3
+07:12:44 3_Level_ZZ_Semafor EURUSD,M15: initialized
+07:12:44 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+07:12:44 Auto Fibonacci Retracement EURUSD,M15: initialized
+07:12:55 3_Level_ZZ_Semafor EURUSD,M15: deinitialized
+07:12:55 3_Level_ZZ_Semafor EURUSD,M15: uninit reason 3
+07:12:55 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+07:12:55 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 3
+07:12:55 Auto Fibonacci Retracement EURUSD,M15: deinitialized
+07:12:55 Auto Fibonacci Retracement EURUSD,M15: uninit reason 3
+07:12:56 3_Level_ZZ_Semafor EURUSD,M5: initialized
+07:12:56 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+07:12:56 Auto Fibonacci Retracement EURUSD,M5: initialized
+07:14:28 3_Level_ZZ_Semafor EURUSD,M5: deinitialized
+07:14:28 3_Level_ZZ_Semafor EURUSD,M5: uninit reason 3
+07:14:28 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+07:14:28 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+07:14:28 Auto Fibonacci Retracement EURUSD,M5: deinitialized
+07:14:28 Auto Fibonacci Retracement EURUSD,M5: uninit reason 3
+07:14:28 3_Level_ZZ_Semafor EURUSD,M15: initialized
+07:14:28 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+07:14:28 Auto Fibonacci Retracement EURUSD,M15: initialized
+07:14:32 3_Level_ZZ_Semafor EURUSD,M15: deinitialized
+07:14:32 3_Level_ZZ_Semafor EURUSD,M15: uninit reason 3
+07:14:32 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+07:14:32 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 3
+07:14:32 Auto Fibonacci Retracement EURUSD,M15: deinitialized
+07:14:32 Auto Fibonacci Retracement EURUSD,M15: uninit reason 3
+07:14:32 3_Level_ZZ_Semafor EURUSD,M5: initialized
+07:14:32 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+07:14:32 Auto Fibonacci Retracement EURUSD,M5: initialized
+07:15:05 3_Level_ZZ_Semafor EURUSD,M5: deinitialized
+07:15:05 3_Level_ZZ_Semafor EURUSD,M5: uninit reason 1
+07:15:05 3_Level_ZZ_Semafor EURUSD,M5: removed
+07:17:02 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+07:17:02 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+07:17:02 Auto Fibonacci Retracement EURUSD,M5: deinitialized
+07:17:02 Auto Fibonacci Retracement EURUSD,M5: uninit reason 3
+07:17:02 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+07:17:02 Auto Fibonacci Retracement EURUSD,M1: initialized
+07:17:24 Auto Fibonacci Retracement EURUSD,M1: deinitialized
+07:17:24 Auto Fibonacci Retracement EURUSD,M1: uninit reason 1
+07:17:24 Auto Fibonacci Retracement EURUSD,M1: removed
+07:19:34 buy zone fibs USDJPY,M1: loaded successfully
+07:19:34 sell zone fibs USDJPY,M1: loaded successfully
+07:19:34 b_Regression_Analysis_v2 USDJPY,M1: loaded successfully
+07:19:34 Auto Fibonacci Retracement USDJPY,M1: loaded successfully
+07:19:34 3_Level_ZZ_Semafor USDJPY,M1: loaded successfully
+07:19:34 Heiken_Ashi_Smoothed USDJPY,M1: loaded successfully
+07:19:34 cu_data USDJPY,M1: loaded successfully
+07:19:34 buy zone fibs USDJPY,M1: initialized
+07:19:34 sell zone fibs USDJPY,M1: initialized
+07:19:34 b_Regression_Analysis_v2 USDJPY,M1: initialized
+07:19:34 Auto Fibonacci Retracement USDJPY,M1: initialized
+07:19:34 3_Level_ZZ_Semafor USDJPY,M1: initialized
+07:19:34 Heiken_Ashi_Smoothed USDJPY,M1: initialized
+07:19:34 cu_data USDJPY,M1: initialized
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M1: loaded successfully
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M1: initialized
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M5: loaded successfully
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M15: loaded successfully
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+07:19:35 Heiken_Ashi_Smoothed USDJPY,M30: loaded successfully
+07:19:36 Heiken_Ashi_Smoothed USDJPY,M30: initialized
+07:19:36 Heiken_Ashi_Smoothed USDJPY,H1: loaded successfully
+07:19:36 Heiken_Ashi_Smoothed USDJPY,H1: initialized
+07:19:36 Heiken_Ashi_Smoothed USDJPY,H4: loaded successfully
+07:19:36 Heiken_Ashi_Smoothed USDJPY,H4: initialized
+07:19:36 Heiken_Ashi_Smoothed USDJPY,Daily: loaded successfully
+07:19:37 Heiken_Ashi_Smoothed USDJPY,Daily: initialized
+07:19:37 MACD_Complete USDJPY,M1: loaded successfully
+07:19:37 MACD_Complete USDJPY,M1: initialized
+07:19:37 MACD_Complete USDJPY,M5: loaded successfully
+07:19:37 MACD_Complete USDJPY,M5: initialized
+07:19:37 MACD_Complete USDJPY,M15: loaded successfully
+07:19:37 MACD_Complete USDJPY,M15: initialized
+07:19:37 MACD_Complete USDJPY,M30: loaded successfully
+07:19:37 MACD_Complete USDJPY,M30: initialized
+07:19:37 MACD_Complete USDJPY,H1: loaded successfully
+07:19:37 MACD_Complete USDJPY,H1: initialized
+07:19:37 MACD_Complete USDJPY,H4: loaded successfully
+07:19:37 MACD_Complete USDJPY,H4: initialized
+07:19:37 MACD_Complete USDJPY,Daily: loaded successfully
+07:19:37 MACD_Complete USDJPY,Daily: initialized
+07:20:00 buy zone fibs USDJPY,M1: deinitialized
+07:20:00 buy zone fibs USDJPY,M1: uninit reason 1
+07:20:00 sell zone fibs USDJPY,M1: deinitialized
+07:20:00 sell zone fibs USDJPY,M1: uninit reason 1
+07:20:00 b_Regression_Analysis_v2 USDJPY,M1: deinitialized
+07:20:00 b_Regression_Analysis_v2 USDJPY,M1: uninit reason 1
+07:20:00 Auto Fibonacci Retracement USDJPY,M1: deinitialized
+07:20:00 Auto Fibonacci Retracement USDJPY,M1: uninit reason 1
+07:20:00 3_Level_ZZ_Semafor USDJPY,M1: deinitialized
+07:20:00 3_Level_ZZ_Semafor USDJPY,M1: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 1
+07:20:00 cu_data USDJPY,M1: deinitialized
+07:20:00 cu_data USDJPY,M1: uninit reason 1
+07:20:00 MACD_Complete USDJPY,Daily: uninit reason 1
+07:20:00 MACD_Complete USDJPY,Daily: removed
+07:20:00 MACD_Complete USDJPY,H4: uninit reason 1
+07:20:00 MACD_Complete USDJPY,H4: removed
+07:20:00 MACD_Complete USDJPY,H1: uninit reason 1
+07:20:00 MACD_Complete USDJPY,H1: removed
+07:20:00 MACD_Complete USDJPY,M30: uninit reason 1
+07:20:00 MACD_Complete USDJPY,M30: removed
+07:20:00 MACD_Complete USDJPY,M15: uninit reason 1
+07:20:00 MACD_Complete USDJPY,M15: removed
+07:20:00 MACD_Complete USDJPY,M5: uninit reason 1
+07:20:00 MACD_Complete USDJPY,M5: removed
+07:20:00 MACD_Complete USDJPY,M1: uninit reason 1
+07:20:00 MACD_Complete USDJPY,M1: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,Daily: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,Daily: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,Daily: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,H4: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,H4: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,H4: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,H1: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,H1: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,H1: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M30: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M30: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M30: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M15: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M5: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 1
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: removed
+07:20:00 buy zone fibs USDJPY,M1: removed
+07:20:00 sell zone fibs USDJPY,M1: removed
+07:20:00 b_Regression_Analysis_v2 USDJPY,M1: removed
+07:20:00 Auto Fibonacci Retracement USDJPY,M1: removed
+07:20:00 3_Level_ZZ_Semafor USDJPY,M1: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: removed
+07:20:00 cu_data USDJPY,M1: removed
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: loaded successfully
+07:20:00 Heiken_Ashi_Smoothed USDJPY,M1: initialized
+07:21:24 GreatProfit Indicator 5 USDJPY,M1: loaded successfully
+07:21:25 GreatProfit Indicator 5 USDJPY,M1: initialized
+07:21:33 GreatProfit Indicator 5 USDJPY,M1: deinitialized
+07:21:33 GreatProfit Indicator 5 USDJPY,M1: uninit reason 1
+07:21:33 GreatProfit Indicator 5 USDJPY,M1: removed
+07:22:00 Momentum Indicator USDJPY,M1: loaded successfully
+07:22:02 Momentum Indicator USDJPY,M1: initialized
+07:22:09 Momentum Indicator USDJPY,M1: deinitialized
+07:22:09 Momentum Indicator USDJPY,M1: uninit reason 1
+07:22:09 Momentum Indicator USDJPY,M1: removed
+07:23:00 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+07:23:00 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 1
+07:23:00 Heiken_Ashi_Smoothed USDJPY,M1: removed
+07:30:58 Compiling 'close'
+07:34:40 Compiling 'cu_allinone'
+07:35:09 cu_allinone EURUSD,M1: loaded successfully
+07:35:10 cu_allinone EURUSD,M1: initialized
+07:43:00 cu_allinone EURUSD,M1: deinitialized
+07:43:00 cu_allinone EURUSD,M1: uninit reason 2
+07:43:00 cu_allinone EURUSD,M1: loaded successfully
+07:43:00 cu_allinone EURUSD,M1: initialized
+07:43:24 cu_allinone EURUSD,M1: deinitialized
+07:43:24 cu_allinone EURUSD,M1: uninit reason 2
+07:43:24 cu_allinone EURUSD,M1: loaded successfully
+07:43:24 cu_allinone EURUSD,M1: initialized
+07:46:08 Compiling 'cu_allinone'
+07:46:08 cu_allinone EURUSD,M1: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+07:46:33 cu_allinone EURUSD,M1: deinitialized
+07:46:33 cu_allinone EURUSD,M1: uninit reason 2
+07:46:33 cu_allinone EURUSD,M1: loaded successfully
+07:46:33 cu_allinone EURUSD,M1: initialized
+07:47:06 cu_allinone EURUSD,M1: deinitialized
+07:47:06 cu_allinone EURUSD,M1: uninit reason 2
+07:47:06 cu_allinone EURUSD,M1: loaded successfully
+07:47:06 cu_allinone EURUSD,M1: initialized
+07:47:19 cu_allinone EURUSD,M1: deinitialized
+07:47:19 cu_allinone EURUSD,M1: uninit reason 2
+07:47:19 cu_allinone EURUSD,M1: loaded successfully
+07:47:19 cu_allinone EURUSD,M1: initialized
+07:48:09 Compiling 'cu_allinone'
+07:48:09 cu_allinone EURUSD,M1: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+07:48:19 cu_allinone EURUSD,M1: deinitialized
+07:48:19 cu_allinone EURUSD,M1: uninit reason 2
+07:48:19 cu_allinone EURUSD,M1: loaded successfully
+07:48:19 cu_allinone EURUSD,M1: initialized
+07:48:32 cu_allinone EURUSD,M1: deinitialized
+07:48:32 cu_allinone EURUSD,M1: uninit reason 2
+07:48:33 cu_allinone EURUSD,M1: loaded successfully
+07:48:33 cu_allinone EURUSD,M1: initialized
+07:48:38 cu_allinone EURUSD,M1: deinitialized
+07:48:38 cu_allinone EURUSD,M1: uninit reason 2
+07:48:38 cu_allinone EURUSD,M1: loaded successfully
+07:48:38 cu_allinone EURUSD,M1: initialized
+07:49:25 cu_allinone EURUSD,M1: deinitialized
+07:49:25 cu_allinone EURUSD,M1: uninit reason 2
+07:49:25 cu_allinone EURUSD,M1: loaded successfully
+07:49:25 cu_allinone EURUSD,M1: initialized
+07:50:50 cu_allinone EURUSD,M1: deinitialized
+07:50:50 cu_allinone EURUSD,M1: uninit reason 2
+07:50:50 cu_allinone EURUSD,M1: loaded successfully
+07:50:50 cu_allinone EURUSD,M1: initialized
+07:58:30 cu_allinone EURUSD,M1: deinitialized
+07:58:30 cu_allinone EURUSD,M1: uninit reason 2
+07:58:30 cu_allinone EURUSD,M1: loaded successfully
+07:58:30 cu_allinone EURUSD,M1: initialized
+08:01:04 cu_allinone EURUSD,M1: deinitialized
+08:01:04 cu_allinone EURUSD,M1: uninit reason 2
+08:01:04 cu_allinone EURUSD,M1: loaded successfully
+08:01:04 cu_allinone EURUSD,M1: initialized
+08:01:15 cu_allinone EURUSD,M1: deinitialized
+08:01:15 cu_allinone EURUSD,M1: uninit reason 2
+08:01:15 cu_allinone EURUSD,M1: loaded successfully
+08:01:15 cu_allinone EURUSD,M1: initialized
+08:01:24 cu_allinone EURUSD,M1: deinitialized
+08:01:24 cu_allinone EURUSD,M1: uninit reason 2
+08:01:24 cu_allinone EURUSD,M1: loaded successfully
+08:01:24 cu_allinone EURUSD,M1: initialized
+08:03:19 Compiling 'cu_allinone'
+08:03:19 cu_allinone EURUSD,M1: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+08:04:26 cu_allinone EURUSD,M1: deinitialized
+08:04:26 cu_allinone EURUSD,M1: uninit reason 2
+08:04:26 cu_allinone EURUSD,M1: loaded successfully
+08:04:26 cu_allinone EURUSD,M1: initialized
+08:04:37 3_Level_ZZ_Semafor CHFJPY,M15: deinitialized
+08:04:37 3_Level_ZZ_Semafor CHFJPY,M15: uninit reason 1
+08:04:37 Heiken_Ashi_Smoothed CHFJPY,M15: deinitialized
+08:04:37 Heiken_Ashi_Smoothed CHFJPY,M15: uninit reason 1
+08:04:37 Auto Fibonacci Retracement CHFJPY,M15: deinitialized
+08:04:37 Auto Fibonacci Retracement CHFJPY,M15: uninit reason 1
+08:04:37 3_Level_ZZ_Semafor CHFJPY,M15: removed
+08:04:37 Heiken_Ashi_Smoothed CHFJPY,M15: removed
+08:04:37 Auto Fibonacci Retracement CHFJPY,M15: removed
+08:04:37 Heiken_Ashi_Smoothed CHFJPY,M15: loaded successfully
+08:04:37 cu_allinone CHFJPY,M15: loaded successfully
+08:04:37 Heiken_Ashi_Smoothed CHFJPY,M15: initialized
+08:04:38 cu_allinone CHFJPY,M15: initialized
+08:07:14 cu_allinone EURUSD,M1: deinitialized
+08:07:14 cu_allinone EURUSD,M1: uninit reason 2
+08:07:14 cu_allinone EURUSD,M1: loaded successfully
+08:07:14 cu_allinone EURUSD,M1: initialized
+08:07:14 cu_allinone CHFJPY,M15: deinitialized
+08:07:14 cu_allinone CHFJPY,M15: uninit reason 2
+08:07:14 cu_allinone CHFJPY,M15: loaded successfully
+08:07:14 cu_allinone CHFJPY,M15: initialized
+08:07:54 cu_allinone EURUSD,M1: deinitialized
+08:07:54 cu_allinone EURUSD,M1: uninit reason 2
+08:07:54 cu_allinone EURUSD,M1: loaded successfully
+08:07:54 cu_allinone EURUSD,M1: initialized
+08:07:54 cu_allinone CHFJPY,M15: deinitialized
+08:07:54 cu_allinone CHFJPY,M15: uninit reason 2
+08:07:54 cu_allinone CHFJPY,M15: loaded successfully
+08:07:54 cu_allinone CHFJPY,M15: initialized
+08:08:56 cu_allinone EURUSD,M1: deinitialized
+08:08:56 cu_allinone EURUSD,M1: uninit reason 2
+08:08:56 cu_allinone EURUSD,M1: loaded successfully
+08:08:56 cu_allinone EURUSD,M1: initialized
+08:08:56 cu_allinone CHFJPY,M15: deinitialized
+08:08:56 cu_allinone CHFJPY,M15: uninit reason 2
+08:08:56 cu_allinone CHFJPY,M15: loaded successfully
+08:08:56 cu_allinone CHFJPY,M15: initialized
+08:09:10 cu_allinone EURUSD,M1: deinitialized
+08:09:10 cu_allinone EURUSD,M1: uninit reason 2
+08:09:10 cu_allinone EURUSD,M1: loaded successfully
+08:09:10 cu_allinone EURUSD,M1: initialized
+08:09:11 cu_allinone CHFJPY,M15: deinitialized
+08:09:11 cu_allinone CHFJPY,M15: uninit reason 2
+08:09:11 cu_allinone CHFJPY,M15: loaded successfully
+08:09:11 cu_allinone CHFJPY,M15: initialized
+08:11:28 cu_allinone EURUSD,M1: deinitialized
+08:11:28 cu_allinone EURUSD,M1: uninit reason 2
+08:11:28 cu_allinone EURUSD,M1: loaded successfully
+08:11:28 cu_allinone EURUSD,M1: initialized
+08:11:28 cu_allinone CHFJPY,M15: deinitialized
+08:11:28 cu_allinone CHFJPY,M15: uninit reason 2
+08:11:28 cu_allinone CHFJPY,M15: loaded successfully
+08:11:28 cu_allinone CHFJPY,M15: initialized
+08:11:45 cu_allinone EURUSD,M1: deinitialized
+08:11:45 cu_allinone EURUSD,M1: uninit reason 2
+08:11:45 cu_allinone EURUSD,M1: loaded successfully
+08:11:45 cu_allinone EURUSD,M1: initialized
+08:11:45 cu_allinone CHFJPY,M15: deinitialized
+08:11:45 cu_allinone CHFJPY,M15: uninit reason 2
+08:11:45 cu_allinone CHFJPY,M15: loaded successfully
+08:11:45 cu_allinone CHFJPY,M15: initialized
+08:12:04 cu_allinone EURUSD,M1: deinitialized
+08:12:04 cu_allinone EURUSD,M1: uninit reason 2
+08:12:04 cu_allinone EURUSD,M1: loaded successfully
+08:12:04 cu_allinone EURUSD,M1: initialized
+08:12:04 cu_allinone CHFJPY,M15: deinitialized
+08:12:04 cu_allinone CHFJPY,M15: uninit reason 2
+08:12:04 cu_allinone CHFJPY,M15: loaded successfully
+08:12:04 cu_allinone CHFJPY,M15: initialized
+08:12:22 Heiken_Ashi_Smoothed CHFJPY,M15: deinitialized
+08:12:22 Heiken_Ashi_Smoothed CHFJPY,M15: uninit reason 3
+08:12:22 cu_allinone CHFJPY,M15: deinitialized
+08:12:22 cu_allinone CHFJPY,M15: uninit reason 3
+08:12:22 Heiken_Ashi_Smoothed CHFJPY,M1: initialized
+08:12:22 cu_allinone CHFJPY,M1: initialized
+08:16:04 cu_allinone CHFJPY,M1: deinitialized
+08:16:04 cu_allinone CHFJPY,M1: uninit reason 2
+08:16:04 cu_allinone CHFJPY,M1: loaded successfully
+08:16:04 cu_allinone CHFJPY,M1: initialized
+08:16:04 cu_allinone EURUSD,M1: deinitialized
+08:16:04 cu_allinone EURUSD,M1: uninit reason 2
+08:16:04 cu_allinone EURUSD,M1: loaded successfully
+08:16:04 cu_allinone EURUSD,M1: initialized
+08:16:19 Heiken_Ashi_Smoothed CHFJPY,M1: deinitialized
+08:16:19 Heiken_Ashi_Smoothed CHFJPY,M1: uninit reason 1
+08:16:19 cu_allinone CHFJPY,M1: deinitialized
+08:16:19 cu_allinone CHFJPY,M1: uninit reason 1
+08:16:19 Heiken_Ashi_Smoothed CHFJPY,M1: removed
+08:16:19 cu_allinone CHFJPY,M1: removed
+08:16:19 3_Level_ZZ_Semafor CHFJPY,M1: loaded successfully
+08:16:19 Heiken_Ashi_Smoothed CHFJPY,M1: loaded successfully
+08:16:19 3_Level_ZZ_Semafor CHFJPY,M1: initialized
+08:16:19 Heiken_Ashi_Smoothed CHFJPY,M1: initialized
+08:16:55 cu_allinone EURUSD,M1: deinitialized
+08:16:55 cu_allinone EURUSD,M1: uninit reason 2
+08:16:55 cu_allinone EURUSD,M1: loaded successfully
+08:16:55 cu_allinone EURUSD,M1: initialized
+08:17:08 cu_allinone EURUSD,M1: deinitialized
+08:17:08 cu_allinone EURUSD,M1: uninit reason 2
+08:17:08 cu_allinone EURUSD,M1: loaded successfully
+08:17:08 cu_allinone EURUSD,M1: initialized
+08:24:41 cu_allinone EURUSD,M1: deinitialized
+08:24:41 cu_allinone EURUSD,M1: uninit reason 2
+08:24:42 cu_allinone EURUSD,M1: loaded successfully
+08:24:42 cu_allinone EURUSD,M1: initialized
+08:24:52 cu_allinone EURUSD,M1: deinitialized
+08:24:52 cu_allinone EURUSD,M1: uninit reason 2
+08:24:52 cu_allinone EURUSD,M1: loaded successfully
+08:24:52 cu_allinone EURUSD,M1: initialized
+08:25:33 cu_allinone EURUSD,M1: deinitialized
+08:25:33 cu_allinone EURUSD,M1: uninit reason 2
+08:25:33 cu_allinone EURUSD,M1: loaded successfully
+08:25:33 cu_allinone EURUSD,M1: initialized
+08:26:13 cu_allinone EURUSD,M1: deinitialized
+08:26:13 cu_allinone EURUSD,M1: uninit reason 2
+08:26:13 cu_allinone EURUSD,M1: loaded successfully
+08:26:13 cu_allinone EURUSD,M1: initialized
+08:26:30 cu_allinone EURUSD,M1: deinitialized
+08:26:30 cu_allinone EURUSD,M1: uninit reason 2
+08:26:30 cu_allinone EURUSD,M1: loaded successfully
+08:26:30 cu_allinone EURUSD,M1: initialized
+08:35:20 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+08:35:20 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+08:35:20 cu_allinone EURUSD,M1: deinitialized
+08:35:20 cu_allinone EURUSD,M1: uninit reason 3
+08:35:20 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+08:35:20 cu_allinone EURUSD,M5: initialized
+08:35:38 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+08:35:38 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+08:35:38 cu_allinone EURUSD,M5: deinitialized
+08:35:38 cu_allinone EURUSD,M5: uninit reason 3
+08:35:38 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+08:35:38 cu_allinone EURUSD,M1: initialized
+08:35:43 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+08:35:43 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+08:35:43 cu_allinone EURUSD,M1: deinitialized
+08:35:43 cu_allinone EURUSD,M1: uninit reason 3
+08:35:43 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+08:35:43 cu_allinone EURUSD,M5: initialized
+08:35:46 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+08:35:46 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+08:35:46 cu_allinone EURUSD,M5: deinitialized
+08:35:46 cu_allinone EURUSD,M5: uninit reason 3
+08:35:46 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+08:35:46 cu_allinone EURUSD,M15: initialized
+08:35:49 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+08:35:49 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 3
+08:35:49 cu_allinone EURUSD,M15: deinitialized
+08:35:49 cu_allinone EURUSD,M15: uninit reason 3
+08:35:49 Heiken_Ashi_Smoothed EURUSD,M30: initialized
+08:35:49 cu_allinone EURUSD,M30: initialized
+08:35:55 Heiken_Ashi_Smoothed EURUSD,M30: deinitialized
+08:35:55 Heiken_Ashi_Smoothed EURUSD,M30: uninit reason 3
+08:35:55 cu_allinone EURUSD,M30: deinitialized
+08:35:55 cu_allinone EURUSD,M30: uninit reason 3
+08:35:55 Heiken_Ashi_Smoothed EURUSD,H1: initialized
+08:35:55 cu_allinone EURUSD,H1: initialized
+08:35:59 Heiken_Ashi_Smoothed EURUSD,H1: deinitialized
+08:35:59 Heiken_Ashi_Smoothed EURUSD,H1: uninit reason 3
+08:35:59 cu_allinone EURUSD,H1: deinitialized
+08:35:59 cu_allinone EURUSD,H1: uninit reason 3
+08:35:59 Heiken_Ashi_Smoothed EURUSD,H4: initialized
+08:35:59 cu_allinone EURUSD,H4: initialized
+08:36:04 Heiken_Ashi_Smoothed EURUSD,H4: deinitialized
+08:36:04 Heiken_Ashi_Smoothed EURUSD,H4: uninit reason 3
+08:36:04 cu_allinone EURUSD,H4: deinitialized
+08:36:04 cu_allinone EURUSD,H4: uninit reason 3
+08:36:04 Heiken_Ashi_Smoothed EURUSD,Daily: initialized
+08:36:04 cu_allinone EURUSD,Daily: initialized
+08:36:20 Heiken_Ashi_Smoothed EURUSD,Daily: deinitialized
+08:36:20 Heiken_Ashi_Smoothed EURUSD,Daily: uninit reason 3
+08:36:20 cu_allinone EURUSD,Daily: deinitialized
+08:36:20 cu_allinone EURUSD,Daily: uninit reason 3
+08:36:20 Heiken_Ashi_Smoothed EURUSD,Weekly: initialized
+08:36:20 cu_allinone EURUSD,Weekly: initialized
+08:36:25 Heiken_Ashi_Smoothed EURUSD,Weekly: deinitialized
+08:36:25 Heiken_Ashi_Smoothed EURUSD,Weekly: uninit reason 3
+08:36:25 cu_allinone EURUSD,Weekly: deinitialized
+08:36:25 cu_allinone EURUSD,Weekly: uninit reason 3
+08:36:25 Heiken_Ashi_Smoothed EURUSD,Monthly: initialized
+08:36:25 cu_allinone EURUSD,Monthly: initialized
+08:36:31 Heiken_Ashi_Smoothed EURUSD,Monthly: deinitialized
+08:36:31 Heiken_Ashi_Smoothed EURUSD,Monthly: uninit reason 3
+08:36:31 cu_allinone EURUSD,Monthly: deinitialized
+08:36:31 cu_allinone EURUSD,Monthly: uninit reason 3
+08:36:31 Heiken_Ashi_Smoothed EURUSD,H4: initialized
+08:36:31 cu_allinone EURUSD,H4: initialized
+08:36:34 Heiken_Ashi_Smoothed EURUSD,H4: deinitialized
+08:36:34 Heiken_Ashi_Smoothed EURUSD,H4: uninit reason 3
+08:36:34 cu_allinone EURUSD,H4: deinitialized
+08:36:34 cu_allinone EURUSD,H4: uninit reason 3
+08:36:34 Heiken_Ashi_Smoothed EURUSD,H1: initialized
+08:36:34 cu_allinone EURUSD,H1: initialized
+08:37:02 Heiken_Ashi_Smoothed EURUSD,H1: deinitialized
+08:37:02 Heiken_Ashi_Smoothed EURUSD,H1: uninit reason 3
+08:37:02 cu_allinone EURUSD,H1: deinitialized
+08:37:02 cu_allinone EURUSD,H1: uninit reason 3
+08:37:02 Heiken_Ashi_Smoothed EURUSD,M30: initialized
+08:37:02 cu_allinone EURUSD,M30: initialized
+08:37:04 Heiken_Ashi_Smoothed EURUSD,M30: deinitialized
+08:37:04 Heiken_Ashi_Smoothed EURUSD,M30: uninit reason 3
+08:37:04 cu_allinone EURUSD,M30: deinitialized
+08:37:04 cu_allinone EURUSD,M30: uninit reason 3
+08:37:04 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+08:37:04 cu_allinone EURUSD,M15: initialized
+08:37:05 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+08:37:05 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 3
+08:37:05 cu_allinone EURUSD,M15: deinitialized
+08:37:05 cu_allinone EURUSD,M15: uninit reason 3
+08:37:05 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+08:37:05 cu_allinone EURUSD,M5: initialized
+08:37:07 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+08:37:07 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+08:37:07 cu_allinone EURUSD,M5: deinitialized
+08:37:07 cu_allinone EURUSD,M5: uninit reason 3
+08:37:07 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+08:37:07 cu_allinone EURUSD,M1: initialized
+08:37:15 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+08:37:15 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+08:37:15 cu_allinone EURUSD,M1: deinitialized
+08:37:15 cu_allinone EURUSD,M1: uninit reason 3
+08:37:15 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+08:37:15 cu_allinone EURUSD,M15: initialized
+08:37:17 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+08:37:17 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 3
+08:37:17 cu_allinone EURUSD,M15: deinitialized
+08:37:17 cu_allinone EURUSD,M15: uninit reason 3
+08:37:17 Heiken_Ashi_Smoothed EURUSD,M30: initialized
+08:37:17 cu_allinone EURUSD,M30: initialized
+08:37:18 Heiken_Ashi_Smoothed EURUSD,M30: deinitialized
+08:37:18 Heiken_Ashi_Smoothed EURUSD,M30: uninit reason 3
+08:37:18 cu_allinone EURUSD,M30: deinitialized
+08:37:18 cu_allinone EURUSD,M30: uninit reason 3
+08:37:18 Heiken_Ashi_Smoothed EURUSD,H1: initialized
+08:37:18 cu_allinone EURUSD,H1: initialized
+08:37:21 Heiken_Ashi_Smoothed EURUSD,H1: deinitialized
+08:37:21 Heiken_Ashi_Smoothed EURUSD,H1: uninit reason 3
+08:37:21 cu_allinone EURUSD,H1: deinitialized
+08:37:21 cu_allinone EURUSD,H1: uninit reason 3
+08:37:21 Heiken_Ashi_Smoothed EURUSD,H4: initialized
+08:37:21 cu_allinone EURUSD,H4: initialized
+08:37:26 Heiken_Ashi_Smoothed EURUSD,H4: deinitialized
+08:37:26 Heiken_Ashi_Smoothed EURUSD,H4: uninit reason 3
+08:37:26 cu_allinone EURUSD,H4: deinitialized
+08:37:26 cu_allinone EURUSD,H4: uninit reason 3
+08:37:26 Heiken_Ashi_Smoothed EURUSD,M30: initialized
+08:37:26 cu_allinone EURUSD,M30: initialized
+08:37:28 Heiken_Ashi_Smoothed EURUSD,M30: deinitialized
+08:37:28 Heiken_Ashi_Smoothed EURUSD,M30: uninit reason 3
+08:37:28 cu_allinone EURUSD,M30: deinitialized
+08:37:28 cu_allinone EURUSD,M30: uninit reason 3
+08:37:28 Heiken_Ashi_Smoothed EURUSD,M15: initialized
+08:37:28 cu_allinone EURUSD,M15: initialized
+08:37:29 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+08:37:29 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 3
+08:37:29 cu_allinone EURUSD,M15: deinitialized
+08:37:29 cu_allinone EURUSD,M15: uninit reason 3
+08:37:29 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+08:37:29 cu_allinone EURUSD,M5: initialized
+08:37:31 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+08:37:31 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+08:37:31 cu_allinone EURUSD,M5: deinitialized
+08:37:31 cu_allinone EURUSD,M5: uninit reason 3
+08:37:31 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+08:37:31 cu_allinone EURUSD,M1: initialized
+08:39:44 cu_allinone EURUSD,M1: deinitialized
+08:39:44 cu_allinone EURUSD,M1: uninit reason 2
+08:39:44 cu_allinone EURUSD,M1: loaded successfully
+08:39:44 cu_allinone EURUSD,M1: initialized
+08:47:44 cu_allinone EURUSD,M1: deinitialized
+08:47:44 cu_allinone EURUSD,M1: uninit reason 2
+08:47:44 cu_allinone EURUSD,M1: loaded successfully
+08:47:44 cu_allinone EURUSD,M1: initialized
+08:48:29 cu_allinone EURUSD,M1: deinitialized
+08:48:29 cu_allinone EURUSD,M1: uninit reason 2
+08:48:29 cu_allinone EURUSD,M1: loaded successfully
+08:48:29 cu_allinone EURUSD,M1: initialized
+08:50:05 cu_allinone EURUSD,M1: deinitialized
+08:50:05 cu_allinone EURUSD,M1: uninit reason 2
+08:50:05 cu_allinone EURUSD,M1: loaded successfully
+08:50:05 cu_allinone EURUSD,M1: initialized
+08:51:12 cu_allinone EURUSD,M1: deinitialized
+08:51:12 cu_allinone EURUSD,M1: uninit reason 2
+08:51:12 cu_allinone EURUSD,M1: loaded successfully
+08:51:12 cu_allinone EURUSD,M1: initialized
+08:51:58 cu_allinone EURUSD,M1: deinitialized
+08:51:58 cu_allinone EURUSD,M1: uninit reason 2
+08:51:58 cu_allinone EURUSD,M1: loaded successfully
+08:51:58 cu_allinone EURUSD,M1: initialized
+08:54:35 cu_allinone EURUSD,M1: deinitialized
+08:54:35 cu_allinone EURUSD,M1: uninit reason 2
+08:54:35 cu_allinone EURUSD,M1: loaded successfully
+08:54:35 cu_allinone EURUSD,M1: initialized
+09:20:13 cu_allinone EURUSD,M1: deinitialized
+09:20:13 cu_allinone EURUSD,M1: uninit reason 2
+09:20:13 cu_allinone EURUSD,M1: loaded successfully
+09:20:13 cu_allinone EURUSD,M1: initialized
+09:21:03 Heiken_Ashi_Smoothed CADJPY,M1: deinitialized
+09:21:03 Heiken_Ashi_Smoothed CADJPY,M1: uninit reason 1
+09:21:03 cu_data CADJPY,M1: deinitialized
+09:21:03 cu_data CADJPY,M1: uninit reason 1
+09:21:04 MACD_Complete CADJPY,Daily: uninit reason 1
+09:21:04 MACD_Complete CADJPY,Daily: removed
+09:21:04 MACD_Complete CADJPY,H4: uninit reason 1
+09:21:04 MACD_Complete CADJPY,H4: removed
+09:21:04 MACD_Complete CADJPY,H1: uninit reason 1
+09:21:04 MACD_Complete CADJPY,H1: removed
+09:21:04 MACD_Complete CADJPY,M30: uninit reason 1
+09:21:04 MACD_Complete CADJPY,M30: removed
+09:21:04 MACD_Complete CADJPY,M15: uninit reason 1
+09:21:04 MACD_Complete CADJPY,M15: removed
+09:21:04 MACD_Complete CADJPY,M5: uninit reason 1
+09:21:04 MACD_Complete CADJPY,M5: removed
+09:21:04 MACD_Complete CADJPY,M1: uninit reason 1
+09:21:04 MACD_Complete CADJPY,M1: removed
+09:21:04 Heiken_Ashi_Smoothed CADJPY,Daily: deinitialized
+09:21:04 Heiken_Ashi_Smoothed CADJPY,Daily: uninit reason 1
+09:21:04 Heiken_Ashi_Smoothed CADJPY,Daily: removed
+09:21:04 Heiken_Ashi_Smoothed CADJPY,H4: deinitialized
+09:21:04 Heiken_Ashi_Smoothed CADJPY,H4: uninit reason 1
+09:21:04 Heiken_Ashi_Smoothed CADJPY,H4: removed
+09:21:04 Heiken_Ashi_Smoothed CADJPY,H1: deinitialized
+09:21:04 Heiken_Ashi_Smoothed CADJPY,H1: uninit reason 1
+09:21:04 Heiken_Ashi_Smoothed CADJPY,H1: removed
+09:21:04 Heiken_Ashi_Smoothed CADJPY,M30: deinitialized
+09:21:04 Heiken_Ashi_Smoothed CADJPY,M30: uninit reason 1
+09:21:04 Heiken_Ashi_Smoothed CADJPY,M30: removed
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M15: deinitialized
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M15: uninit reason 1
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M15: removed
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M5: deinitialized
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M5: uninit reason 1
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M5: removed
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M1: deinitialized
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M1: uninit reason 1
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M1: removed
+09:21:05 3_Level_ZZ_Semafor CADJPY,M1: deinitialized
+09:21:05 3_Level_ZZ_Semafor CADJPY,M1: uninit reason 1
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M1: removed
+09:21:05 cu_data CADJPY,M1: removed
+09:21:05 3_Level_ZZ_Semafor CADJPY,M1: removed
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M1: loaded successfully
+09:21:05 cu_allinone CADJPY,M1: loaded successfully
+09:21:05 Heiken_Ashi_Smoothed CADJPY,M1: initialized
+09:21:05 cu_allinone CADJPY,M1: initialized
+09:24:12 Heiken_Ashi_Smoothed CADJPY,M1: deinitialized
+09:24:12 Heiken_Ashi_Smoothed CADJPY,M1: uninit reason 1
+09:24:12 cu_allinone CADJPY,M1: deinitialized
+09:24:12 cu_allinone CADJPY,M1: uninit reason 1
+09:24:12 Heiken_Ashi_Smoothed CADJPY,M1: removed
+09:24:12 cu_allinone CADJPY,M1: removed
+09:24:12 3_Level_ZZ_Semafor CADJPY,M1: loaded successfully
+09:24:12 Heiken_Ashi_Smoothed CADJPY,M1: loaded successfully
+09:24:12 3_Level_ZZ_Semafor CADJPY,M1: initialized
+09:24:12 Heiken_Ashi_Smoothed CADJPY,M1: initialized
+09:24:36 Heiken_Ashi_Smoothed GBPUSD,H1: loaded successfully
+09:24:36 cu_allinone GBPUSD,H1: loaded successfully
+09:24:36 Heiken_Ashi_Smoothed GBPUSD,H1: initialized
+09:24:36 cu_allinone GBPUSD,H1: initialized
+09:25:38 Heiken_Ashi_Smoothed GBPUSD,H1: deinitialized
+09:25:38 Heiken_Ashi_Smoothed GBPUSD,H1: uninit reason 3
+09:25:38 cu_allinone GBPUSD,H1: deinitialized
+09:25:38 cu_allinone GBPUSD,H1: uninit reason 3
+09:25:38 Heiken_Ashi_Smoothed GBPUSD,Weekly: initialized
+09:25:38 cu_allinone GBPUSD,Weekly: initialized
+09:25:45 Heiken_Ashi_Smoothed GBPUSD,Weekly: deinitialized
+09:25:45 Heiken_Ashi_Smoothed GBPUSD,Weekly: uninit reason 3
+09:25:45 cu_allinone GBPUSD,Weekly: deinitialized
+09:25:45 cu_allinone GBPUSD,Weekly: uninit reason 3
+09:25:45 Heiken_Ashi_Smoothed GBPUSD,Monthly: initialized
+09:25:45 cu_allinone GBPUSD,Monthly: initialized
+09:25:55 Heiken_Ashi_Smoothed GBPUSD,Monthly: deinitialized
+09:25:55 Heiken_Ashi_Smoothed GBPUSD,Monthly: uninit reason 3
+09:25:55 cu_allinone GBPUSD,Monthly: deinitialized
+09:25:55 cu_allinone GBPUSD,Monthly: uninit reason 3
+09:25:55 Heiken_Ashi_Smoothed GBPUSD,Daily: initialized
+09:25:55 cu_allinone GBPUSD,Daily: initialized
+09:26:00 Heiken_Ashi_Smoothed GBPUSD,Daily: deinitialized
+09:26:00 Heiken_Ashi_Smoothed GBPUSD,Daily: uninit reason 3
+09:26:00 cu_allinone GBPUSD,Daily: deinitialized
+09:26:00 cu_allinone GBPUSD,Daily: uninit reason 3
+09:26:00 Heiken_Ashi_Smoothed GBPUSD,H4: initialized
+09:26:00 cu_allinone GBPUSD,H4: initialized
+09:26:10 Heiken_Ashi_Smoothed GBPUSD,H4: deinitialized
+09:26:10 Heiken_Ashi_Smoothed GBPUSD,H4: uninit reason 3
+09:26:10 cu_allinone GBPUSD,H4: deinitialized
+09:26:10 cu_allinone GBPUSD,H4: uninit reason 3
+09:26:10 Heiken_Ashi_Smoothed GBPUSD,Weekly: initialized
+09:26:10 cu_allinone GBPUSD,Weekly: initialized
+09:26:12 Heiken_Ashi_Smoothed GBPUSD,Weekly: deinitialized
+09:26:12 Heiken_Ashi_Smoothed GBPUSD,Weekly: uninit reason 3
+09:26:12 cu_allinone GBPUSD,Weekly: deinitialized
+09:26:12 cu_allinone GBPUSD,Weekly: uninit reason 3
+09:26:12 Heiken_Ashi_Smoothed GBPUSD,Daily: initialized
+09:26:12 cu_allinone GBPUSD,Daily: initialized
+09:26:19 Heiken_Ashi_Smoothed GBPUSD,Daily: deinitialized
+09:26:19 Heiken_Ashi_Smoothed GBPUSD,Daily: uninit reason 3
+09:26:19 cu_allinone GBPUSD,Daily: deinitialized
+09:26:19 cu_allinone GBPUSD,Daily: uninit reason 3
+09:26:19 Heiken_Ashi_Smoothed GBPUSD,H4: initialized
+09:26:19 cu_allinone GBPUSD,H4: initialized
+09:26:21 Heiken_Ashi_Smoothed GBPUSD,H4: deinitialized
+09:26:21 Heiken_Ashi_Smoothed GBPUSD,H4: uninit reason 3
+09:26:21 cu_allinone GBPUSD,H4: deinitialized
+09:26:21 cu_allinone GBPUSD,H4: uninit reason 3
+09:26:21 Heiken_Ashi_Smoothed GBPUSD,H1: initialized
+09:26:21 cu_allinone GBPUSD,H1: initialized
+09:26:26 Heiken_Ashi_Smoothed GBPUSD,H1: deinitialized
+09:26:26 Heiken_Ashi_Smoothed GBPUSD,H1: uninit reason 3
+09:26:26 cu_allinone GBPUSD,H1: deinitialized
+09:26:26 cu_allinone GBPUSD,H1: uninit reason 3
+09:26:26 Heiken_Ashi_Smoothed GBPUSD,Daily: initialized
+09:26:26 cu_allinone GBPUSD,Daily: initialized
+09:26:28 Heiken_Ashi_Smoothed GBPUSD,Daily: deinitialized
+09:26:28 Heiken_Ashi_Smoothed GBPUSD,Daily: uninit reason 3
+09:26:28 cu_allinone GBPUSD,Daily: deinitialized
+09:26:28 cu_allinone GBPUSD,Daily: uninit reason 3
+09:26:28 Heiken_Ashi_Smoothed GBPUSD,Weekly: initialized
+09:26:28 cu_allinone GBPUSD,Weekly: initialized
+09:26:43 Heiken_Ashi_Smoothed GBPUSD,Weekly: deinitialized
+09:26:43 Heiken_Ashi_Smoothed GBPUSD,Weekly: uninit reason 3
+09:26:43 cu_allinone GBPUSD,Weekly: deinitialized
+09:26:43 cu_allinone GBPUSD,Weekly: uninit reason 3
+09:26:43 Heiken_Ashi_Smoothed GBPUSD,Daily: initialized
+09:26:43 cu_allinone GBPUSD,Daily: initialized
+09:26:44 Heiken_Ashi_Smoothed GBPUSD,Daily: deinitialized
+09:26:44 Heiken_Ashi_Smoothed GBPUSD,Daily: uninit reason 3
+09:26:44 cu_allinone GBPUSD,Daily: deinitialized
+09:26:44 cu_allinone GBPUSD,Daily: uninit reason 3
+09:26:44 Heiken_Ashi_Smoothed GBPUSD,H4: initialized
+09:26:44 cu_allinone GBPUSD,H4: initialized
+09:26:46 Heiken_Ashi_Smoothed GBPUSD,H4: deinitialized
+09:26:46 Heiken_Ashi_Smoothed GBPUSD,H4: uninit reason 3
+09:26:46 cu_allinone GBPUSD,H4: deinitialized
+09:26:46 cu_allinone GBPUSD,H4: uninit reason 3
+09:26:46 Heiken_Ashi_Smoothed GBPUSD,H1: initialized
+09:26:46 cu_allinone GBPUSD,H1: initialized
+09:26:48 Heiken_Ashi_Smoothed GBPUSD,H1: deinitialized
+09:26:48 Heiken_Ashi_Smoothed GBPUSD,H1: uninit reason 3
+09:26:48 cu_allinone GBPUSD,H1: deinitialized
+09:26:48 cu_allinone GBPUSD,H1: uninit reason 3
+09:26:48 Heiken_Ashi_Smoothed GBPUSD,M30: initialized
+09:26:48 cu_allinone GBPUSD,M30: initialized
+09:26:52 Heiken_Ashi_Smoothed GBPUSD,M30: deinitialized
+09:26:52 Heiken_Ashi_Smoothed GBPUSD,M30: uninit reason 3
+09:26:52 cu_allinone GBPUSD,M30: deinitialized
+09:26:52 cu_allinone GBPUSD,M30: uninit reason 3
+09:26:52 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+09:26:52 cu_allinone GBPUSD,M15: initialized
+09:26:55 Heiken_Ashi_Smoothed GBPUSD,M15: deinitialized
+09:26:55 Heiken_Ashi_Smoothed GBPUSD,M15: uninit reason 3
+09:26:55 cu_allinone GBPUSD,M15: deinitialized
+09:26:55 cu_allinone GBPUSD,M15: uninit reason 3
+09:26:56 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+09:26:56 cu_allinone GBPUSD,M5: initialized
+09:27:04 Heiken_Ashi_Smoothed GBPUSD,M5: deinitialized
+09:27:04 Heiken_Ashi_Smoothed GBPUSD,M5: uninit reason 3
+09:27:04 cu_allinone GBPUSD,M5: deinitialized
+09:27:04 cu_allinone GBPUSD,M5: uninit reason 3
+09:27:04 Heiken_Ashi_Smoothed GBPUSD,M1: initialized
+09:27:04 cu_allinone GBPUSD,M1: initialized
+09:28:11 Heiken_Ashi_Smoothed GBPUSD,M1: deinitialized
+09:28:11 Heiken_Ashi_Smoothed GBPUSD,M1: uninit reason 3
+09:28:11 cu_allinone GBPUSD,M1: deinitialized
+09:28:11 cu_allinone GBPUSD,M1: uninit reason 3
+09:28:11 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+09:28:11 cu_allinone GBPUSD,M5: initialized
+09:42:13 Heiken_Ashi_Smoothed GBPUSD,M5: deinitialized
+09:42:13 Heiken_Ashi_Smoothed GBPUSD,M5: uninit reason 3
+09:42:13 cu_allinone GBPUSD,M5: deinitialized
+09:42:13 cu_allinone GBPUSD,M5: uninit reason 3
+09:42:13 Heiken_Ashi_Smoothed GBPUSD,Weekly: initialized
+09:42:13 cu_allinone GBPUSD,Weekly: initialized
+09:42:19 Heiken_Ashi_Smoothed GBPUSD,Weekly: deinitialized
+09:42:19 Heiken_Ashi_Smoothed GBPUSD,Weekly: uninit reason 3
+09:42:19 cu_allinone GBPUSD,Weekly: deinitialized
+09:42:19 cu_allinone GBPUSD,Weekly: uninit reason 3
+09:42:19 Heiken_Ashi_Smoothed GBPUSD,Daily: initialized
+09:42:19 cu_allinone GBPUSD,Daily: initialized
+09:42:22 Heiken_Ashi_Smoothed GBPUSD,Daily: deinitialized
+09:42:22 Heiken_Ashi_Smoothed GBPUSD,Daily: uninit reason 3
+09:42:22 cu_allinone GBPUSD,Daily: deinitialized
+09:42:22 cu_allinone GBPUSD,Daily: uninit reason 3
+09:42:22 Heiken_Ashi_Smoothed GBPUSD,H4: initialized
+09:42:22 cu_allinone GBPUSD,H4: initialized
+09:42:24 Heiken_Ashi_Smoothed GBPUSD,H4: deinitialized
+09:42:24 Heiken_Ashi_Smoothed GBPUSD,H4: uninit reason 3
+09:42:24 cu_allinone GBPUSD,H4: deinitialized
+09:42:24 cu_allinone GBPUSD,H4: uninit reason 3
+09:42:24 Heiken_Ashi_Smoothed GBPUSD,H1: initialized
+09:42:24 cu_allinone GBPUSD,H1: initialized
+09:42:27 Heiken_Ashi_Smoothed GBPUSD,H1: deinitialized
+09:42:27 Heiken_Ashi_Smoothed GBPUSD,H1: uninit reason 3
+09:42:27 cu_allinone GBPUSD,H1: deinitialized
+09:42:27 cu_allinone GBPUSD,H1: uninit reason 3
+09:42:27 Heiken_Ashi_Smoothed GBPUSD,M30: initialized
+09:42:27 cu_allinone GBPUSD,M30: initialized
+09:42:31 Heiken_Ashi_Smoothed GBPUSD,M30: deinitialized
+09:42:31 Heiken_Ashi_Smoothed GBPUSD,M30: uninit reason 3
+09:42:31 cu_allinone GBPUSD,M30: deinitialized
+09:42:31 cu_allinone GBPUSD,M30: uninit reason 3
+09:42:31 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+09:42:31 cu_allinone GBPUSD,M15: initialized
+15:04:23 Heiken_Ashi_Smoothed GBPUSD,M15: deinitialized
+15:04:23 Heiken_Ashi_Smoothed GBPUSD,M15: uninit reason 3
+15:04:23 cu_allinone GBPUSD,M15: deinitialized
+15:04:23 cu_allinone GBPUSD,M15: uninit reason 3
+15:04:23 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+15:04:23 cu_allinone GBPUSD,M5: initialized
+15:06:06 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+15:06:06 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+15:06:06 cu_allinone EURUSD,M1: deinitialized
+15:06:06 cu_allinone EURUSD,M1: uninit reason 3
+15:06:06 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+15:06:06 cu_allinone EURUSD,M5: initialized
+15:06:47 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+15:06:47 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+15:06:47 cu_allinone EURUSD,M5: deinitialized
+15:06:47 cu_allinone EURUSD,M5: uninit reason 3
+15:06:47 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+15:06:47 cu_allinone EURUSD,M1: initialized
+15:15:58 Heiken_Ashi_Smoothed GBPUSD,M5: deinitialized
+15:15:58 Heiken_Ashi_Smoothed GBPUSD,M5: uninit reason 3
+15:15:58 cu_allinone GBPUSD,M5: deinitialized
+15:15:58 cu_allinone GBPUSD,M5: uninit reason 3
+15:15:58 Heiken_Ashi_Smoothed GBPUSD,H1: initialized
+15:15:58 cu_allinone GBPUSD,H1: initialized
+15:16:03 Heiken_Ashi_Smoothed GBPUSD,H1: deinitialized
+15:16:03 Heiken_Ashi_Smoothed GBPUSD,H1: uninit reason 3
+15:16:03 cu_allinone GBPUSD,H1: deinitialized
+15:16:03 cu_allinone GBPUSD,H1: uninit reason 3
+15:16:03 Heiken_Ashi_Smoothed GBPUSD,M30: initialized
+15:16:03 cu_allinone GBPUSD,M30: initialized
+15:16:05 Heiken_Ashi_Smoothed GBPUSD,M30: deinitialized
+15:16:05 Heiken_Ashi_Smoothed GBPUSD,M30: uninit reason 3
+15:16:05 cu_allinone GBPUSD,M30: deinitialized
+15:16:05 cu_allinone GBPUSD,M30: uninit reason 3
+15:16:05 Heiken_Ashi_Smoothed GBPUSD,M15: initialized
+15:16:05 cu_allinone GBPUSD,M15: initialized
+15:17:31 Heiken_Ashi_Smoothed GBPUSD,M15: deinitialized
+15:17:31 Heiken_Ashi_Smoothed GBPUSD,M15: uninit reason 3
+15:17:31 cu_allinone GBPUSD,M15: deinitialized
+15:17:31 cu_allinone GBPUSD,M15: uninit reason 3
+15:17:31 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+15:17:31 cu_allinone GBPUSD,M5: initialized
+15:24:33 Heiken_Ashi_Smoothed GBPUSD,M5: deinitialized
+15:24:33 Heiken_Ashi_Smoothed GBPUSD,M5: uninit reason 3
+15:24:33 cu_allinone GBPUSD,M5: deinitialized
+15:24:33 cu_allinone GBPUSD,M5: uninit reason 3
+15:24:33 Heiken_Ashi_Smoothed GBPUSD,M1: initialized
+15:24:33 cu_allinone GBPUSD,M1: initialized
+15:24:49 Heiken_Ashi_Smoothed GBPUSD,M1: deinitialized
+15:24:49 Heiken_Ashi_Smoothed GBPUSD,M1: uninit reason 3
+15:24:49 cu_allinone GBPUSD,M1: deinitialized
+15:24:49 cu_allinone GBPUSD,M1: uninit reason 3
+15:24:49 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+15:24:49 cu_allinone GBPUSD,M5: initialized
+15:31:37 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+15:31:37 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+15:31:37 cu_allinone EURUSD,M1: deinitialized
+15:31:37 cu_allinone EURUSD,M1: uninit reason 3
+15:31:37 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+15:31:37 cu_allinone EURUSD,M5: initialized
+15:52:10 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+15:52:10 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+15:52:10 cu_allinone EURUSD,M5: deinitialized
+15:52:10 cu_allinone EURUSD,M5: uninit reason 3
+15:52:10 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+15:52:10 cu_allinone EURUSD,M1: initialized
+19:07:30 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+19:07:30 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+19:07:30 cu_allinone EURUSD,M1: deinitialized
+19:07:30 cu_allinone EURUSD,M1: uninit reason 3
+19:07:30 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+19:07:30 cu_allinone EURUSD,M5: initialized
+19:07:34 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+19:07:34 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 3
+19:07:34 cu_allinone EURUSD,M5: deinitialized
+19:07:34 cu_allinone EURUSD,M5: uninit reason 3
+19:07:34 Heiken_Ashi_Smoothed EURUSD,M1: initialized
+19:07:34 cu_allinone EURUSD,M1: initialized
+19:28:31 Compiling 'cu_bbreversal'
+19:29:54 cu_bbreversal GBPUSD,M5: loaded successfully
+19:29:55 cu_bbreversal GBPUSD,M5: initialized
+19:35:05 cu_bbreversal GBPUSD,M5: uninit reason 2
+19:35:05 cu_bbreversal GBPUSD,M5: loaded successfully
+19:35:05 cu_bbreversal GBPUSD,M5: initialized
+19:35:09 Heiken_Ashi_Smoothed GBPUSD,M5: deinitialized
+19:35:09 Heiken_Ashi_Smoothed GBPUSD,M5: uninit reason 3
+19:35:09 cu_allinone GBPUSD,M5: deinitialized
+19:35:09 cu_allinone GBPUSD,M5: uninit reason 3
+19:35:09 cu_bbreversal GBPUSD,M5: uninit reason 3
+19:35:09 Heiken_Ashi_Smoothed GBPUSD,H1: initialized
+19:35:09 cu_allinone GBPUSD,H1: initialized
+19:35:09 cu_bbreversal GBPUSD,H1: initialized
+19:37:51 Heiken_Ashi_Smoothed GBPUSD,H1: deinitialized
+19:37:51 Heiken_Ashi_Smoothed GBPUSD,H1: uninit reason 3
+19:37:51 cu_allinone GBPUSD,H1: deinitialized
+19:37:51 cu_allinone GBPUSD,H1: uninit reason 3
+19:37:51 cu_bbreversal GBPUSD,H1: uninit reason 3
+19:37:51 Heiken_Ashi_Smoothed GBPUSD,H4: initialized
+19:37:51 cu_allinone GBPUSD,H4: initialized
+19:37:51 cu_bbreversal GBPUSD,H4: initialized
+19:41:16 cu_bbreversal GBPUSD,H4: uninit reason 1
+19:41:16 cu_bbreversal GBPUSD,H4: removed
+19:41:28 Heiken_Ashi_Smoothed GBPUSD,H4: deinitialized
+19:41:28 Heiken_Ashi_Smoothed GBPUSD,H4: uninit reason 3
+19:41:28 cu_allinone GBPUSD,H4: deinitialized
+19:41:28 cu_allinone GBPUSD,H4: uninit reason 3
+19:41:28 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+19:41:28 cu_allinone GBPUSD,M5: initialized
+19:45:05 PinBarDetector EURUSD,M1: loaded successfully
+19:45:13 PinBarDetector EURUSD,M1: initialized
+19:45:33 PinBarDetector EURUSD,M1: uninit reason 1
+19:45:33 PinBarDetector EURUSD,M1: removed
+19:48:11 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+19:48:11 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 3
+19:48:11 cu_allinone EURUSD,M1: deinitialized
+19:48:11 cu_allinone EURUSD,M1: uninit reason 3
+19:48:11 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+19:48:11 cu_allinone EURUSD,M5: initialized
+19:48:35 Heiken_Ashi_Smoothed USDJPY,H1: loaded successfully
+19:48:35 cu_allinone USDJPY,H1: loaded successfully
+19:48:35 Heiken_Ashi_Smoothed USDJPY,H1: initialized
+19:48:35 cu_allinone USDJPY,H1: initialized
+19:50:08 Heiken_Ashi_Smoothed USDJPY,H1: deinitialized
+19:50:08 Heiken_Ashi_Smoothed USDJPY,H1: uninit reason 3
+19:50:08 cu_allinone USDJPY,H1: deinitialized
+19:50:08 cu_allinone USDJPY,H1: uninit reason 3
+19:50:08 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+19:50:08 cu_allinone USDJPY,M5: initialized
+19:51:30 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+19:51:30 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 3
+19:51:30 cu_allinone USDJPY,M5: deinitialized
+19:51:30 cu_allinone USDJPY,M5: uninit reason 3
+19:51:31 Heiken_Ashi_Smoothed USDJPY,M1: initialized
+19:51:31 cu_allinone USDJPY,M1: initialized
+19:56:28 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+19:56:28 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 3
+19:56:28 cu_allinone USDJPY,M1: deinitialized
+19:56:28 cu_allinone USDJPY,M1: uninit reason 3
+19:56:28 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+19:56:28 cu_allinone USDJPY,M5: initialized
+20:08:45 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+20:08:45 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 3
+20:08:45 cu_allinone USDJPY,M5: deinitialized
+20:08:45 cu_allinone USDJPY,M5: uninit reason 3
+20:08:45 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+20:08:45 cu_allinone USDJPY,M15: initialized
+20:09:26 3_Level_ZZ_Semafor CHFJPY,M1: deinitialized
+20:09:26 3_Level_ZZ_Semafor CHFJPY,M1: uninit reason 1
+20:09:26 Heiken_Ashi_Smoothed CHFJPY,M1: deinitialized
+20:09:26 Heiken_Ashi_Smoothed CHFJPY,M1: uninit reason 1
+20:09:26 3_Level_ZZ_Semafor CHFJPY,M1: removed
+20:09:26 Heiken_Ashi_Smoothed CHFJPY,M1: removed
+20:09:26 Heiken_Ashi_Smoothed CHFJPY,M1: loaded successfully
+20:09:26 cu_allinone CHFJPY,M1: loaded successfully
+20:09:26 Heiken_Ashi_Smoothed CHFJPY,M1: initialized
+20:09:26 cu_allinone CHFJPY,M1: initialized
+20:09:54 Heiken_Ashi_Smoothed CHFJPY,M1: deinitialized
+20:09:54 Heiken_Ashi_Smoothed CHFJPY,M1: uninit reason 3
+20:09:54 cu_allinone CHFJPY,M1: deinitialized
+20:09:54 cu_allinone CHFJPY,M1: uninit reason 3
+20:09:54 Heiken_Ashi_Smoothed CHFJPY,M5: initialized
+20:09:54 cu_allinone CHFJPY,M5: initialized
+20:11:26 Heiken_Ashi_Smoothed CHFJPY,M5: deinitialized
+20:11:26 Heiken_Ashi_Smoothed CHFJPY,M5: uninit reason 3
+20:11:26 cu_allinone CHFJPY,M5: deinitialized
+20:11:26 cu_allinone CHFJPY,M5: uninit reason 3
+20:11:26 Heiken_Ashi_Smoothed CHFJPY,M15: initialized
+20:11:26 cu_allinone CHFJPY,M15: initialized
+20:11:53 3_Level_ZZ_Semafor CADJPY,M1: deinitialized
+20:11:53 3_Level_ZZ_Semafor CADJPY,M1: uninit reason 1
+20:11:53 Heiken_Ashi_Smoothed CADJPY,M1: deinitialized
+20:11:53 Heiken_Ashi_Smoothed CADJPY,M1: uninit reason 1
+20:11:53 3_Level_ZZ_Semafor CADJPY,M1: removed
+20:11:53 Heiken_Ashi_Smoothed CADJPY,M1: removed
+20:11:53 Heiken_Ashi_Smoothed CADJPY,M1: loaded successfully
+20:11:53 cu_allinone CADJPY,M1: loaded successfully
+20:11:53 Heiken_Ashi_Smoothed CADJPY,M1: initialized
+20:11:53 cu_allinone CADJPY,M1: initialized
+20:16:52 Heiken_Ashi_Smoothed CADJPY,M1: deinitialized
+20:16:52 Heiken_Ashi_Smoothed CADJPY,M1: uninit reason 3
+20:16:52 cu_allinone CADJPY,M1: deinitialized
+20:16:52 cu_allinone CADJPY,M1: uninit reason 3
+20:16:52 Heiken_Ashi_Smoothed CADJPY,M15: initialized
+20:16:52 cu_allinone CADJPY,M15: initialized
+20:17:28 Heiken_Ashi_Smoothed CADJPY,M15: deinitialized
+20:17:28 Heiken_Ashi_Smoothed CADJPY,M15: uninit reason 3
+20:17:28 cu_allinone CADJPY,M15: deinitialized
+20:17:28 cu_allinone CADJPY,M15: uninit reason 3
+20:17:28 Heiken_Ashi_Smoothed CADJPY,M5: initialized
+20:17:28 cu_allinone CADJPY,M5: initialized
+20:19:43 3_Level_ZZ_Semafor EURUSD,M15: deinitialized
+20:19:43 3_Level_ZZ_Semafor EURUSD,M15: uninit reason 1
+20:19:43 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+20:19:43 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 1
+20:19:43 3_Level_ZZ_Semafor EURUSD,M15: removed
+20:19:43 Heiken_Ashi_Smoothed EURUSD,M15: removed
+20:21:15 cu_allinone CADJPY,M5: deinitialized
+20:21:15 cu_allinone CADJPY,M5: uninit reason 2
+20:21:15 cu_allinone CADJPY,M5: loaded successfully
+20:21:15 cu_allinone CADJPY,M5: initialized
+20:21:15 cu_allinone CHFJPY,M15: deinitialized
+20:21:15 cu_allinone CHFJPY,M15: uninit reason 2
+20:21:15 cu_allinone CHFJPY,M15: loaded successfully
+20:21:15 cu_allinone CHFJPY,M15: initialized
+20:21:18 cu_allinone EURUSD,M5: deinitialized
+20:21:18 cu_allinone EURUSD,M5: uninit reason 2
+20:21:18 cu_allinone EURUSD,M5: loaded successfully
+20:21:18 cu_allinone EURUSD,M5: initialized
+20:21:18 cu_allinone GBPUSD,M5: deinitialized
+20:21:18 cu_allinone GBPUSD,M5: uninit reason 2
+20:21:18 cu_allinone GBPUSD,M5: loaded successfully
+20:21:18 cu_allinone GBPUSD,M5: initialized
+20:21:18 cu_allinone USDJPY,M15: deinitialized
+20:21:18 cu_allinone USDJPY,M15: uninit reason 2
+20:21:18 cu_allinone USDJPY,M15: loaded successfully
+20:21:18 cu_allinone USDJPY,M15: initialized
+20:45:41 cu_allinone GBPUSD,M5: deinitialized
+20:45:41 cu_allinone GBPUSD,M5: uninit reason 2
+20:45:41 cu_allinone GBPUSD,M5: loaded successfully
+20:45:41 cu_allinone GBPUSD,M5: initialized
+20:45:41 cu_allinone USDJPY,M15: deinitialized
+20:45:41 cu_allinone USDJPY,M15: uninit reason 2
+20:45:41 cu_allinone USDJPY,M15: loaded successfully
+20:45:41 cu_allinone USDJPY,M15: initialized
+20:45:41 cu_allinone CADJPY,M5: deinitialized
+20:45:41 cu_allinone CADJPY,M5: uninit reason 2
+20:45:41 cu_allinone CADJPY,M5: loaded successfully
+20:45:41 cu_allinone CADJPY,M5: initialized
+20:45:41 cu_allinone CHFJPY,M15: deinitialized
+20:45:41 cu_allinone CHFJPY,M15: uninit reason 2
+20:45:41 cu_allinone CHFJPY,M15: loaded successfully
+20:45:41 cu_allinone CHFJPY,M15: initialized
+20:45:41 cu_allinone EURUSD,M5: deinitialized
+20:45:41 cu_allinone EURUSD,M5: uninit reason 2
+20:45:41 cu_allinone EURUSD,M5: loaded successfully
+20:45:41 cu_allinone EURUSD,M5: initialized
+20:50:07 Compiling 'cu_allinone'
+20:50:07 cu_allinone GBPUSD,M5: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+20:50:07 cu_allinone USDJPY,M15: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+20:50:07 cu_allinone CADJPY,M5: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+20:50:07 cu_allinone CHFJPY,M15: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+20:50:07 cu_allinone EURUSD,M5: cannot open file 'C:\Program Files (x86)\OANDA - MetaTrader\experts\indicators\cu_allinone.ex4', expert was not reloaded
+20:50:18 cu_allinone GBPUSD,M5: deinitialized
+20:50:18 cu_allinone GBPUSD,M5: uninit reason 2
+20:50:18 cu_allinone GBPUSD,M5: loaded successfully
+20:50:18 cu_allinone GBPUSD,M5: initialized
+20:50:18 cu_allinone USDJPY,M15: deinitialized
+20:50:18 cu_allinone USDJPY,M15: uninit reason 2
+20:50:18 cu_allinone USDJPY,M15: loaded successfully
+20:50:18 cu_allinone USDJPY,M15: initialized
+20:50:18 cu_allinone CADJPY,M5: deinitialized
+20:50:18 cu_allinone CADJPY,M5: uninit reason 2
+20:50:18 cu_allinone CADJPY,M5: loaded successfully
+20:50:18 cu_allinone CADJPY,M5: initialized
+20:50:18 cu_allinone CHFJPY,M15: deinitialized
+20:50:18 cu_allinone CHFJPY,M15: uninit reason 2
+20:50:18 cu_allinone CHFJPY,M15: loaded successfully
+20:50:18 cu_allinone CHFJPY,M15: initialized
+20:50:18 cu_allinone EURUSD,M5: deinitialized
+20:50:18 cu_allinone EURUSD,M5: uninit reason 2
+20:50:18 cu_allinone EURUSD,M5: loaded successfully
+20:50:18 cu_allinone EURUSD,M5: initialized
+20:50:48 cu_allinone USDJPY,M15: deinitialized
+20:50:48 cu_allinone USDJPY,M15: uninit reason 2
+20:50:48 cu_allinone USDJPY,M15: loaded successfully
+20:50:48 cu_allinone USDJPY,M15: initialized
+20:50:48 cu_allinone GBPUSD,M5: deinitialized
+20:50:48 cu_allinone GBPUSD,M5: uninit reason 2
+20:50:48 cu_allinone GBPUSD,M5: loaded successfully
+20:50:48 cu_allinone GBPUSD,M5: initialized
+20:50:48 cu_allinone CADJPY,M5: deinitialized
+20:50:48 cu_allinone CADJPY,M5: uninit reason 2
+20:50:48 cu_allinone CADJPY,M5: loaded successfully
+20:50:48 cu_allinone CADJPY,M5: initialized
+20:50:48 cu_allinone CHFJPY,M15: deinitialized
+20:50:48 cu_allinone CHFJPY,M15: uninit reason 2
+20:50:48 cu_allinone CHFJPY,M15: loaded successfully
+20:50:48 cu_allinone CHFJPY,M15: initialized
+20:50:48 cu_allinone EURUSD,M5: deinitialized
+20:50:48 cu_allinone EURUSD,M5: uninit reason 2
+20:50:48 cu_allinone EURUSD,M5: loaded successfully
+20:50:48 cu_allinone EURUSD,M5: initialized
+20:53:01 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+20:53:01 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 3
+20:53:01 cu_allinone USDJPY,M15: deinitialized
+20:53:01 cu_allinone USDJPY,M15: uninit reason 3
+20:53:01 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+20:53:01 cu_allinone USDJPY,M5: initialized
+20:53:19 cu_allinone USDJPY,M5: deinitialized
+20:53:19 cu_allinone USDJPY,M5: uninit reason 2
+20:53:19 cu_allinone USDJPY,M5: loaded successfully
+20:53:19 cu_allinone USDJPY,M5: initialized
+20:53:19 cu_allinone GBPUSD,M5: deinitialized
+20:53:19 cu_allinone GBPUSD,M5: uninit reason 2
+20:53:19 cu_allinone GBPUSD,M5: loaded successfully
+20:53:19 cu_allinone GBPUSD,M5: initialized
+20:53:19 cu_allinone EURUSD,M5: deinitialized
+20:53:19 cu_allinone EURUSD,M5: uninit reason 2
+20:53:19 cu_allinone EURUSD,M5: loaded successfully
+20:53:19 cu_allinone EURUSD,M5: initialized
+20:53:19 cu_allinone CADJPY,M5: deinitialized
+20:53:19 cu_allinone CADJPY,M5: uninit reason 2
+20:53:19 cu_allinone CADJPY,M5: loaded successfully
+20:53:19 cu_allinone CADJPY,M5: initialized
+20:53:19 cu_allinone CHFJPY,M15: deinitialized
+20:53:19 cu_allinone CHFJPY,M15: uninit reason 2
+20:53:19 cu_allinone CHFJPY,M15: loaded successfully
+20:53:19 cu_allinone CHFJPY,M15: initialized
+20:53:33 cu_macdsignal EURUSD,H1: deinitialized
+20:53:33 cu_macdsignal EURUSD,H1: uninit reason 3
+20:53:33 Heiken_Ashi_Smoothed NZDJPY,H1: deinitialized
+20:53:33 Heiken_Ashi_Smoothed NZDJPY,H1: uninit reason 1
+20:53:33 Heiken_Ashi_Smoothed NZDJPY,H1: removed
+20:53:33 Heiken_Ashi_Smoothed CHFJPY,H1: deinitialized
+20:53:33 Heiken_Ashi_Smoothed CHFJPY,H1: uninit reason 1
+20:53:33 Heiken_Ashi_Smoothed CHFJPY,H1: removed
+20:53:34 Heiken_Ashi_Smoothed AUDJPY,H1: deinitialized
+20:53:34 Heiken_Ashi_Smoothed AUDJPY,H1: uninit reason 1
+20:53:34 Heiken_Ashi_Smoothed AUDJPY,H1: removed
+20:53:34 Heiken_Ashi_Smoothed CADJPY,H1: deinitialized
+20:53:34 Heiken_Ashi_Smoothed CADJPY,H1: uninit reason 1
+20:53:34 Heiken_Ashi_Smoothed CADJPY,H1: removed
+20:53:34 Heiken_Ashi_Smoothed EURJPY,H1: deinitialized
+20:53:34 Heiken_Ashi_Smoothed EURJPY,H1: uninit reason 1
+20:53:34 Heiken_Ashi_Smoothed EURJPY,H1: removed
+20:53:34 cu_macdsignal EURUSD,M1: initialized
+20:53:36 Heiken_Ashi_Smoothed EURJPY,M1: loaded successfully
+20:53:36 Heiken_Ashi_Smoothed EURJPY,M1: initialized
+20:53:36 Heiken_Ashi_Smoothed CADJPY,M1: loaded successfully
+20:53:36 Heiken_Ashi_Smoothed CADJPY,M1: initialized
+20:53:36 Heiken_Ashi_Smoothed AUDJPY,M1: loaded successfully
+20:53:36 Heiken_Ashi_Smoothed AUDJPY,M1: initialized
+20:53:37 Heiken_Ashi_Smoothed CHFJPY,M1: loaded successfully
+20:53:37 Heiken_Ashi_Smoothed CHFJPY,M1: initialized
+20:53:37 Heiken_Ashi_Smoothed NZDJPY,M1: loaded successfully
+20:53:37 Heiken_Ashi_Smoothed NZDJPY,M1: initialized
+21:00:15 cu_macdsignal EURUSD,M1: deinitialized
+21:00:15 cu_macdsignal EURUSD,M1: uninit reason 1
+21:00:15 Heiken_Ashi_Smoothed NZDJPY,M1: deinitialized
+21:00:15 Heiken_Ashi_Smoothed NZDJPY,M1: uninit reason 1
+21:00:15 Heiken_Ashi_Smoothed NZDJPY,M1: removed
+21:00:15 Heiken_Ashi_Smoothed CHFJPY,M1: deinitialized
+21:00:15 Heiken_Ashi_Smoothed CHFJPY,M1: uninit reason 1
+21:00:15 Heiken_Ashi_Smoothed CHFJPY,M1: removed
+21:00:15 Heiken_Ashi_Smoothed AUDJPY,M1: deinitialized
+21:00:15 Heiken_Ashi_Smoothed AUDJPY,M1: uninit reason 1
+21:00:15 Heiken_Ashi_Smoothed AUDJPY,M1: removed
+21:00:15 Heiken_Ashi_Smoothed CADJPY,M1: deinitialized
+21:00:15 Heiken_Ashi_Smoothed CADJPY,M1: uninit reason 1
+21:00:15 Heiken_Ashi_Smoothed CADJPY,M1: removed
+21:00:15 Heiken_Ashi_Smoothed EURJPY,M1: deinitialized
+21:00:15 Heiken_Ashi_Smoothed EURJPY,M1: uninit reason 1
+21:00:15 Heiken_Ashi_Smoothed EURJPY,M1: removed
+21:00:16 cu_macdsignal EURUSD,M1: removed
+21:00:16 Heiken_Ashi_Smoothed CADJPY,M5: deinitialized
+21:00:16 Heiken_Ashi_Smoothed CADJPY,M5: uninit reason 1
+21:00:16 cu_allinone CADJPY,M5: deinitialized
+21:00:16 cu_allinone CADJPY,M5: uninit reason 1
+21:00:16 Heiken_Ashi_Smoothed CADJPY,M5: removed
+21:00:16 cu_allinone CADJPY,M5: removed
+21:00:16 Heiken_Ashi_Smoothed CHFJPY,M15: deinitialized
+21:00:16 Heiken_Ashi_Smoothed CHFJPY,M15: uninit reason 1
+21:00:16 cu_allinone CHFJPY,M15: deinitialized
+21:00:16 cu_allinone CHFJPY,M15: uninit reason 1
+21:00:16 Heiken_Ashi_Smoothed CHFJPY,M15: removed
+21:00:16 cu_allinone CHFJPY,M15: removed
+21:00:16 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+21:00:16 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 1
+21:00:16 cu_allinone EURUSD,M5: deinitialized
+21:00:16 cu_allinone EURUSD,M5: uninit reason 1
+21:00:16 Heiken_Ashi_Smoothed EURUSD,M5: removed
+21:00:16 cu_allinone EURUSD,M5: removed
+21:00:16 Heiken_Ashi_Smoothed GBPUSD,M5: deinitialized
+21:00:16 Heiken_Ashi_Smoothed GBPUSD,M5: uninit reason 1
+21:00:16 cu_allinone GBPUSD,M5: deinitialized
+21:00:16 cu_allinone GBPUSD,M5: uninit reason 1
+21:00:16 Heiken_Ashi_Smoothed GBPUSD,M5: removed
+21:00:16 cu_allinone GBPUSD,M5: removed
+21:00:16 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+21:00:16 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 1
+21:00:16 cu_allinone USDJPY,M5: deinitialized
+21:00:16 cu_allinone USDJPY,M5: uninit reason 1
+21:00:16 Heiken_Ashi_Smoothed USDJPY,M5: removed
+21:00:16 cu_allinone USDJPY,M5: removed
+21:00:33 cu_macdsignal EURUSD,M1: loaded successfully
+21:00:33 cu_macdsignal EURUSD,M1: initialized
+21:00:33 Heiken_Ashi_Smoothed EURJPY,M1: loaded successfully
+21:00:33 Heiken_Ashi_Smoothed EURJPY,M1: initialized
+21:00:33 Heiken_Ashi_Smoothed CADJPY,M1: loaded successfully
+21:00:33 Heiken_Ashi_Smoothed CADJPY,M1: initialized
+21:00:33 Heiken_Ashi_Smoothed AUDJPY,M1: loaded successfully
+21:00:33 Heiken_Ashi_Smoothed AUDJPY,M1: initialized
+21:00:34 Heiken_Ashi_Smoothed CHFJPY,M1: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed CHFJPY,M1: initialized
+21:00:34 Heiken_Ashi_Smoothed NZDJPY,M1: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed NZDJPY,M1: initialized
+21:00:34 Heiken_Ashi_Smoothed CADJPY,M5: loaded successfully
+21:00:34 cu_allinone CADJPY,M5: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed CADJPY,M5: initialized
+21:00:34 cu_allinone CADJPY,M5: initialized
+21:00:34 Heiken_Ashi_Smoothed CHFJPY,M15: loaded successfully
+21:00:34 cu_allinone CHFJPY,M15: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed CHFJPY,M15: initialized
+21:00:34 cu_allinone CHFJPY,M15: initialized
+21:00:34 Heiken_Ashi_Smoothed EURUSD,M5: loaded successfully
+21:00:34 cu_allinone EURUSD,M5: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed EURUSD,M5: initialized
+21:00:34 cu_allinone EURUSD,M5: initialized
+21:00:34 Heiken_Ashi_Smoothed GBPUSD,M5: loaded successfully
+21:00:34 cu_allinone GBPUSD,M5: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed GBPUSD,M5: initialized
+21:00:34 cu_allinone GBPUSD,M5: initialized
+21:00:34 Heiken_Ashi_Smoothed USDJPY,M5: loaded successfully
+21:00:34 cu_allinone USDJPY,M5: loaded successfully
+21:00:34 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+21:00:34 cu_allinone USDJPY,M5: initialized
+21:00:44 CPI USDJPY,M5: loaded successfully
+21:00:45 CPI USDJPY,M5: initialized
+21:01:03 CPI USDJPY,M5: deinitialized
+21:01:03 CPI USDJPY,M5: uninit reason 1
+21:01:03 CPI USDJPY,M5: removed
+21:01:17 cu_strength_meter USDJPY,M5: loaded successfully
+21:01:18 cu_strength_meter USDJPY,M5: initialized
+21:01:35 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+21:01:35 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 1
+21:01:35 cu_allinone USDJPY,M5: deinitialized
+21:01:35 cu_allinone USDJPY,M5: uninit reason 1
+21:01:35 cu_strength_meter USDJPY,M5: deinitialized
+21:01:35 cu_strength_meter USDJPY,M5: uninit reason 1
+21:01:35 Heiken_Ashi_Smoothed USDJPY,M5: removed
+21:01:35 cu_allinone USDJPY,M5: removed
+21:01:35 cu_strength_meter USDJPY,M5: removed
+21:01:35 Heiken_Ashi_Smoothed USDJPY,M5: loaded successfully
+21:01:35 cu_allinone USDJPY,M5: loaded successfully
+21:01:35 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+21:01:35 cu_allinone USDJPY,M5: initialized
+22:25:03 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+22:25:03 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 3
+22:25:03 cu_allinone USDJPY,M5: deinitialized
+22:25:03 cu_allinone USDJPY,M5: uninit reason 3
+22:25:03 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+22:25:03 cu_allinone USDJPY,M15: initialized
+22:25:06 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+22:25:06 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 3
+22:25:06 cu_allinone USDJPY,M15: deinitialized
+22:25:06 cu_allinone USDJPY,M15: uninit reason 3
+22:25:06 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+22:25:06 cu_allinone USDJPY,M5: initialized
+22:25:09 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+22:25:09 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 3
+22:25:09 cu_allinone USDJPY,M5: deinitialized
+22:25:09 cu_allinone USDJPY,M5: uninit reason 3
+22:25:09 Heiken_Ashi_Smoothed USDJPY,M30: initialized
+22:25:09 cu_allinone USDJPY,M30: initialized
+22:25:14 Heiken_Ashi_Smoothed USDJPY,M30: deinitialized
+22:25:14 Heiken_Ashi_Smoothed USDJPY,M30: uninit reason 3
+22:25:14 cu_allinone USDJPY,M30: deinitialized
+22:25:14 cu_allinone USDJPY,M30: uninit reason 3
+22:25:14 Heiken_Ashi_Smoothed USDJPY,H1: initialized
+22:25:14 cu_allinone USDJPY,H1: initialized
+22:25:36 Heiken_Ashi_Smoothed USDJPY,H1: deinitialized
+22:25:36 Heiken_Ashi_Smoothed USDJPY,H1: uninit reason 3
+22:25:36 cu_allinone USDJPY,H1: deinitialized
+22:25:36 cu_allinone USDJPY,H1: uninit reason 3
+22:25:36 Heiken_Ashi_Smoothed USDJPY,Daily: initialized
+22:25:36 cu_allinone USDJPY,Daily: initialized
+22:25:38 Heiken_Ashi_Smoothed USDJPY,Daily: deinitialized
+22:25:38 Heiken_Ashi_Smoothed USDJPY,Daily: uninit reason 3
+22:25:38 cu_allinone USDJPY,Daily: deinitialized
+22:25:38 cu_allinone USDJPY,Daily: uninit reason 3
+22:25:38 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+22:25:38 cu_allinone USDJPY,M15: initialized
+22:25:40 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+22:25:40 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 3
+22:25:40 cu_allinone USDJPY,M15: deinitialized
+22:25:40 cu_allinone USDJPY,M15: uninit reason 3
+22:25:40 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+22:25:40 cu_allinone USDJPY,M5: initialized
+23:33:23 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+23:33:23 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 3
+23:33:23 cu_allinone USDJPY,M5: deinitialized
+23:33:23 cu_allinone USDJPY,M5: uninit reason 3
+23:33:23 Heiken_Ashi_Smoothed USDJPY,M1: initialized
+23:33:23 cu_allinone USDJPY,M1: initialized
+23:35:02 Heiken_Ashi_Smoothed USDJPY,M1: deinitialized
+23:35:02 Heiken_Ashi_Smoothed USDJPY,M1: uninit reason 3
+23:35:02 cu_allinone USDJPY,M1: deinitialized
+23:35:02 cu_allinone USDJPY,M1: uninit reason 3
+23:35:02 Heiken_Ashi_Smoothed USDJPY,H1: initialized
+23:35:02 cu_allinone USDJPY,H1: initialized
+23:35:07 Heiken_Ashi_Smoothed USDJPY,H1: deinitialized
+23:35:07 Heiken_Ashi_Smoothed USDJPY,H1: uninit reason 3
+23:35:07 cu_allinone USDJPY,H1: deinitialized
+23:35:07 cu_allinone USDJPY,H1: uninit reason 3
+23:35:07 Heiken_Ashi_Smoothed USDJPY,H4: initialized
+23:35:07 cu_allinone USDJPY,H4: initialized
+23:35:10 Heiken_Ashi_Smoothed USDJPY,H4: deinitialized
+23:35:10 Heiken_Ashi_Smoothed USDJPY,H4: uninit reason 3
+23:35:10 cu_allinone USDJPY,H4: deinitialized
+23:35:10 cu_allinone USDJPY,H4: uninit reason 3
+23:35:10 Heiken_Ashi_Smoothed USDJPY,M30: initialized
+23:35:10 cu_allinone USDJPY,M30: initialized
+23:35:11 Heiken_Ashi_Smoothed USDJPY,M30: deinitialized
+23:35:11 Heiken_Ashi_Smoothed USDJPY,M30: uninit reason 3
+23:35:11 cu_allinone USDJPY,M30: deinitialized
+23:35:11 cu_allinone USDJPY,M30: uninit reason 3
+23:35:11 Heiken_Ashi_Smoothed USDJPY,M15: initialized
+23:35:11 cu_allinone USDJPY,M15: initialized
+23:35:49 Heiken_Ashi_Smoothed USDJPY,M15: deinitialized
+23:35:49 Heiken_Ashi_Smoothed USDJPY,M15: uninit reason 3
+23:35:49 cu_allinone USDJPY,M15: deinitialized
+23:35:49 cu_allinone USDJPY,M15: uninit reason 3
+23:35:49 Heiken_Ashi_Smoothed USDJPY,M5: initialized
+23:35:49 cu_allinone USDJPY,M5: initialized
+23:35:51 Heiken_Ashi_Smoothed USDJPY,M5: deinitialized
+23:35:51 Heiken_Ashi_Smoothed USDJPY,M5: uninit reason 3
+23:35:51 cu_allinone USDJPY,M5: deinitialized
+23:35:51 cu_allinone USDJPY,M5: uninit reason 3
+23:35:51 Heiken_Ashi_Smoothed USDJPY,M1: initialized
+23:35:51 cu_allinone USDJPY,M1: initialized

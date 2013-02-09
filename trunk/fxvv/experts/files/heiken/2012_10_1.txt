@@ -1,0 +1,7 @@
+
+2012.10.02 00:00
+Hour: 23, hour new: 20
+Lots: 0.05, stoploss: 500, takeprofit: 5000, create_order: 1, pending_margin: 150, maxorders: 10, hour: 20, lot: 0.1
+
+USDCHF, val2: 0.93813, val3: 0.93810, val4: 0.93817, val5: 0.93809, Bid: 0.93788, Ask: 0.93866, Spread: 78.00000000, Lookup: 3.00000000, Strength: 6.00000000, Diff: 0.00003349, iStochastic Main: 36.45147, iStochastic Signal: 33.55657, Current Sell
+

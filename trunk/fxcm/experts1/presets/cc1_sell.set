@@ -1,0 +1,8 @@
+Lots=0.10000000
+InitialTrailingStop=500
+TrailingStop=150
+stoploss=200
+takeprofit=0
+customTrend=1
+customTrendBuy=0
+customTrendSell=1

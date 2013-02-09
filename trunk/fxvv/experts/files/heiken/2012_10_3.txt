@@ -1,0 +1,7 @@
+
+2012.10.04 00:00
+Hour: 23, hour new: 20
+Lots: 0.05, stoploss: 200, takeprofit: 5000, create_order: 1, pending_margin: 250, maxorders: 2, hour: 20, lot: 0.1
+
+AUDUSD, val6: -42.60018, val7: -64.85050, Diff: 0.00029547, Diff2: 0.00009459, Diff3: -0.00011149, Diff4: -0.00016789, Diff5: -0.00007965, Bid: 1.02138, Ask: 1.02172, Spread: 34.00000000, Diff: 0.00029547, Current Sell
+

@@ -1,0 +1,76 @@
+08:30:10 9Squared MM EURUSD,Daily: deinitialized
+08:30:10 9Squared MM EURUSD,Daily: uninit reason 1
+08:30:10 3_Level_ZZ_Semafor EURUSD,Daily: deinitialized
+08:30:10 3_Level_ZZ_Semafor EURUSD,Daily: uninit reason 1
+08:30:10 Heiken_Ashi_Smoothed EURUSD,Daily: deinitialized
+08:30:10 Heiken_Ashi_Smoothed EURUSD,Daily: uninit reason 1
+08:30:11 ZigZag EURUSD,Daily: uninit reason 1
+08:30:11 9Squared MM EURUSD,Daily: removed
+08:30:11 3_Level_ZZ_Semafor EURUSD,Daily: removed
+08:30:11 Heiken_Ashi_Smoothed EURUSD,Daily: removed
+08:30:11 ZigZag EURUSD,Daily: removed
+08:30:11 9Squared MM AUDUSD,M15: deinitialized
+08:30:11 9Squared MM AUDUSD,M15: uninit reason 1
+08:30:11 3_Level_ZZ_Semafor AUDUSD,M15: deinitialized
+08:30:11 3_Level_ZZ_Semafor AUDUSD,M15: uninit reason 1
+08:30:11 Heiken_Ashi_Smoothed AUDUSD,M15: deinitialized
+08:30:11 Heiken_Ashi_Smoothed AUDUSD,M15: uninit reason 1
+08:30:11 ZigZag AUDUSD,M15: uninit reason 1
+08:30:11 Auto Fibonacci Retracement AUDUSD,M15: deinitialized
+08:30:11 Auto Fibonacci Retracement AUDUSD,M15: uninit reason 1
+08:30:11 9Squared MM AUDUSD,M15: removed
+08:30:11 3_Level_ZZ_Semafor AUDUSD,M15: removed
+08:30:11 Heiken_Ashi_Smoothed AUDUSD,M15: removed
+08:30:11 ZigZag AUDUSD,M15: removed
+08:30:11 Auto Fibonacci Retracement AUDUSD,M15: removed
+08:30:11 3_Level_ZZ_Semafor NZDUSD,M1: deinitialized
+08:30:11 3_Level_ZZ_Semafor NZDUSD,M1: uninit reason 1
+08:30:11 3_Level_ZZ_Semafor NZDUSD,M1: removed
+08:30:11 3_signal EURUSD,M15: deinitialized
+08:30:11 3_signal EURUSD,M15: uninit reason 4
+08:30:11 Heiken_Ashi_Smoothed NZDUSD,M15: deinitialized
+08:30:11 Heiken_Ashi_Smoothed NZDUSD,M15: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M15: removed
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M5: deinitialized
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M5: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M5: removed
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M1: deinitialized
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M1: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed NZDUSD,M1: removed
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M15: deinitialized
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M15: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M15: removed
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M5: deinitialized
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M5: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M5: removed
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M1: deinitialized
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M1: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed EURJPY,M1: removed
+08:30:12 Heiken_Ashi_Smoothed AUDUSD,M15: deinitialized
+08:30:12 Heiken_Ashi_Smoothed AUDUSD,M15: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed AUDUSD,M15: removed
+08:30:12 Heiken_Ashi_Smoothed AUDUSD,M5: deinitialized
+08:30:12 Heiken_Ashi_Smoothed AUDUSD,M5: uninit reason 1
+08:30:12 Heiken_Ashi_Smoothed AUDUSD,M5: removed
+08:30:13 Heiken_Ashi_Smoothed AUDUSD,M1: deinitialized
+08:30:13 Heiken_Ashi_Smoothed AUDUSD,M1: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed AUDUSD,M1: removed
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M15: deinitialized
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M15: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M15: removed
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M5: deinitialized
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M5: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M5: removed
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M1: deinitialized
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M1: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed EURUSD,M1: removed
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M15: deinitialized
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M15: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M15: removed
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M5: deinitialized
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M5: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M5: removed
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M1: deinitialized
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M1: uninit reason 1
+08:30:13 Heiken_Ashi_Smoothed USDCHF,M1: removed
+08:30:13 3_signal EURUSD,M15: removed
