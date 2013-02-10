@@ -316,7 +316,7 @@ bool _IsReservedChar(int c)
 //end http get/post call
 // external variables
 
-extern string EA_Version = "1.0";
+extern string EA_Version = "1.1"; /*1.1 changes: settings shown*/
 extern string label_0 = " === Account Information === ";
 extern string username = "nkhanchandani";
 extern string password = "1234";
@@ -355,7 +355,7 @@ int authfailuremessage()
    }
 
 }
-
+string settings;
 
 //+------------------------------------------------------------------+
 //| expert initialization function                                   |
@@ -363,6 +363,8 @@ int authfailuremessage()
 int init()
   {
 //----
+   settings = "\n\nEA_Version: " + EA_Version + ", Username: " + username + ", Lots: " + lots + ", Max Spread: " + maxspread +
+      ", Max Orders: " + max_orders;
    infobox = "";
    infobox = infobox + "\nWelcome to Chilli Expert Advisor";
    auth();
@@ -371,7 +373,7 @@ int init()
       Comment(infobox);
       return (0);
    }
-   start();
+   infobox = infobox + settings;
    Comment(infobox);
 //----
    return(0);
@@ -429,6 +431,7 @@ int start()
       }
    
       opentime = iTime(Symbol(), Period(), 0);
+      infobox = infobox + settings;
       Comment(infobox);
    }
 //----
