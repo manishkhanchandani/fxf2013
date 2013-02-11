@@ -1,7 +1,0 @@
-
-2012.09.28 23:55
-Hour: 23, hour new: 20
-Lots: 0.1, stoploss: 500, takeprofit: 5000, create_order: 1, pending_margin: 150, maxorders: 2, hour: 20
-
-AUDUSD, val2: 1.04088, val3: 1.03987, val4: 1.04142, val5: 1.04034, Bid: 1.03777, Ask: 1.03809, Spread: 32.00000000, Lookup: 2.00000000, Strength: 7.00000000, Diff: 0.00101131, iStochastic Main: 9.14676, iStochastic Signal: 11.16691, Current Sell
-

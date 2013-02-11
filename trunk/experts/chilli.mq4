@@ -330,7 +330,6 @@ string infobox;
 int auth = 0;
 string product = "chilli";
 int magic = 1011;
-string signals[100];
 int opentime;
 
 int auth()
@@ -394,12 +393,14 @@ int deinit()
 int start()
   {
 //----
-   if (Period() != PERIOD_M15) {
+   
+   /*if (Period() != PERIOD_M15) {
       infobox = "\nThis EA works only in 15 Min Time Frame.";
       Comment(infobox);
       return (0);
-   }
+   }*/
 
+   string signals[100];
    if (opentime != iTime(Symbol(), Period(), 0)) {
       infobox = "\n";
       infobox = infobox + "Welcome to Chilli Expert Advisor";
@@ -504,21 +505,25 @@ int createorder(string symbol, int type, double Lots, int magicnumber, string me
 
    //Step 1: check different conditions
    if (IsTradeAllowed()==false) {
+      infobox = infobox + ", trading not allowed";
       return (0);
    }
 
    if (MarketInfo(symbol, MODE_SPREAD) > maxspread) {
+      infobox = infobox + ", spread is too high";
       return (0);
    }
 
    orders = CalculateCurrentOrders(symbol, magicnumber);
    if (orders > 0)
    {
+         infobox = infobox + ", already ordered this symbol";
        return (0);
    }
 
    orders = CalculateMaxOrders(magicnumber);
    if (orders >= max_orders) {
+         infobox = infobox + ", max ordered reached.";
       return (0);
    }
    
