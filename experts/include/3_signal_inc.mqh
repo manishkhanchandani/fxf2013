@@ -11,12 +11,12 @@
 #include <stdlib.mqh>
 #include <WinUser32.mqh>
 
-int InitialTrailingStop = 300;
+int InitialTrailingStop = 150;
 int TrailingStop = 150;
 
 int trailingstop = 150;
-int mintrailingstop = 300;
-int mintrailingstopavgcosting = 300;
+int mintrailingstop = 150;
+int mintrailingstopavgcosting = 150;
 int gmtoffset = 3;
 bool createneworders = true;
 
@@ -32,7 +32,7 @@ bool pair_audnzdjpy = false;
 bool pair_usdcadchf = false;
 bool closeonloss = false;
 
-int magic = 1234;
+int magic = 0;
 int overall_max_orders = -1;
 double lots = 0.10;
 bool UseAlerts = true;
@@ -137,11 +137,12 @@ int opentime;
 
 
 
-int trailingstop()
+string trailingstop()
 {
    double bid, ask, point;
    int cnt, ticket, total;
    total=OrdersTotal();
+   string lowbox;
    for(cnt=0;cnt<total;cnt++)
      {
       OrderSelect(cnt, SELECT_BY_POS, MODE_TRADES);
@@ -151,18 +152,18 @@ int trailingstop()
          bid = MarketInfo(OrderSymbol(), MODE_BID);
          ask = MarketInfo(OrderSymbol(), MODE_ASK);
          point = MarketInfo(OrderSymbol(), MODE_POINT);
-         //orderbox = StringConcatenate(infobox, "\n", OrderSymbol(), ", bid: ", bid, ", ask: ", ask);
-         //orderbox = StringConcatenate(infobox, "\n", OrderSymbol(), ", Ordder Profit: ", OrderProfit(), ", OrderOpenPrice: ", OrderOpenPrice());
+         lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", bid: ", bid, ", ask: ", ask);
+         lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", Ordder Profit: ", OrderProfit(), ", OrderOpenPrice: ", OrderOpenPrice());
             if(OrderType()==OP_BUY) {
                if(InitialTrailingStop>0 && TrailingStop>0 && OrderProfit() > 0)  
                {                 
-                  //orderbox = StringConcatenate(orderbox, "\n", OrderSymbol(), ", bid-OrderOpenPrice(): ", (bid-OrderOpenPrice()), ", point*InitialTrailingStop: ", (point*InitialTrailingStop));
+                  lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", bid-OrderOpenPrice(): ", (bid-OrderOpenPrice()), ", point*InitialTrailingStop: ", (point*InitialTrailingStop));
                   if(bid-OrderOpenPrice()>point*InitialTrailingStop)
                   {
-                     //orderbox = StringConcatenate(orderbox, "\n", OrderSymbol(), "Checking modification: OrderStopLoss(): ", (OrderStopLoss()), ", bid-point*TrailingStop: ", (bid-point*TrailingStop));
+                     lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), "Checking modification: OrderStopLoss(): ", (OrderStopLoss()), ", bid-point*TrailingStop: ", (bid-point*TrailingStop));
                      if(OrderStopLoss()<bid-point*TrailingStop)
                      {
-                        //orderbox = StringConcatenate(orderbox, "\n", OrderSymbol(), ", Modify Buy");
+                        lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", Modify Buy");
                         OrderModify(OrderTicket(),OrderOpenPrice(),bid-point*TrailingStop,OrderTakeProfit(),0,Green);
                      }
                   }
@@ -171,13 +172,13 @@ int trailingstop()
                // check for trailing stop
                if(InitialTrailingStop>0 && TrailingStop>0 && OrderProfit() > 0)  
                  {                 
-                  //orderbox = StringConcatenate(orderbox, "\n", OrderSymbol(), ", OrderOpenPrice()-ask: ", (OrderOpenPrice()-ask), ", point*InitialTrailingStop: ", (point*InitialTrailingStop));
+                  lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", OrderOpenPrice()-ask: ", (OrderOpenPrice()-ask), ", point*InitialTrailingStop: ", (point*InitialTrailingStop));
                   if((OrderOpenPrice()-ask)>(point*InitialTrailingStop))
                     {
-                     //orderbox = StringConcatenate(orderbox, "\n", OrderSymbol(), "Checking modification: OrderStopLoss(): ", (OrderStopLoss()), ", ask+point*TrailingStop: ", (ask+point*TrailingStop));
+                     lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), "Checking modification: OrderStopLoss(): ", (OrderStopLoss()), ", ask+point*TrailingStop: ", (ask+point*TrailingStop));
                      if((OrderStopLoss()>(ask+point*TrailingStop)) || (OrderStopLoss()==0))
                        {
-                        //orderbox = StringConcatenate(orderbox, "\n", OrderSymbol(), ", Modify Sell");
+                        lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", Modify Sell");
                         OrderModify(OrderTicket(),OrderOpenPrice(),ask+point*TrailingStop,OrderTakeProfit(),0,Red);
                        }
                     }
@@ -187,10 +188,10 @@ int trailingstop()
          
       }
       
-   //orderbox = StringConcatenate("InitialTrailingStop: ",InitialTrailingStop
-   //, ", TrailingStop: ",TrailingStop,"\n",orderbox);
+   lowbox = StringConcatenate("InitialTrailingStop: ",InitialTrailingStop
+   , ", TrailingStop: ",TrailingStop,"\n",lowbox);
 
-   return (0);
+   return (lowbox);
 }
 
 int trailingstopSingle(string symbol)
@@ -1134,6 +1135,41 @@ int get_lasttrendsemaphore(int i, int period, bool show=true)
      return (0);
 }
 
+int semaphoreShift(string symbol, int period, int shift)
+{
+
+      semaphoreNumber = 0;
+      //semafor
+      double ZZ_1, ZZ_2;
+      double Period1            = 5;
+      double Period2            = 13;
+      double Period3            = 34;
+      string Dev_Step_1         ="1,3";
+      string Dev_Step_2         ="8,5";
+      string Dev_Step_3         ="21,12";
+      int Symbol_1_Kod          =140;
+      int Symbol_2_Kod          =141;
+      int Symbol_3_Kod          =142;
+      bool condition_buy, condition_sell;
+      
+      for (int z=shift; z < shift+240; z++) {
+      
+         ZZ_1=iCustom(symbol,period,"3_Level_ZZ_Semafor",Period1,Period2,Period3,Dev_Step_1,Dev_Step_2,Dev_Step_3,Symbol_1_Kod,Symbol_2_Kod,Symbol_3_Kod,5,z);
+         ZZ_2=iCustom(symbol,period,"3_Level_ZZ_Semafor",Period1,Period2,Period3,Dev_Step_1,Dev_Step_2,Dev_Step_3,Symbol_1_Kod,Symbol_2_Kod,Symbol_3_Kod,4,z);
+         condition_sell = ZZ_1 > ZZ_2;
+         condition_buy = ZZ_1 < ZZ_2;
+         
+         if (condition_buy) {
+            semaphoreNumber = z;
+            return (1);
+         } else if (condition_sell) {
+            semaphoreNumber = z;
+            return (-1);
+         }
+     }
+     return (0);
+}
+
 double history(string symbol, int i, int magicnum)
 {
    int cnt;
@@ -1616,12 +1652,12 @@ int macdCount(string symbol, int period)
    return (cnt);
 }
 
-int tenkan(string symbol, int period)
+int tenkan(string symbol, int period, int shift)
 {
-   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
-   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
-   double tenkan_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 2);
-   double kijun_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 2);
+   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, shift);
+   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, shift);
+   double tenkan_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, shift+1);
+   double kijun_sen_2=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, shift+1);
          
    if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_2 <= kijun_sen_2) {
       TimeFrame = TimeframeToString(period);
@@ -1634,10 +1670,10 @@ int tenkan(string symbol, int period)
    return (0);
 }
 
-int tenkanCurrent(string symbol, int period)
+int tenkanCurrent(string symbol, int period, int shift)
 {
-   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, 1);
-   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, 1);
+   double tenkan_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_TENKANSEN, shift);
+   double kijun_sen_1=iIchimoku(symbol, period, 9, 26, 52, MODE_KIJUNSEN, shift);
          
    if (tenkan_sen_1 > kijun_sen_1) {
       return (1);
