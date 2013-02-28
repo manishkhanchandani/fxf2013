@@ -11,13 +11,13 @@
 #include <stdlib.mqh>
 #include <WinUser32.mqh>
 
-int InitialTrailingStop = 150;
+int InitialTrailingStop = 500;
 int TrailingStop = 150;
 
 int trailingstop = 150;
 int mintrailingstop = 150;
 int mintrailingstopavgcosting = 150;
-int gmtoffset = 3;
+int gmtoffset = 10;
 bool createneworders = true;
 
 bool pair_eurgbpusd = false;
@@ -32,7 +32,7 @@ bool pair_audnzdjpy = false;
 bool pair_usdcadchf = false;
 bool closeonloss = false;
 
-int magic = 0;
+int magic = 12345;
 int overall_max_orders = -1;
 double lots = 0.10;
 bool UseAlerts = true;
@@ -481,6 +481,7 @@ int render_avg_costing(string symbol, int i, double lots, bool trailingFun=true,
    }
    return (0);
 }
+
 
 
 
@@ -958,7 +959,7 @@ int closingonprofit(string symbol, int mode)
          change_stop_loss(symbol, stoploss[mode]);
       }
    }
-   infobox = infobox + "\n----------------------------------";
+   infobox = infobox + "\n----------------------------------";   
 }
 
 
@@ -1951,3 +1952,45 @@ int getPoints(string symbol, int type, double price1, double price2)
    int result = diffprice / pts;
    return (result);
 }
+
+
+double fisher(string symbol, int period, int shift)
+{
+   double val2 = iCustom(symbol, period, "Fisher_no_repainting", 30, 0, shift);
+   return (val2);
+}
+
+int fisherDiff(string symbol, int period, int shift)
+{
+   double val2 = iCustom(symbol, period, "Fisher_no_repainting", 30, 0, shift);
+   double val3 = iCustom(symbol, period, "Fisher_no_repainting", 30, 0, shift+1);
+   if (val2 > 0 && val3 < 0) {
+      return (1);
+   } else if (val2 < 0 && val3 > 0) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+int fisherCurrent(string symbol, int period, int shift)
+{
+   double val2 = iCustom(symbol, period, "Fisher_no_repainting", 30, 0, shift);
+   if (val2 > 0) {
+      return (1);
+   } else if (val2 < 0) {
+      return (-1);
+   }
+
+   return (0);
+}
+
+int bbtrend(string symbol, int period, int shift)
+{
+   double val3 = iCustom(symbol, period, "Bollinger Bands_Stop_v2 ", 20, 1, 1.0, 1, 1, 1000, false, 4, shift);
+   double val4 = iCustom(symbol, period, "Bollinger Bands_Stop_v2 ", 20, 1, 1.0, 1, 1, 1000, false, 5, shift);
+   if (val3 == EMPTY_VALUE) return (-1);
+   else if (val4 == EMPTY_VALUE) return (1);
+   return (0);
+}
+
