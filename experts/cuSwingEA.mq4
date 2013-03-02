@@ -50,7 +50,7 @@ int start()
          MarketInfo(symbol, MODE_BID) + 
          ", Ask: " + MarketInfo(symbol, MODE_ASK) +
          ", Spread: " + MarketInfo(symbol, MODE_SPREAD);
-         if (x == CHFJPY
+         if (x == CHFJPY || x == EURUSD
             ) {
             strategy2(symbol, x);
          } else {
@@ -123,6 +123,7 @@ int strategy1(string symbol, int x)
             }
             // check for open
             int orders = CalculateMaxOrders(magic);
+            infobox = infobox + ", Orders: " + orders;
             if (orders >= max) {
             
             } else {
@@ -162,7 +163,7 @@ int strategy2(string symbol, int x)
             
             string message = "Swing Close ";
             message = message + TimeframeToString(PERIOD_D1) + ", " + bbtrend
-               + ", " + condition_heiken
+               + ", " + condition_heiken + ", " + heikenSwitch;
             ;
          
          
@@ -180,6 +181,7 @@ int strategy2(string symbol, int x)
             }
             // check for open
             int orders = CalculateMaxOrders(magic);
+            infobox = infobox + ", Orders: " + orders;
             if (orders >= max) {
             
             } else {
