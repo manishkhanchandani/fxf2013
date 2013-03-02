@@ -1993,4 +1993,354 @@ int bbtrend(string symbol, int period, int shift)
    else if (val4 == EMPTY_VALUE) return (1);
    return (0);
 }
+//PRICE ACTION
+/*
+avg body
+//--- Calculate the average body size of previous candlesticks
+   double sum=0;
+   for(int i=1; i<=aver_period; i++)
+      sum=sum+MathAbs(rt[i].open-rt[i].close);
+   sum=sum/aver_period;
+   
+   
+   http://www.mql5.com/en/articles/101
+http://www.mql5.com/en/code/experts/page8
+http://www.mql5.com/en/code/313
+1.1. Morning Star
 
+This pattern indicates the reversal of downtrend, it consists of three candles (Fig. 1). After a long black candle there is a candle (the color isn't important) with a small body, which lies outside the body of the black candle. The small body of a candle means that strengths of the bulls and bears are equal and market is ready to change the trend.
+
+The third candle of the pattern is the bullish candle, it's body isn't overlapped with the body of the second candle, and close price lies inside the body of the first (bearish) candle. The resulting candle of the model is also plotted at Figure 1.
+
+For the case if the second candle is doji-like-candle, the model is named "Morning Doji Star".
+
+1.2. Evening Star
+
+This pattern indicates the reversal of uptrend, it consists of three candles (Fig. 2). After a long white candles there is a candle (the color isn't important) with a small body, which lies outside the body of the white candle. The small body of a candle means that strengths of the bulls and bears are equal and market is ready to change the trend.
+
+The third candle of the pattern is the bearish candle, it's body isn't overlapped with the body of the second candle, and close price lies inside the body of the first (bullish) candle. The resulting candle of the model is also plotted at Figure 2.
+
+For the case if the second candle is doji-like-candle, the model is named "Evening Doji Star".
+
+//+------------------------------------------------------------------+
+//| Check formation of the "Evening Star" pattern                    |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternEveningStar()
+  {
+//--- Evening Star
+   if((Close(3)-Open(3)>AvgBody(1))             && // bullish candle with body higher than average body 
+      (MathAbs(Close(2)-Open(2))<AvgBody(1)*0.5) && // second candle has a small body (less than half of the average)
+      (Close(2)>Close(3))                       && // close of the second candle is higher than close of the first
+      (Open(2)>Open(3))                         && // open of the second candle is higher than open of the first
+      (Close(1)<MidOpenClose(3)))                  // close of the last completed candle is lower than center of the first 
+      return(true);
+//---
+   return(false);
+  }
+
+//+------------------------------------------------------------------+
+//| Check formation of the "Evening Doji Star" pattern               |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternEveningDoji()
+  {
+//--- Evening Doji Star
+   if((Close(3)-Open(3)>AvgBody(1)) && // bullish candle with body higher than average 
+      (AvgBody(2)<AvgBody(1)*0.1)   && // second candle has a very small body (doji) 
+      (Close(2)>Close(3))           && // close of the second candle is higher than close of the first
+      (Open(2)>Open(3))             && // opend of the second candle is higher than open of the first
+      (Open(1)<Close(2))            && // down gap at the last completed candle
+      (Close(1)<Close(2)))             // close of the last completed candle is lower than close of the second 
+      return(true);
+//---
+   return(false);
+  }
+
+//+------------------------------------------------------------------+
+//| Check formation of the "Morning Star" pattern                    |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternMorningStar()
+  {
+//--- Morning Star
+   if((Open(3)-Close(3)>AvgBody(1))             && // bearish candle, its body greater than average candle body
+      (MathAbs(Close(2)-Open(2))<AvgBody(1)*0.5) && // second candle has small body (lower than half of the average body)
+      (Close(2)<Close(3))                       && // close of the second candle is lower than close of the first 
+      (Open(2)<Open(3))                         && // open of the second canlde is lower than open of the first
+      (Close(1)>MidOpenClose(3)))                  // close of the last completed candle is higher than center of the first 
+      return(true);
+//---
+   return(false);
+  }
+//+------------------------------------------------------------------+
+//| Check formation of the "Morning Doji Star" pattern               |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternMorningDoji()
+  {
+//--- Morning Doji Star
+   if((Open(3)-Close(3)>AvgBody(1)) && // bearish candle with body greater than average candle body 
+      (AvgBody(2)<AvgBody(1)*0.1)   && // the second candle has a very small body (doji) 
+      (Close(2)<Close(3))           && // close of the second candle is lower than close of the first 
+      (Open(2)<Open(3))             && // open of the second candle is lower than open of the first
+      (Open(1)>Close(2))            && // up gap at the last completed candle
+      (Close(1)>Close(2)))             // close of the last completed candle is higher than close of the second
+      return(true);
+//---
+   return(false);
+  }
+  
+  
+1.1. Bullish Meeting Lines
+
+The pattern consist of two candlesticks (bearish and bullish) with equal (or very close) close prices. The body of two candlesticks must be greater than average body length.
+
+The "Bullish Meeting Lines" pattern indicates the reversal of a downward trend.
+//+--------------------------------------------------------------------+
+//| Checks formation of "Bullish Meeting Lines" candlestick pattern    |            
+//+--------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternBullishMeetingLines()
+  {
+//--- Bullish Meeting Lines
+   if((Open(2)-Close(2)>AvgBody(1))              && // long black
+     ((Close(1)-Open(1))>AvgBody(1))             && // long white
+      (MathAbs(Close(1)-Close(2))<0.1*AvgBody(1)))   // doji close
+      return(true);
+//---
+   return(false);
+  }
+
+
+//+--------------------------------------------------------------------+
+//| Checks formation of "Bearish Meeting Lines" candlestick pattern    |
+//+--------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternBearishMeetingLines()
+  {
+//--- Bearish Meeting Lines
+   if((Close(2)-Open(2)>AvgBody(1))             && // long white
+     ((Open(1)-Close(1))>AvgBody(1))            && // long black
+      (MathAbs(Close(1)-Close(2))<0.1*AvgBody(1)))  // doji close
+      return(true);
+//---
+   return(false);
+  }
+
+1. "Hammer" and "Hanging Man" reversal candlestick patterns
+
+
+1.1. Hammer
+
+The "Hammer" is a candlestick with a small body and long lower wick, formed after downward price movement. The "Hammer" pattern indicates the end of a bearish trend.
+
+The color of a candlestick body isn't important, but bullish hammer indicates higher bullish potential. The body of the "Hammer" pattern often formed near the mininum of the previous candle. The longer lower wick and shorter upper wick leads to higher potential of the reversal pattern.
+
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Hammer" candlestick pattern                 |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternHammer()
+  {
+//--- Hammer
+   if((MidPoint(1)<CloseAvg(2))                                 && // down trend
+      (MathMin(Open(1),Close(1))>(High(1)-(High(1)-Low(1))/3.0)) && // body in upper 1/3
+      (Close(1)<Close(2)) && (Open(1)<Open(2)))                    // body gap
+      return(true);
+//---
+   return(false);
+  }
+  
+
+1.2. Hanging Man
+
+The "Hanging Man" is a candlestick with a small body and long lower wick, formed after upward price movement. The "Hanging Man" pattern indicates the end of a bullish trend.
+
+The color of a candlestick body isn't important, but bearish candle indicates higher bearish potential. The body of the "Hanging Man" pattern often formed near the maxinum of the previous candle. The longer lower wick and shorter upper wick leads to higher potential of the reversal pattern.
+
+
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Hanging Man" candlestick pattern            |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternHangingMan()
+  {
+//--- Hanging man
+   if((MidPoint(1)>CloseAvg(2))                                && // up trend
+      (MathMin(Open(1),Close(1)>(High(1)-(High(1)-Low(1))/3.0)) && // body in upper 1/3
+      (Close(1)>Close(2)) && (Open(1)>Open(2))))                  // body gap
+      return(true);
+//---
+   return(false);
+  }
+
+
+1. "Bullish Harami and "Bearish Harami" reversal candlestick patterns
+1.1. Bullish Harami
+
+The Bullish Harami reversal pattern forms in downward trend when large candlestick is followed by a smaller candlestick whose body is located within the vertical range of the larger body. This pattern indicates that the falling trend (downtrend) may be reversing, it signals that it's a good time to enter into a long position. The second candlestick is opened with a gap up.
+
+The smaller the second (white) candlestick, the more likely the reversal.
+//+------------------------------------------------------------------+
+//| Checks formation of "Bullish Harami" candlestick pattern         |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternBullishHarami()
+  {
+//--- Bullish Harami
+   if((Close(1)>Open(1))              && // the last completed bar is bullish (white day)
+     ((Open(2)-Close(2))>AvgBody(1))  && // the previous candle is bearish, its body is greater than average (long black)
+     ((Close(1)<Open(2))              && // close price of the bullish candle is lower than open price of the bearish candle 
+      (Open(1)>Close(2)))             && // open price of the bullish candle is higher than close price of the bearish candle
+      (MidPoint(2)<CloseAvg(2)))         // down trend
+      return(true);
+//---
+   return(false);
+  }
+1.2. Bearish Harami
+
+The Bearish Harami reversal pattern forms in upward trend when large candlestick is followed by a smaller candlestick whose body is located within the vertical range of the larger body. This pattern indicates that the rising trend (uptrend) may be reversing, it signals that it's a good time to enter into a short position. The second candlestick is opened with a gap down.
+
+The smaller the second (black) candlestick, the more likely the reversal.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Bearish Harami" candlestick pattern         |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternBearishHarami()
+  {
+//--- Bearish Harami
+   if((Close(1)<Open(1))              && // last completed bar is bearish (black day)
+     ((Close(2)-Open(2))>AvgBody(1))  && // the previous candle is bullish, its body is greater than average (long white)
+     ((Close(1)>Open(2))              && // close price of the bearish candle is higher than open price of the bullish candle 
+      (Open(1)<Close(2)))             && // open price of the bearish candle is lower than close price of the bullish candle
+      (MidPoint(2)>CloseAvg(2)))         // up trend
+      return(true);
+//---
+   return(false);
+  }
+
+1. "Bullish Engulfing" and "Bearish Engulfing"
+1.1. Bullish Engulfing
+
+"Bullish Engulfing" reversal pattern forms in downtrend when a small black candlestick if followed by a large white candlestick that completely eclipses ("engulfs") the candlestick of the previous day. The shadows (tails) of the small candlestick are short, which enables the body of the large candlestick to cover the entire candlestick from the previous day.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Bullish Engulfing" candlestick pattern      |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternBullishEngulfing()
+  {
+//--- Bullish Engulfing
+   if((Open(2)>Close(2))             &&  // previous candle is bearish
+      (Close(1)-Open(1)>AvgBody(1))  &&  // body of the bullish candle is higher than average value of the body 
+      (Close(1)>Open(2))             &&  // close price of the bullish candle is higher than open price of the bearish candle
+      (MidOpenClose(2)<CloseAvg(2))  &&  // downtrend
+      (Open(1)<Close(2)))                // open price of the bullish candle is lower than close price of the bearish
+      return(true);
+//---
+   return(false);
+  }
+  
+
+1.2. Bearish Engulfing
+
+"Bearish Engulfing" reversal pattern forms in uptrend when a small white candlestick if followed by a large black candlestick that completely eclipses ("engulfs") the candlestick of the previous day. The shadows (tails) of the small candlestick are short, which enables the body of the large candlestick to cover the entire candlestick from the previous day.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Bearish Engulfing" candlestick pattern      |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternBearishEngulfing()
+  {
+//--- Bearish Engulfing
+   if((Open(2)<Close(2))            &&  // previous candle is bearish
+      (Open(1)-Close(1)>AvgBody(1)) &&  // body of the candle is higher than average value of the body
+      (Close(1)<Open(2))            &&  // close price of the bearish candle is lower than open price of the bullish candle
+      (MidOpenClose(2)>CloseAvg(2)) &&  // uptrend
+      (Open(1)>Close(2)))               // Open price of the bearish candle is higher than close price of the bullish candle
+      return(true);
+//---
+   return(false);
+  }
+  
+  
+http://www.mql5.com/en/code/300
+1. "Dark Cloud Cover" and "Piercing Line" reversal candlestick patterns
+1.1. Dark Cloud Cover
+
+It's a bearish candlestick reversal that occurs at the end of uptrend. A long white candlestick is formed on the first day and a gap up is created on the second day. However, the second day closes below the midpoint of the first day.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Dark Cloud Cover" candlestick pattern       |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternDarkCloudCover()
+  {
+//--- Dark Cloud Cover 
+   if((Close(2)-Open(2)>AvgBody(1))  && // (long white)
+      (Close(1)<Close(2))            && // 
+      (Close(1)>Open(2))             && // (close within previous body)
+      (MidOpenClose(2)>CloseAvg(1))  && // (uptrend)
+      (Open(1)>High(2)))                // (open at new high)
+      return(true);
+//---
+   return(false);
+  }
+1.2. Piercing Line
+
+The gap down on the second day perpetuates the downtrend. However, the second day's close is above the midpoint of the first day's body. This suggests to the bears that a bottom could be forming. This price action is not nearly as discernable using bar charts as it is with candlestick charts. The more penetration of the close on the second day to the first day's body, the more probable the reversal signal will succeed.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "Piercing Line" candlestick pattern          |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternPiercingLine()
+  {
+//--- Piercing Line
+   if((Close(1)-Open(1)>AvgBody(1)) && // (long white)
+      (Open(2)-Close(2)>AvgBody(1)) && // (long black)
+      (Close(1)>Close(2))           && //  
+      (Close(1)<Open(2))            && // (close inside previous body) 
+      (MidOpenClose(2)<CloseAvg(2)) && // (downtrend)
+      (Open(1)<Low(2)))                // (open lower than previous Low) 
+      return(true);
+//---
+   return(false);
+  }
+  
+  
+  http://www.mql5.com/en/code/288
+1. "3 Black Crows" and 3 "White Soldiers" reversal candlestick patterns
+1.1. 3 Black Crows
+
+A bearish candlestick pattern that is used to predict the reversal of the current uptrend. This pattern consists of three consecutive long-bodied candlesticks that have closed lower than the previous day with each session's open occurring within the body of the previous candle.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "3 Black Crows" candlestick pattern          |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternThreeBlackCrows()
+  {
+//--- 3 Black Crows 
+   if((Open(3)-Close(3)>AvgBody(1)) && // (long black)
+      (Open(2)-Close(2)>AvgBody(1)) &&
+      (Open(1)-Close(1)>AvgBody(1)) && 
+      (MidPoint(2)<MidPoint(3))     && // (lower midpoints)
+      (MidPoint(1)<MidPoint(2)))       
+      return(true);
+//---
+   return(false);
+  }
+1.2. 3 White Soldiers candlestick pattern
+
+A bullish candlestick pattern that is used to predict the reversal of the current downtrend. This pattern consists of three consecutive long-bodied candlesticks that have closed higher than the previous day, with each session's open occurring within the body of the previous candle. 
+
+The pattern is valid as long as the candle of day two opens in the upper half of day one's range. By the end of day two, it should close near its high, leaving a very small or non-existent upper shadow. The same pattern is then repeated on day three.
+
+//+------------------------------------------------------------------+
+//| Checks formation of "3 White Soldiers" candlestick pattern       |
+//+------------------------------------------------------------------+
+bool CCandlePattern::CheckPatternThreeWhiteSoldiers()
+  {
+   //--- 3 White Soldiers
+   if((Close(3)-Open(3)>AvgBody(1)) && // long white
+      (Close(2)-Open(2)>AvgBody(1)) &&
+      (Close(1)-Open(1)>AvgBody(1)) &&
+      (MidPoint(2)>MidPoint(3))     && // higher midpoints
+      (MidPoint(1)>MidPoint(2)))
+      return(true);
+//---
+   return(false);
+  }
+
+
+*/
