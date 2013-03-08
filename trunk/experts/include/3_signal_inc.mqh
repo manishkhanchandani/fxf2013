@@ -1193,6 +1193,23 @@ double history(string symbol, int i, int magicnum)
 }
 
 
+double historyall(int magicnum)
+{
+   int cnt;
+   int total = OrdersHistoryTotal();
+   double gtotal = 0;
+   for(cnt=0;cnt<total;cnt++)
+   {
+      OrderSelect(cnt, SELECT_BY_POS, MODE_HISTORY);
+      if (OrderMagicNumber()==magicnum) {
+         gtotal += OrderProfit();
+      }
+   }
+   //historybox = historybox + "\nTotal Profit/Loss For Symbol: " + symbol + " and magic: " + magicnum +
+   //" is: " + DoubleToStr(gtotal, 2);
+   return (gtotal);
+}
+
 int getallinfo()
 {
    string mySymbol;
