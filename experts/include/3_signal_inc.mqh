@@ -2079,6 +2079,26 @@ int highlowstrategy(string symbol, int period, int i)
    if (ShortEntryCondition) return (-1);
 }
 
+
+
+int stochstrategy1entry(string symbol, int period, int i)
+{
+   int buy, sell;
+   double sm = iStochastic(symbol,period,14,7,7,MODE_SMA,0,MODE_MAIN,i);
+   double ss = iStochastic(symbol,period,14,7,7,MODE_SMA,0,MODE_SIGNAL,i);
+   if (sm > ss) {
+      buy++;
+   } else if (sm < ss) {
+      sell++;
+   }
+   LongEntryCondition = (buy == 2);
+      ShortEntryCondition = (sell == 2);
+      maxindicatorBuy = buy; 
+      maxindicatorSell = sell;
+      if (LongEntryCondition) { return (1); }
+      if (ShortEntryCondition) { return (-1); } 
+}
+
 double historyall(int magicnum)
 {
    int cnt;
