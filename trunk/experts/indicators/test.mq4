@@ -1,14 +1,12 @@
 //+------------------------------------------------------------------+
 //|                                                         test.mq4 |
 //|                                              Manish Khanchandani |
-//|                                          http://forexmastery.org |
+//|                                              http://mkgalaxy.com |
 //+------------------------------------------------------------------+
 #property copyright "Manish Khanchandani"
-#property link      "http://forexmastery.org"
+#property link      "http://mkgalaxy.com"
 
-#property indicator_separate_window
-#property indicator_minimum 1
-#property indicator_maximum 10
+#property indicator_chart_window
 //+------------------------------------------------------------------+
 //| Custom indicator initialization function                         |
 //+------------------------------------------------------------------+

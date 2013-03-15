@@ -7,6 +7,7 @@
 #property link      "http://mkgalaxy.com"
 
 #property indicator_chart_window
+#include <3_signal_inc.mqh>
 //+------------------------------------------------------------------+
 //| Custom indicator initialization function                         |
 //+------------------------------------------------------------------+
@@ -46,6 +47,8 @@ int start()
      double lastscore;
      int totalpoints;
      int type;
+     string name;
+     ObjectDelete("type");
       if(fibHigh>fibLow){
       WindowRedraw();
       ObjectCreate("XIT_FIBO",OBJ_FIBO,0,highTime,High[fibHigh],lowTime,Low[fibLow]);
@@ -55,6 +58,8 @@ int start()
       firstscore = High[fibHigh];
       lastscore = Low[fibLow];
       totalpoints = (firstscore - lastscore) / Point;
+      name = "type";
+      create_label(name, 0, 0, 0, 2, 10, 150, "Sell", Red);
       }
       else{
       WindowRedraw();
@@ -65,8 +70,9 @@ int start()
       firstscore = Low[fibLow];
       lastscore = High[fibHigh];
       totalpoints = (lastscore - firstscore) / Point;
+      name = "type";
+      create_label(name, 0, 0, 0, 2, 10, 150, "Buy", Green);
       }
-      
       infobox = infobox + "\nTrend Starts From: " + firstscore + " and last curve is at: " + lastscore +
       " with points: " + totalpoints;
       double bid = MarketInfo(Symbol(), MODE_BID);
@@ -103,6 +109,21 @@ int start()
       
       int currentlevel;
       if (type == 1) {
+         name = "buy1";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 50, "Buy At 23%: " + DoubleToStr(f23, Digits), Yellow);
+         name = "buy2";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 70, "Buy At 38%: " + DoubleToStr(f38, Digits), Yellow);
+         name = "buy3";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 90, "Buy At 50%: " + DoubleToStr(f50, Digits), Yellow);
+         name = "buy4";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 110, "Buy At 61%: " + DoubleToStr(f61, Digits), Yellow);
+         name = "buy5";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 130, "Sell At 78%: " + DoubleToStr(f78, Digits), Red);
          if (bid > f0) {
             infobox = infobox + "\nCurrent Uptrend.";
          } else if (bid < f0 && bid > f23) {
@@ -121,6 +142,21 @@ int start()
             infobox = infobox + "\nProbable Uptrend Converted to Downtrend.";
          }
       } else if (type == -1) {
+         name = "buy1";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 50, "Sell At 23%: " + DoubleToStr(f23, Digits), Yellow);
+         name = "buy2";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 70, "Sell At 38%: " + DoubleToStr(f38, Digits), Yellow);
+         name = "buy3";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 90, "Sell At 50%: " + DoubleToStr(f50, Digits), Yellow);
+         name = "buy4";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 110, "Sell At 61%: " + DoubleToStr(f61, Digits), Yellow);
+         name = "buy5";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 130, "Buy At 78%: " + DoubleToStr(f78, Digits), Green);
          if (bid > f0) {
             infobox = infobox + "\nCurrent Downtrend.";
          } else if (bid > f0 && bid <  f23) {
@@ -139,7 +175,13 @@ int start()
             infobox = infobox + "\nProbable Uptrend Converted to uptrend.";
          }
       }
-      infobox = infobox + "\nProfit Level 1: " + f138 + ", Profit Level 2: " + f161;
+      name = "TakeProfit1";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 30, "Take Profit 138%: " + DoubleToStr(f138, Digits), Red);
+      name = "TakeProfit2";
+         ObjectDelete(name);
+         create_label(name, 0, 0, 0, 2, 10, 10, "Take Profit 161%: " + DoubleToStr(f161, Digits), Red);
+      infobox = infobox + "\nProfit Level 2: " + f138 + ", Profit Level 2: " + f161;
      ObjectSet("XIT_FIBO",OBJPROP_FIBOLEVELS,6);
      ObjectSet("XIT_FIBO",OBJPROP_FIRSTLEVEL+0,0.0);
      ObjectSet("XIT_FIBO",OBJPROP_FIRSTLEVEL+1,0.236);
