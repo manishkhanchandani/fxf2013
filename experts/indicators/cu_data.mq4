@@ -60,8 +60,7 @@ void custom_start()
    calculate_rsi();
    //calculate_tksen();
    calculate_ema_17_43();
-   //calculate_bb();
-   calculate_ich();
+   calculate_bb();
    //macdrev();
    //calculate_mom();
    //calculate_trend();
@@ -175,8 +174,6 @@ void delete_object()
       name = "rsi"+i;
       ObjectDelete(name);
       name = "tksen"+i;
-      ObjectDelete(name);
-      name = "ich"+i;
       ObjectDelete(name);
       name = "kumo"+i;
       ObjectDelete(name);
@@ -334,7 +331,7 @@ void create_side_items()
       ObjectSet("bblbl", OBJPROP_CORNER, 1);
       ObjectSet("bblbl", OBJPROP_XDISTANCE, 220);
       ObjectSet("bblbl", OBJPROP_YDISTANCE, 160);
-      ObjectSetText("bblbl", "I", 10, "Verdana", Blue); //Bollinger
+      ObjectSetText("bblbl", "B", 10, "Verdana", Blue); //Bollinger
    }
    /*
    if (ObjectCreate("macdrevlbl", OBJ_LABEL, 0, 0, 0)) {
@@ -610,29 +607,6 @@ void calculate_bb()
       }
    }
 }
-
-void calculate_ich()
-{
-   double tenkan_sen_1, kijun_sen_1, spanA, spanB, spanHigh, spanLow, chinkouspan;
-   string name;
-   int base = 200;
-   int x;
-   int y = 160;
-   for (int i = 0; i < limit; i++) {
-      name = "ich"+i;
-      x = base - (i * 30);
-      tenkan_sen_1=iIchimoku(NULL,period[i], 9, 26, 52, MODE_TENKANSEN, 0);
-      kijun_sen_1=iIchimoku(NULL,period[i], 9, 26, 52, MODE_KIJUNSEN, 0);
-      ObjectDelete(name);
-      if (tenkan_sen_1 > kijun_sen_1 && tenkan_sen_1 < Bid) {
-         create_arrow(name, x, y, 1);
-      } else if (tenkan_sen_1 < kijun_sen_1 && tenkan_sen_1 > Bid) {
-         create_arrow(name, x, y, -1);
-      } else {
-         create_arrow(name, x, y, 0);
-      }
-   }
-}
 void calculate_mom()
 {
    string name;
@@ -672,6 +646,49 @@ void calculate_trend()
    }
 }
 
+void calculate_pricezone()
+{
+   string name;
+   int base = 200;
+   int x;
+   int y = 280;
+   for (int i = 0; i < 9; i++) {
+      name = "rsi"+i;
+      x = base - (i * 30);
+      /*val = iRSI(NULL,period[i],7,PRICE_CLOSE,0);
+      if (val > 70) {
+         create_arrow(name, x, y, 1);
+      } else if (val < 30) {
+         create_arrow(name, x, y, -1);
+      } else {
+         create_arrow(name, x, y, 0);
+      }*/
+   }
+}
+
+
+int morning_star(int number, string symbol, int timeperiod)
+{
+   int i,j,k;
+   i = number + 1;
+   j = number + 2;
+   k = number + 3;
+   double avgbody = avgbody(iOpen(symbol, timeperiod, i), iClose(symbol, timeperiod, i));
+}
+int morning_doji()
+{
+
+}
+double avgbody(double open, double close)
+{
+   double bd;
+   if (open > close) {
+      bd = open - close;
+   } else {
+      bd = close - open;
+   }
+   return (bd);
+}
 
 void history()
 {

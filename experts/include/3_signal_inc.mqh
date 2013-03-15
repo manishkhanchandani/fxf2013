@@ -194,6 +194,62 @@ string trailingstop()
    return (lowbox);
 }
 
+string followstoploss(int magicnumber, int stoploss)
+{
+   double bid, ask, point;
+   int cnt, ticket, total;
+   total=OrdersTotal();
+   string lowbox;
+   for(cnt=0;cnt<total;cnt++)
+     {
+      OrderSelect(cnt, SELECT_BY_POS, MODE_TRADES);
+      if(OrderType()<=OP_SELL && OrderMagicNumber() == magicnumber
+      ) 
+         {
+         bid = MarketInfo(OrderSymbol(), MODE_BID);
+         ask = MarketInfo(OrderSymbol(), MODE_ASK);
+         point = MarketInfo(OrderSymbol(), MODE_POINT);
+         lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", bid: ", bid, ", ask: ", ask);
+         lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", Ordder Profit: ", OrderProfit(), ", OrderOpenPrice: ", OrderOpenPrice());
+            if(OrderType()==OP_BUY) {
+               if(stoploss > 0)  
+               {                 
+                  lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", bid-OrderOpenPrice(): ", (bid-OrderOpenPrice()), ", point*InitialTrailingStop: ", (point*InitialTrailingStop));
+                  if(bid-OrderOpenPrice()>point*stoploss)
+                  {
+                     lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), "Checking modification: OrderStopLoss(): ", (OrderStopLoss()), ", bid-point*TrailingStop: ", (bid-point*TrailingStop));
+                     if(OrderStopLoss()<bid-point*stoploss)
+                     {
+                        lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", Modify Buy");
+                        OrderModify(OrderTicket(),OrderOpenPrice(),bid-point*stoploss,OrderTakeProfit(),0,Green);
+                     }
+                  }
+               }//end if
+            } else if(OrderType()==OP_SELL) {
+               // check for trailing stop
+               if(stoploss > 0)  
+                 {                 
+                  lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", OrderOpenPrice()-ask: ", (OrderOpenPrice()-ask), ", point*InitialTrailingStop: ", (point*InitialTrailingStop));
+                  if((OrderOpenPrice()-ask)>(point*stoploss))
+                    {
+                     lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), "Checking modification: OrderStopLoss(): ", (OrderStopLoss()), ", ask+point*TrailingStop: ", (ask+point*TrailingStop));
+                     if((OrderStopLoss()>(ask+point*stoploss)) || (OrderStopLoss()==0))
+                       {
+                        lowbox = StringConcatenate(lowbox, "\n", OrderSymbol(), ", Modify Sell");
+                        OrderModify(OrderTicket(),OrderOpenPrice(),ask+point*stoploss,OrderTakeProfit(),0,Red);
+                       }
+                    }
+                 }
+            } 
+         }
+         
+      }
+      
+   lowbox = StringConcatenate("InitialTrailingStop: ",InitialTrailingStop
+   , ", TrailingStop: ",TrailingStop,"\n",lowbox);
+
+   return (lowbox);
+}
 int trailingstopSingle(string symbol)
 {
    double bid, ask, point;
@@ -471,12 +527,12 @@ int render_avg_costing(string symbol, int i, double lots, bool trailingFun=true,
    }
    
    if (avg_costing) {
-      infobox = infobox + "\nAvg Costing";
+      //infobox = infobox + "\nAvg Costing";
       create_average_costing(symbol, i, lots);
    }
    //infobox = infobox + ", trailingFun: "+trailingFun+", avg_costing: " + avg_costing;
    if (trailingFun) {
-      infobox = infobox + ", Trailing Fun: ";
+      //infobox = infobox + ", Trailing Fun: ";
       closingonprofit(symbol, i);
    }
    return (0);
@@ -793,24 +849,24 @@ int create_average_costing(string symbol, int mode, double lotsAvail)
    int diff;
    if (totalprofit[mode] < 0) {
       diff = MathAbs(bid - averagecostingprice[mode]) / point;
-      infobox = infobox + "\nTotal Profit: " + totalprofit[mode] + 
-         " - Total Average: " + averagecostingprice[mode] + " - Current Diff: " + diff + 
-         " - Custom Diff: " + difference[mode] + " - typeoforder: " + typeoforder[mode];
+      //infobox = infobox + "\nTotal Profit: " + totalprofit[mode] + 
+       //  " - Total Average: " + averagecostingprice[mode] + " - Current Diff: " + diff + 
+       //  " - Custom Diff: " + difference[mode] + " - typeoforder: " + typeoforder[mode];
 
       if (diff > (difference[mode] * 1) && diff < (difference[mode] * 2) && create_avg_orders) {
-         infobox = infobox + " - D1:" + (difference[mode] * 1);
+        // infobox = infobox + " - D1:" + (difference[mode] * 1);
          createorder(symbol, typeoforder[mode], lotsAvail, magic1, "Build 1.2: Level 1", 0, 0);
       } 
       if (diff > (difference[mode] * 2) && diff < (difference[mode] * 3) && create_avg_orders) {
-         infobox = infobox + " - D2:" + (difference[mode] * 2);
+         //infobox = infobox + " - D2:" + (difference[mode] * 2);
          createorder(symbol, typeoforder[mode], lotsAvail, magic2, "Build 1.2: Level 2", 0, 0);
       } 
       if (diff > (difference[mode] * 3) && diff < (difference[mode] * 4) && create_avg_orders) {
-         infobox = infobox + " - D3:" + (difference[mode] * 3);
+         //infobox = infobox + " - D3:" + (difference[mode] * 3);
          createorder(symbol, typeoforder[mode], lotsAvail, magic3, "Build 1.2: Level 3", 0, 0);
       } 
       if (diff > (difference[mode] * 4) && create_avg_orders) {
-         infobox = infobox + " - D4:" + (difference[mode] * 4);
+         //infobox = infobox + " - D4:" + (difference[mode] * 4);
          createorder(symbol, typeoforder[mode], lotsAvail, magic4, "Build 1.2: Level 4", 0, 0);
       }
    }
@@ -861,8 +917,8 @@ int get_average_costing(string symbol, int mode)
      cost = totalcost[mode] / lotsavg[mode];
      returncost[mode] = cost;
   }
-  if (totalorders[mode] > 0)
-      infobox = infobox + StringConcatenate("\n", symbol, ", lotsavg[mode]: ", DoubleToStr(lotsavg[mode], 2), ", totalcost[mode]: ", totalcost[mode], ", typeoforder: ", typeoforder[mode], ", totalprofit[mode]: ", totalprofit[mode], ", returncost[mode]: ", returncost[mode]);
+  //if (totalorders[mode] > 0)
+      //infobox = infobox + StringConcatenate("\n", symbol, ", lotsavg[mode]: ", DoubleToStr(lotsavg[mode], 2), ", totalcost[mode]: ", totalcost[mode], ", typeoforder: ", typeoforder[mode], ", totalprofit[mode]: ", totalprofit[mode], ", returncost[mode]: ", returncost[mode]);
    
 }
 
@@ -929,37 +985,37 @@ int closingonprofit(string symbol, int mode)
       double point = MarketInfo(symbol, MODE_POINT);
       double digit = MarketInfo(symbol, MODE_DIGITS);
       
-   infobox = infobox + "\nTotal Profit: " + totalprofit[mode] + 
-   ", totalorders: " + totalorders[mode];
+   //infobox = infobox + "\nTotal Profit: " + totalprofit[mode] + 
+   //", totalorders: " + totalorders[mode];
    
    //new addition, if does not work then we can commit this.
-   infobox = infobox + "\nAverage Cost: " + returncost[mode] + 
-   ", trailingstop: " + trailingstop + ", mintrailingstop: " + mintrailingstop + 
-   ", mintrailingstopavgcosting: " + mintrailingstopavgcosting;
+   //infobox = infobox + "\nAverage Cost: " + returncost[mode] + 
+   //", trailingstop: " + trailingstop + ", mintrailingstop: " + mintrailingstop + 
+   //", mintrailingstopavgcosting: " + mintrailingstopavgcosting;
    
    int checkpoint = mintrailingstop;
    if (totalorders[mode] > 1) {
       checkpoint = mintrailingstopavgcosting;
    }
-   infobox = infobox + "\nstoploss: " + stoploss[mode] + ", checkpoint: " + checkpoint +
-      ", (bid-returncost[mode])(buy): " + (bid-returncost[mode]) + ", returncost[mode]-ask(sell): " + (returncost[mode]-ask) +
-      ", (point*checkpoint): " + (point*checkpoint) 
-   ;
+   //infobox = infobox + "\nstoploss: " + stoploss[mode] + ", checkpoint: " + checkpoint +
+     // ", (bid-returncost[mode])(buy): " + (bid-returncost[mode]) + ", returncost[mode]-ask(sell): " + (returncost[mode]-ask) +
+     // ", (point*checkpoint): " + (point*checkpoint) 
+   //;
    if(typeoforder[mode] == 1 && (bid-returncost[mode]) > point*checkpoint)
    {
       if(stoploss[mode] < (bid - point*trailingstop)) {
          stoploss[mode] = bid - point*trailingstop;
-         infobox = infobox + "\nstoploss: " + stoploss[mode];
+         //infobox = infobox + "\nstoploss: " + stoploss[mode];
          change_stop_loss(symbol, stoploss[mode]);
       }
    } else if (typeoforder[mode] == -1 && (returncost[mode]-ask)>(point*checkpoint)) {
       if((stoploss[mode] > (ask + point*trailingstop)) || (stoploss[mode]==0)) {
          stoploss[mode] = ask + point*trailingstop;
-         infobox = infobox + "\nstoploss: " + stoploss[mode];
+         //infobox = infobox + "\nstoploss: " + stoploss[mode];
          change_stop_loss(symbol, stoploss[mode]);
       }
    }
-   infobox = infobox + "\n----------------------------------";   
+   //infobox = infobox + "\n----------------------------------";   
 }
 
 
@@ -2091,10 +2147,8 @@ int stochstrategy1entry(string symbol, int period, int i)
    } else if (sm < ss) {
       sell++;
    }
-   LongEntryCondition = (buy == 2);
-      ShortEntryCondition = (sell == 2);
-      maxindicatorBuy = buy; 
-      maxindicatorSell = sell;
+   bool LongEntryCondition = (buy == 2);
+   bool ShortEntryCondition = (sell == 2);
       if (LongEntryCondition) { return (1); }
       if (ShortEntryCondition) { return (-1); } 
 }
@@ -2108,7 +2162,7 @@ double historyall(int magicnum)
    {
       OrderSelect(cnt, SELECT_BY_POS, MODE_HISTORY);
       if (OrderMagicNumber()==magicnum) {
-         gtotal += OrderProfit();
+         gtotal = gtotal + OrderProfit();
       }
    }
    //historybox = historybox + "\nTotal Profit/Loss For Symbol: " + symbol + " and magic: " + magicnum +
@@ -2151,3 +2205,28 @@ int historyProfit(int magicnum, string symbol)
    return (gtotal);
 }
 
+
+int buysellstrategy(string symbol, int period, int i)
+{
+   int    T3Period  = 14;
+   int    T3Price   = PRICE_CLOSE;
+   double b         = 0.618;
+   int Snake_HalfCycle=5; // Snake_HalfCycle = 4...10 or other
+   int DeltaForSell = 0;
+   int DeltaForBuy = 0;
+      double pwma5 = iCustom(symbol,period,"Snake",Snake_HalfCycle,0,i+1);
+      double cwma5 = iCustom(symbol,period,"Snake",Snake_HalfCycle,0,i);
+      
+      double pwma50 = iCustom(symbol,period,"T3_clean",T3Period,T3Price,b,0,i+1);
+      double cwma50 = iCustom(symbol,period,"T3_clean",T3Period,T3Price,b,0,i);
+      if( cwma5 > (cwma50 +(DeltaForBuy*MarketInfo(symbol, MODE_POINT))) && pwma5 <= pwma50)
+      {
+         //buy
+         return (1);
+      } else if( pwma5 >= pwma50 && cwma5 < (cwma50 - (DeltaForSell*MarketInfo(symbol, MODE_POINT))))
+      {
+         //sell
+         return (-1);
+      }
+      return (0);
+}
