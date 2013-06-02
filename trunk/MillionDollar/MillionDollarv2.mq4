@@ -106,6 +106,8 @@ int start()
       Comment(infobox);
       return (0);
    }
+   
+   string box = manage_orders();
    if (opentime != iTime(Symbol(), PERIOD_M5, 0)) {
       infobox = "";
       infobox = infobox + "\nWelcome to MillionDollar Expert Advisor";
@@ -119,7 +121,7 @@ int start()
       if (lotsize > 0) lots = lotsize;
       lots = NormalizeDouble(lots, 2);
       infobox = infobox + "\nMax Orders: " + max_orders + ", Max Spread: " + maxspread
-         + ", Lots: " + lots
+         + ", Lots: " + lots + "\n"
       ;
       
       signals();
@@ -129,7 +131,6 @@ int start()
       }
       ordersOpen();
       opentime = iTime(Symbol(), PERIOD_M5, 0);
-      string box = manage_orders();
       Comment(infobox, box);
    }
 //----
@@ -279,6 +280,7 @@ double ordersOpen()
       //}
    }
 
+   if (str2 == "") return (0);
    string params [0,1];
    ArrayResize( params, 0);
    int status[1]; 
@@ -793,7 +795,7 @@ string get_average_costing(string symbol, int mode)
      returncost[mode] = cost;
   }
   if (totalorders[mode] > 0)
-      box = box + StringConcatenate("\n", ", lotsavg[mode]: ", DoubleToStr(lotsavg[mode], 2), ", totalcost[mode]: ", totalcost[mode], ", typeoforder: ", typeoforder[mode], ", totalprofit[mode]: ", totalprofit[mode], ", returncost[mode]: ", returncost[mode]);
+      box = box + StringConcatenate("\n", symbol, ", lotsavg[mode]: ", DoubleToStr(lotsavg[mode], 2), ", totalcost[mode]: ", totalcost[mode], ", typeoforder: ", typeoforder[mode], ", totalprofit[mode]: ", totalprofit[mode], ", returncost[mode]: ", returncost[mode]);
    
    return (box);
 }
@@ -835,7 +837,7 @@ string closingonprofit(string symbol, int mode)
    ", totalorders: " + totalorders[mode];
    
    //new addition, if does not work then we can commit this.
-   box = infobox + "\nAverage Cost: " + returncost[mode] + 
+   box = box + "\nAverage Cost: " + returncost[mode] + 
    ", trailingstop: " + trailingstop + ", mintrailingstop: " + mintrailingstop;
    
    int checkpoint = mintrailingstop;
