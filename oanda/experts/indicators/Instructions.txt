@@ -1,0 +1,36 @@
+INSTALL
+-------
+- Copy all indicators to your MT4 indicators folder
+
+eg. C:\Program Files\(Metatrader4)\experts\indicators
+
+- Copy the 'White chart' template to the templates folder. Load from the Templates button after restarting MT4 if you use white charts. To save this as the default chart save a new template as default.tpl
+
+SETTINGS
+--------
+Common to all indicators are the following settings...
+
+- Arrow_Size = To change the size of the arrow (0,1,2,etc)
+- Arrow_PointGap = The point distance of the arrow to the high/low of the current bar.
+- Alerts = Enable the audible alerts.
+
+SWING ARROWS
+------------
+A sensitive elliott wave oscillator tuned to catch every swing low and high. This is a leading indicator with early signals, often before price starts to move. Perfect for getting entry and exit triggers in conjunction with other indicators. The periods can be increased for less sensitivity if used alone.
+
+TREND ARROWS
+------------
+A continual flow of arrows to keep track of the trend for entry confirmation or while holding positions to prevent exiting too early. The arrows follow basic dow theory, using both the active and passive side of the candles to determine the immediate trend direction.
+
+HMA ARROWS
+----------
+The Hull Moving Average (HMA), developed by Alan Hull, is an extremely fast and smooth moving average. In fact, the HMA almost eliminates lag altogether and manages to improve smoothing at the same time. The Hull MA indicator is also included in the package. 
+
+MA-X ARROWS
+-----------
+MA Cross is one of the most popular trading systems. MA-X Arrows gives signals when any 2 moving averages cross each other, making it much easier to fine tune and follow your MA Cross signals. Method and price type can be customized. Reverse signal option.
+
+
+* Use the '%fibo-res-sup' to find daily fibonacci pivots and s/r levels to use for entries aswell as tp and sl levels.
+
+* HMA Color must be installed for HMA Arrows to work properly.
