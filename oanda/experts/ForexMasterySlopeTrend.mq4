@@ -16,7 +16,7 @@ extern string label_0 = " === Account Information === ";
 extern string username = "nkhanchandani";
 extern double inital_amount = 0;
 extern string label_1 = " === Order Information === ";
-extern double lotsize = 0.05;
+extern double lotsize = 0.0;
 extern int max_orders = 28;
 extern int maxspread = 150;
 extern int stop_loss = 0;
@@ -283,21 +283,21 @@ string condition_for_close(int magicNumber)
          int newMagic = StrToInteger(result[0]);
          timePeriod = StrToInteger(result[1]);
          st = StrToInteger(result[2]);
-         int shift = StrToInteger(result[3]);
-         int current = 0;
-         if (shift == 0) current = 1;
          if (newMagic != OrderMagicNumber()) continue;
          int check = 0;
-         check = get_strategy_result(st, OrderSymbol(), timePeriod, shift, current);
+         check = get_strategy_result(st, OrderSymbol(), timePeriod, 1, 0);
+         int check2 = get_strategy_result(st, OrderSymbol(), timePeriod, 1, 1);
          closebox = closebox + "\nClosing Strategy: Strategy: " + st + ", symbol: " + OrderSymbol() + ", timePeriod: " + timePeriod + ", Check: " + check
-         + ", magic: " + newMagic + ", Shift: " + shift + ", Current: " + current
+         + ", magic: " + newMagic
           + ", Profit: " + OrderProfit()
+          + ", check: " + check
+          + ", chec2: " + check2
           ;
          string msg;
-         if (check == 1) {
+         if (check == 1 || check2 == 1) {
             closelogicwithoutprofit(OrderSymbol(), newMagic, 1);
          }
-         else if (check == -1) {
+         else if (check == -1 || check2 == -1) {
             closelogicwithoutprofit(OrderSymbol(), newMagic, -1);
          }
       }
