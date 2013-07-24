@@ -1,0 +1,12 @@
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;50:129;'max_orders' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;72:14;'current_currency' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;699:8;'pair_eurgbpusd' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;702:8;'pair_euraudnzd' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;705:8;'pair_gbpaudnzd' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;708:8;'pair_nzdaudusd' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;711:8;'pair_audnzdcad' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;714:8;'pair_audnzdchf' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;717:8;'pair_eurgbpjpy' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;720:8;'pair_chfcadjpy' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;723:8;'pair_audnzdjpy' - variable not defined
+2;75;C:\Program Files (x86)\OANDA - MetaTrader\experts\3_signal.mq4;726:8;'pair_usdcadchf' - variable not defined

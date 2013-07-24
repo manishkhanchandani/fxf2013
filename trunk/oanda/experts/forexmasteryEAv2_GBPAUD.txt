@@ -1,0 +1,21 @@
+
+Welcome to MillionDollar Expert Advisor
+Version: 1.2
+Licensed To: nkhanchandani
+Total Amount: 3636.76000000, Max Orders: 6, Max Spread: 100, Lots: 0.06000000, No of Days: 300, Magic: 123, Aim Per Day: 36.36760000, Aim Per Week: 181.83800000
+Exclude Strategies: 4,24,25, Exclude Period: , Trading Allowed: 1
+Particular Strategy: 0, Particular Period: 0
+Symbol: GBPAUD, Best: 21(sma92550) with value: 5920, Period: M15, Profit: $ 355.20
+Symbol: GBPAUD, Best: 7(heiken) with value: 8147, Period: M30, Profit: $ 488.82
+Symbol: GBPAUD, Best: 7(heiken) with value: 8455, Period: H1, Profit: $ 507.30
+Symbol: GBPAUD, Best: 23(sma5200) with value: 18582, Period: H4, Profit: $ 1114.92
+Symbol: GBPAUD, Best: 19(tenkanKijun sma20) with value: 27260, Period: D1, Profit: $ 1635.60
+
+Symbol: GBPAUD, Best: 19(tenkanKijun sma20) with value: -2001, For Past 5 Days, Period: D1, Profit: $ -120.06
+Symbol: GBPAUD, Best: 19(tenkanKijun sma20) with value: -1842, For Past 10 Days, Period: D1, Profit: $ -110.52
+Symbol: GBPAUD, Best: 19(tenkanKijun sma20) with value: -1842, For Past 15 Days, Period: D1, Profit: $ -110.52
+Symbol: GBPAUD, Best: 19(tenkanKijun sma20) with value: -575, For Past 20 Days, Period: D1, Profit: $ -34.50
+CHECKING CLOSURES:
+
+
+Symbol: GBPAUD, Best: 19(tenkanKijun sma20) with value: 27260, Change: 0, Period: D1, Profit: $ 1635.60
